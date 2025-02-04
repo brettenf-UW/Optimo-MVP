@@ -1,0 +1,32 @@
+Section ID,Period,Course ID,Teacher Assigned,Department
+S001,R2,English 10-P,T001,English
+S002,R2,English 10-P,T008,English
+S003,R2,English 10-P,T014,English
+S004,R4,Integ Math 2-P,T002,Math
+S005,G2,Integ Math 2-P,T009,Math
+S006,G3,Integ Math 2-P,T015,Math
+S007,R1,Chem-Earth Syst,T003,Science
+S008,R1,Chem-Earth Syst,T010,Science
+S009,G4,World History-P,T004,Social Studies
+S010,G4,World History-P,T011,Social Studies
+S011,R3,PE,T005,Physical Education
+S012,G1,PE,T012,Physical Education
+S013,R4,Spanish 2-P,T006,World Languages
+S014,R4,Spanish 2-P,T013,World Languages
+S015,G3,Intro Art-P,T007,Art
+S016,R4,American Lit-P,T001,English
+S017,G3,American Lit-P,T008,English
+S018,R2,Integ Math 3-P,T002,Math
+S019,G1,Integ Math 3-P,T009,Math
+S020,G4,Phys of the Uni,T003,Science
+S021,G4,Phys of the Uni,T010,Science
+S022,R1,US History-P,T004,Social Studies
+S023,R3,US History-P,T011,Social Studies
+S024,G2,Fitness/Life,T005,Physical Education
+S025,R3,Fitness/Life,T012,Physical Education
+S026,R2,Economics-P,T004,Social Studies
+S027,R2,Economics-P,T011,Social Studies
+S028,G2,Government-P,T004,Social Studies
+S029,G1,Government-P,T011,Social Studies
+S030,R1,Eng 12/ERWC-P,T001,English
+S031,G4,Eng 12/ERWC-P,T008,English

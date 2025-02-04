@@ -1,0 +1,32 @@
+Section ID,Course ID,# of Seats Available,Department,Enrollment_Count,Utilization_Rate
+S001,English 10-P,15,English,4,0.26666666666666666
+S002,English 10-P,15,English,4,0.26666666666666666
+S003,English 10-P,15,English,4,0.26666666666666666
+S004,Integ Math 2-P,15,Math,3,0.2
+S005,Integ Math 2-P,15,Math,5,0.3333333333333333
+S006,Integ Math 2-P,15,Math,4,0.26666666666666666
+S007,Chem-Earth Syst,15,Science,7,0.4666666666666667
+S008,Chem-Earth Syst,15,Science,7,0.4666666666666667
+S009,World History-P,15,Social Studies,7,0.4666666666666667
+S010,World History-P,15,Social Studies,7,0.4666666666666667
+S011,PE,15,Physical Education,9,0.6
+S012,PE,15,Physical Education,9,0.6
+S013,Spanish 2-P,15,World Languages,12,0.8
+S014,Spanish 2-P,15,World Languages,9,0.6
+S015,Intro Art-P,15,Art,18,1.2
+S016,American Lit-P,15,English,5,0.3333333333333333
+S017,American Lit-P,15,English,5,0.3333333333333333
+S018,Integ Math 3-P,15,Math,5,0.3333333333333333
+S019,Integ Math 3-P,15,Math,5,0.3333333333333333
+S020,Phys of the Uni,15,Science,6,0.4
+S021,Phys of the Uni,15,Science,6,0.4
+S022,US History-P,15,Social Studies,6,0.4
+S023,US History-P,15,Social Studies,6,0.4
+S024,Fitness/Life,15,Physical Education,14,0.9333333333333333
+S025,Fitness/Life,15,Physical Education,6,0.4
+S026,Economics-P,15,Social Studies,5,0.3333333333333333
+S027,Economics-P,15,Social Studies,5,0.3333333333333333
+S028,Government-P,15,Social Studies,6,0.4
+S029,Government-P,15,Social Studies,6,0.4
+S030,Eng 12/ERWC-P,15,English,4,0.26666666666666666
+S031,Eng 12/ERWC-P,15,English,4,0.26666666666666666
