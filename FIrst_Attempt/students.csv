@@ -1,0 +1,101 @@
+student_id,grade_level,gender,free_period_preference,course_requests,free_periods,sped_status
+S001,9,F,None,"C003,C001,C004",[],No
+S002,9,F,Free Fourth Period,"C003,C004",[],Yes
+S003,12,M,Free Fourth Period,"C001,C005,C004",[],No
+S004,10,F,Free Fourth Period,"C003,C004",[],Yes
+S005,10,M,Free Fourth Period,"C001,C005",[],Yes
+S006,11,M,None,C003,[],No
+S007,12,M,None,"C002,C001",[],Yes
+S008,12,M,Free First Period,"C003,C001",[],Yes
+S009,12,M,Free Fourth Period,"C002,C004",[],Yes
+S010,10,M,Free Fourth Period,C001,[],No
+S011,11,F,Free First Period,C001,[],No
+S012,11,M,Free First Period,"C003,C001",[],Yes
+S013,9,F,None,C002,[],No
+S014,9,F,Free First Period,"C005,C004",[],Yes
+S015,11,F,Free Fourth Period,"C002,C005",[],Yes
+S016,10,F,Free Fourth Period,C004,[],Yes
+S017,9,M,Free Fourth Period,C004,[],Yes
+S018,9,M,None,"C002,C001,C005",[],No
+S019,11,F,Free First Period,"C002,C001",[],No
+S020,10,M,None,C001,[],Yes
+S021,9,M,Free First Period,"C001,C005",[],Yes
+S022,12,F,None,C005,[],Yes
+S023,9,M,None,"C003,C005",[],No
+S024,12,F,None,C004,[],Yes
+S025,12,F,None,"C005,C004",[],No
+S026,9,M,Free Fourth Period,"C002,C001,C004",[],No
+S027,12,M,None,C001,[],No
+S028,11,M,Free Fourth Period,"C005,C004",[],No
+S029,9,F,Free First Period,"C003,C001",[],Yes
+S030,10,F,Free Fourth Period,"C003,C005",[],No
+S031,9,M,Free First Period,"C002,C004",[],Yes
+S032,11,F,Free Fourth Period,C001,[],Yes
+S033,11,M,Free Fourth Period,C005,[],No
+S034,11,F,Free Fourth Period,"C001,C004",[],No
+S035,9,F,None,C001,[],No
+S036,9,F,Free Fourth Period,"C003,C005,C004",[],No
+S037,11,F,Free First Period,"C003,C005",[],No
+S038,10,M,Free First Period,"C002,C003",[],Yes
+S039,9,M,Free Fourth Period,C001,[],No
+S040,11,F,Free First Period,"C003,C002,C005",[],Yes
+S041,11,M,Free Fourth Period,C001,[],No
+S042,9,F,None,"C003,C001",[],No
+S043,9,M,None,"C001,C005",[],Yes
+S044,9,M,Free Fourth Period,C005,[],Yes
+S045,10,M,None,"C003,C001,C005",[],Yes
+S046,10,F,None,"C003,C004",[],Yes
+S047,12,F,Free Fourth Period,"C002,C005",[],Yes
+S048,12,F,Free Fourth Period,C001,[],No
+S049,12,M,Free Fourth Period,"C003,C001",[],Yes
+S050,12,M,None,"C002,C001,C005",[],No
+S051,10,M,None,"C005,C004",[],No
+S052,12,F,Free Fourth Period,C005,[],No
+S053,9,F,Free Fourth Period,C002,[],No
+S054,10,M,Free First Period,C002,[],Yes
+S055,10,F,Free First Period,"C003,C004",[],No
+S056,11,F,Free First Period,C002,[],No
+S057,10,M,Free First Period,C003,[],No
+S058,10,M,None,"C002,C003,C005",[],Yes
+S059,10,M,Free First Period,"C003,C001",[],Yes
+S060,11,F,Free First Period,"C003,C001",[],Yes
+S061,11,F,Free Fourth Period,"C002,C001,C004",[],Yes
+S062,11,F,None,"C001,C005",[],Yes
+S063,9,M,None,"C002,C001",[],Yes
+S064,9,F,Free Fourth Period,C001,[],Yes
+S065,9,M,None,"C005,C004",[],No
+S066,10,F,None,"C003,C001",[],Yes
+S067,12,F,Free Fourth Period,C005,[],No
+S068,11,M,Free Fourth Period,"C003,C004",[],No
+S069,12,F,None,C002,[],Yes
+S070,12,M,Free First Period,"C001,C004",[],No
+S071,12,F,None,"C002,C001,C004",[],No
+S072,10,F,Free First Period,"C003,C002",[],No
+S073,12,F,None,"C002,C005",[],No
+S074,9,M,Free Fourth Period,C002,[],Yes
+S075,11,M,None,C003,[],No
+S076,9,F,Free Fourth Period,"C001,C005",[],No
+S077,12,F,Free First Period,C004,[],Yes
+S078,11,M,Free First Period,C003,[],Yes
+S079,9,F,None,"C003,C001",[],Yes
+S080,10,M,None,"C005,C004",[],No
+S081,11,M,Free Fourth Period,C005,[],Yes
+S082,10,F,None,"C003,C001",[],No
+S083,11,F,Free Fourth Period,"C002,C001,C005",[],Yes
+S084,12,F,Free Fourth Period,"C005,C004",[],Yes
+S085,11,F,Free Fourth Period,C004,[],Yes
+S086,10,M,Free Fourth Period,"C003,C002",[],Yes
+S087,9,M,None,"C003,C002,C005",[],Yes
+S088,10,M,Free Fourth Period,"C002,C003,C004",[],No
+S089,10,F,Free Fourth Period,"C005,C004",[],Yes
+S090,10,M,None,C003,[],Yes
+S091,10,M,None,C002,[],No
+S092,10,F,None,C003,[],No
+S093,12,F,Free Fourth Period,C001,[],No
+S094,11,F,Free Fourth Period,C005,[],No
+S095,9,F,None,C005,[],No
+S096,12,F,Free First Period,"C002,C001",[],No
+S097,12,F,None,C002,[],Yes
+S098,9,F,Free First Period,"C001,C005",[],No
+S099,9,F,Free Fourth Period,"C002,C005,C004",[],Yes
+S100,10,F,None,C005,[],No
