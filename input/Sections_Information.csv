@@ -1,32 +1,29 @@
-Section ID,Course ID,Teacher Assigned,# of Seats Available,Department
-S001,English 10-P,T001,15,English
-S002,English 10-P,T008,15,English
-S003,English 10-P,T014,15,English
-S004,Integ Math 2-P,T002,15,Math
-S005,Integ Math 2-P,T009,15,Math
-S006,Integ Math 2-P,T015,15,Math
-S007,Chem-Earth Syst,T003,15,Science
-S008,Chem-Earth Syst,T010,15,Science
-S009,World History-P,T004,15,Social Studies
-S010,World History-P,T011,15,Social Studies
-S011,PE,T005,15,Physical Education
-S012,PE,T012,15,Physical Education
-S013,Spanish 2-P,T006,15,World Languages
-S014,Spanish 2-P,T013,15,World Languages
-S015,Intro Art-P,T007,15,Art
-S016,American Lit-P,T001,15,English
-S017,American Lit-P,T008,15,English
-S018,Integ Math 3-P,T002,15,Math
-S019,Integ Math 3-P,T009,15,Math
-S020,Phys of the Uni,T003,15,Science
-S021,Phys of the Uni,T010,15,Science
-S022,US History-P,T004,15,Social Studies
-S023,US History-P,T011,15,Social Studies
-S024,Fitness/Life,T005,15,Physical Education
-S025,Fitness/Life,T012,15,Physical Education
-S026,Economics-P,T004,15,Social Studies
-S027,Economics-P,T011,15,Social Studies
-S028,Government-P,T004,15,Social Studies
-S029,Government-P,T011,15,Social Studies
-S030,Eng 12/ERWC-P,T001,15,English
-S031,Eng 12/ERWC-P,T008,15,English
+Section ID,Course ID,Teacher Assigned,# of Seats Available
+S001,English 9,T001,13
+S002,Algebra 1,T002,13
+S003,Biology,T003,13
+S004,World History,T004,13
+S005,World History,T005,12
+S006,Spanish 1,T006,13
+S007,PE,T007,13
+S008,PE,T008,12
+S009,Art,T009,25
+S010,Art,T010,25
+S011,Music,T011,25
+S012,Music,T012,25
+S013,English 10,T013,13
+S014,Geometry,T014,13
+S015,Chemistry,T015,13
+S016,Spanish 2,T016,13
+S017,English 11,T017,13
+S018,Algebra 2,T018,13
+S019,Physics,T019,13
+S020,US History,T020,13
+S021,Medical Career,T021,13
+S022,Medical Career,T022,12
+S023,Heroes Teach,T001,13
+S024,Heroes Teach,T002,12
+S025,English 12,T003,13
+S026,Pre-Calculus,T004,13
+S027,Government,T005,13
+S028,Sports Med,T006,13

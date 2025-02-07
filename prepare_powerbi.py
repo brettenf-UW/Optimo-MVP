@@ -70,28 +70,39 @@ class ScheduleDashboardAutomation:
         
         try:
             with pd.ExcelWriter(excel_path, engine='openpyxl') as writer:
-                # Debug: Inspect headers before processing
-                for file in ['input/Sections_Information.csv', 'input/Student_Info.csv', 
-                           'input/Teacher_Info.csv', 'output/Master_Schedule.csv',
-                           'output/Student_Assignments.csv']:
-                    self.inspect_csv_headers(file)
-
-                # Load input files with careful header handling
+                # Load all input files
                 sections_info = self.safe_read_csv('input/Sections_Information.csv')
                 student_info = self.safe_read_csv('input/Student_Info.csv')
+                student_preferences = self.safe_read_csv('input/Student_Preference_Info.csv')
                 teacher_info = self.safe_read_csv('input/Teacher_Info.csv')
                 master_schedule = self.safe_read_csv('output/Master_Schedule.csv')
                 student_assignments = self.safe_read_csv('output/Student_Assignments.csv')
 
-                # Rename columns after verifying current names
-                print("\nActual column names:")
-                print("Sections:", sections_info.columns.tolist())
-                print("Students:", student_info.columns.tolist())
-                print("Teachers:", teacher_info.columns.tolist())
-                print("Schedule:", master_schedule.columns.tolist())
-                print("Assignments:", student_assignments.columns.tolist())
+                # Process student preferences to extract grade levels
+                def extract_grade(courses):
+                    grade_indicators = {
+                        'English 10-P': 10,
+                        'American Lit-P': 11,
+                        'Eng 12/ERWC-P': 12
+                    }
+                    courses_list = courses.split(';')
+                    for course in courses_list:
+                        for indicator, grade in grade_indicators.items():
+                            if indicator in course:
+                                return grade
+                    return None
 
-                # Standardize column names
+                student_preferences['GradeLevel'] = student_preferences['Preferred Sections'].apply(extract_grade)
+                
+                # Merge grade level information into student info
+                student_info = student_info.merge(
+                    student_preferences[['Student ID', 'GradeLevel']],
+                    left_on='Student ID',
+                    right_on='Student ID',
+                    how='left'
+                )
+
+                # Standardize column names based on actual CSV structure
                 sections_info = sections_info.rename(columns={
                     'Section ID': 'SectionID',
                     'Course ID': 'CourseID',
@@ -101,16 +112,12 @@ class ScheduleDashboardAutomation:
 
                 student_info = student_info.rename(columns={
                     'Student ID': 'StudentID',
-                    'First Name': 'StudentFirstName',
-                    'Last Name': 'StudentLastName',
-                    'Grade Level': 'GradeLevel'
+                    'SPED': 'SPED'  # Keep original SPED column
                 })
 
                 teacher_info = teacher_info.rename(columns={
                     'Teacher ID': 'TeacherID',
-                    'First Name': 'TeacherFirstName',
-                    'Last Name': 'TeacherLastName',
-                    'Department': 'TeacherDepartment'
+                    'Department': 'Department'
                 })
 
                 master_schedule = master_schedule.rename(columns={
@@ -122,7 +129,72 @@ class ScheduleDashboardAutomation:
                     'Section ID': 'SectionID'
                 })
 
-                # Create DimPeriod
+                # Create fact tables with correct column references
+                schedule = master_schedule.merge(
+                    sections_info[['SectionID', 'CourseID', 'TeacherID', 'Department']],
+                    on='SectionID',
+                    how='left'
+                )
+
+                # Enhanced section utilization calculation
+                section_counts = student_assignments.groupby('SectionID').size().reset_index(name='Enrollment_Count')
+                utilization = sections_info.merge(
+                    section_counts,
+                    on='SectionID',
+                    how='left'
+                ).merge(
+                    master_schedule[['SectionID', 'Period']],
+                    on='SectionID',
+                    how='left'
+                )
+
+                # Rest of utilization calculations
+                utilization['Enrollment_Count'] = utilization['Enrollment_Count'].fillna(0)
+                utilization['SeatsAvailable'] = pd.to_numeric(utilization['SeatsAvailable'], errors='coerce')
+                utilization['Utilization_Rate'] = utilization.apply(
+                    lambda x: min(x['Enrollment_Count'] / x['SeatsAvailable'], 1.0) 
+                    if x['SeatsAvailable'] > 0 else 0, axis=1
+                )
+                utilization['Empty_Seats'] = utilization.apply(
+                    lambda x: max(x['SeatsAvailable'] - x['Enrollment_Count'], 0), axis=1
+                )
+                utilization['Overbooked_Seats'] = utilization.apply(
+                    lambda x: max(x['Enrollment_Count'] - x['SeatsAvailable'], 0), axis=1
+                )
+                utilization.to_excel(writer, sheet_name='FactSectionUtilization', index=False)
+
+                # Modified student load summary to include SPED status
+                student_load = student_assignments.merge(
+                    student_info[['StudentID', 'SPED', 'GradeLevel']],
+                    on='StudentID',
+                    how='left'
+                ).merge(
+                    sections_info[['SectionID', 'Department', 'CourseID']],
+                    on='SectionID',
+                    how='left'
+                )
+
+                student_load_summary = student_load.groupby(
+                    ['StudentID', 'SPED', 'GradeLevel']
+                ).agg({
+                    'SectionID': 'count',
+                    'Department': lambda x: len(set(x))
+                }).reset_index()
+                student_load_summary.columns = ['StudentID', 'SPED', 'GradeLevel', 'Total_Courses', 'Unique_Departments']
+
+                # Add preference analysis
+                student_preferences['Preferred_Count'] = student_preferences['Preferred Sections'].str.count(';') + 1
+                preferences_summary = student_preferences.merge(
+                    student_load_summary[['StudentID', 'Total_Courses']],
+                    left_on='Student ID',
+                    right_on='StudentID',
+                    how='left'
+                )
+                preferences_summary['Preference_Fulfillment'] = (
+                    preferences_summary['Total_Courses'] / preferences_summary['Preferred_Count']
+                ).round(3)
+                
+                # Save all sheets
                 periods = pd.DataFrame({
                     'Period': sorted(master_schedule['Period'].unique()),
                     'Day_Type': [p[0] for p in sorted(master_schedule['Period'].unique())],
@@ -141,11 +213,6 @@ class ScheduleDashboardAutomation:
                 sections_info.to_excel(writer, sheet_name='DimSection', index=False, header=True)
 
                 # Create and save fact tables
-                schedule = master_schedule.merge(
-                    sections_info[['SectionID', 'CourseID', 'TeacherID', 'Department']],
-                    on='SectionID',
-                    how='left'
-                )
                 schedule.to_excel(writer, sheet_name='FactSchedule', index=False)
 
                 # Update student enrollments
@@ -156,16 +223,43 @@ class ScheduleDashboardAutomation:
                 )
                 enrollments.to_excel(writer, sheet_name='FactStudentEnrollment', index=False)
 
-                # Section utilization (using updated column names)
-                section_counts = student_assignments.groupby('SectionID').size().reset_index(name='Enrollment_Count')
-                utilization = sections_info.merge(
-                    section_counts,
+                # Create DimDepartment for better department analytics
+                departments = pd.DataFrame({
+                    'Department': sorted(sections_info['Department'].unique()),
+                    'DepartmentName': sorted(sections_info['Department'].unique())
+                })
+                departments.to_excel(writer, sheet_name='DimDepartment', index=False)
+
+                # Create department summary
+                dept_summary = utilization.groupby('Department').agg({
+                    'SectionID': 'count',
+                    'SeatsAvailable': 'sum',
+                    'Enrollment_Count': 'sum',
+                    'Empty_Seats': 'sum',
+                    'Overbooked_Seats': 'sum'
+                }).reset_index()
+                dept_summary['Avg_Utilization'] = (dept_summary['Enrollment_Count'] / 
+                                                 dept_summary['SeatsAvailable']).round(3)
+                dept_summary.to_excel(writer, sheet_name='FactDepartmentSummary', index=False)
+
+                # Create student course load summary
+                student_load_summary.to_excel(writer, sheet_name='FactStudentLoad', index=False)
+
+                # Create time slot summary
+                time_summary = master_schedule.merge(
+                    utilization[['SectionID', 'Enrollment_Count', 'SeatsAvailable']],
                     on='SectionID',
                     how='left'
-                )
-                utilization['Enrollment_Count'] = utilization['Enrollment_Count'].fillna(0)
-                utilization['Utilization_Rate'] = utilization['Enrollment_Count'] / utilization['SeatsAvailable']
-                utilization.to_excel(writer, sheet_name='FactSectionUtilization', index=False)
+                ).groupby('Period').agg({
+                    'SectionID': 'count',
+                    'Enrollment_Count': 'sum',
+                    'SeatsAvailable': 'sum'
+                }).reset_index()
+                time_summary['Utilization_Rate'] = (time_summary['Enrollment_Count'] / 
+                                                  time_summary['SeatsAvailable']).round(3)
+                time_summary.to_excel(writer, sheet_name='FactTimeSlotSummary', index=False)
+
+                preferences_summary.to_excel(writer, sheet_name='FactPreferenceFulfillment', index=False)
 
                 # Make sure the workbook has the first sheet visible and active
                 writer.book.active = 0

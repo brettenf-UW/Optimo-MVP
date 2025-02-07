@@ -1,31 +1,101 @@
 Student ID,Preferred Sections
-ST001,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Spanish 2-P
-ST002,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Intro Art-P
-ST003,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Spanish 2-P
-ST004,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Intro Art-P
-ST005,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Spanish 2-P
-ST006,American Lit-P;Integ Math 3-P;Phys of the Uni;US History-P;Fitness/Life;Spanish 2-P
-ST007,American Lit-P;Integ Math 3-P;Phys of the Uni;US History-P;Fitness/Life;Intro Art-P
-ST008,American Lit-P;Integ Math 3-P;Phys of the Uni;US History-P;Fitness/Life;Spanish 2-P
-ST009,American Lit-P;Integ Math 3-P;Phys of the Uni;US History-P;Fitness/Life;Intro Art-P
-ST010,American Lit-P;Integ Math 3-P;Phys of the Uni;US History-P;Fitness/Life;Spanish 2-P
-ST011,Eng 12/ERWC-P;Government-P;Economics-P;Fitness/Life;Spanish 2-P;Intro Art-P
-ST012,Eng 12/ERWC-P;Government-P;Economics-P;Fitness/Life;Spanish 2-P;Intro Art-P
-ST013,Eng 12/ERWC-P;Government-P;Economics-P;Fitness/Life;Spanish 2-P;Intro Art-P
-ST014,Eng 12/ERWC-P;Government-P;Economics-P;Fitness/Life;Spanish 2-P;Intro Art-P
-ST015,Eng 12/ERWC-P;Government-P;Economics-P;Fitness/Life;Spanish 2-P;Intro Art-P
-ST016,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Spanish 2-P
-ST017,American Lit-P;Integ Math 3-P;Phys of the Uni;US History-P;Fitness/Life;Intro Art-P
-ST018,Eng 12/ERWC-P;Government-P;Economics-P;Fitness/Life;Spanish 2-P;Intro Art-P
-ST019,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Intro Art-P
-ST020,American Lit-P;Integ Math 3-P;Phys of the Uni;US History-P;Fitness/Life;Spanish 2-P
-ST021,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Intro Art-P
-ST022,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Spanish 2-P
-ST023,American Lit-P;Integ Math 3-P;Phys of the Uni;US History-P;Fitness/Life;Intro Art-P
-ST024,Eng 12/ERWC-P;Government-P;Economics-P;Fitness/Life;Spanish 2-P;Intro Art-P
-ST025,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Spanish 2-P
-ST026,American Lit-P;Integ Math 3-P;Phys of the Uni;US History-P;Fitness/Life;Intro Art-P
-ST027,Eng 12/ERWC-P;Government-P;Economics-P;Fitness/Life;Spanish 2-P;Intro Art-P
-ST028,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Spanish 2-P
-ST029,English 10-P;Integ Math 2-P;Chem-Earth Syst;World History-P;PE;Intro Art-P
-ST030,American Lit-P;Integ Math 3-P;Phys of the Uni;US History-P;Fitness/Life;Spanish 2-P
+ST001,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST002,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST003,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST004,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST005,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST006,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST007,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST008,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST009,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST010,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST011,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST012,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST013,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST014,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST015,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST016,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST017,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST018,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST019,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST020,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST021,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST022,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST023,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Art
+ST024,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST025,English 9;Algebra 1;Biology;World History;Spanish 1;PE;Music
+ST026,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST027,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST028,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST029,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST030,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST031,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST032,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST033,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST034,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST035,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST036,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST037,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST038,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST039,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST040,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST041,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST042,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST043,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST044,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST045,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST046,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST047,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST048,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST049,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Music
+ST050,English 10;Geometry;Chemistry;World History;Spanish 2;PE;Art
+ST051,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST052,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Music
+ST053,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Music
+ST054,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST055,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Music
+ST056,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST057,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST058,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Music
+ST059,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Music
+ST060,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST061,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST062,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST063,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST064,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST065,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST066,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST067,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST068,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Music
+ST069,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Music
+ST070,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Music
+ST071,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Music
+ST072,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST073,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST074,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Music
+ST075,English 11;Algebra 2;Physics;US History;Medical Career;Heroes Teach;Art
+ST076,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST077,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST078,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST079,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST080,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST081,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST082,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST083,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST084,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST085,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST086,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST087,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST088,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST089,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST090,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST091,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST092,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST093,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST094,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST095,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST096,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST097,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Art
+ST098,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST099,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
+ST100,English 12;Pre-Calculus;Government;Medical Career;Heroes Teach;Sports Med;Music
