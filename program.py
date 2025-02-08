@@ -226,25 +226,15 @@ for i in range(len(science_sections_ids)):
                     prob += z[(section_id1, period1)] + z[(section_id2, period2)] <= 1 + violation
                     objective += -400 * violation
 
-# Replace the existing teacher scheduling constraints with stricter ones
+# Teacher scheduling conflict constraints:
 for teacher in teacher_info['Teacher ID']:
     teacher_sections = list(sections_info[sections_info['Teacher Assigned'] == teacher]['Section ID'])
     for period in periods:
-        # Force exactly 0 or 1 sections per teacher per period
         prob += lpSum(
             z[(section_id, period)]
             for section_id in teacher_sections
             if (section_id, period) in z
         ) <= 1
-        
-        # Add a hard constraint that prevents multiple assignments
-        for i in range(len(teacher_sections)):
-            for j in range(i + 1, len(teacher_sections)):
-                section1 = teacher_sections[i]
-                section2 = teacher_sections[j]
-                if (section1, period) in z and (section2, period) in z:
-                    # Force that these two sections cannot be in the same period
-                    prob += z[(section1, period)] + z[(section2, period)] <= 1
 
 # Identify SPED students
 sped_students = student_info[student_info['SPED'] == 1]['Student ID']
@@ -410,7 +400,7 @@ def analyze_conflicts():
         for period in periods:
             scheduled = sum(
                 z[(section_id, period)].varValue if z[(section_id, period)].varValue is not None else 0
-                for section_id in teacher_sections if (section_id, period) in z
+                for sec6tion_id in teacher_sections if (section_id, period) in z
             )
             if scheduled > 1:
                 teacher_conflicts.append({
