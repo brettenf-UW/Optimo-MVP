@@ -1,96 +1,41 @@
 Section ID,Course ID,Teacher Assigned,# of Seats Available,Department
-S001,Medical Career,T021,20,Special
-S002,Medical Career,T022,20,Special
-S003,Medical Career,T023,20,Special
-S004,Medical Career,T024,20,Special
-S005,Medical Career,T021,20,Special
-S006,Medical Career,T022,20,Special
-S007,Medical Career,T023,20,Special
-S008,Medical Career,T024,20,Special
-S009,Medical Career,T021,20,Special
-S010,PE,T017,30,PE
-S011,PE,T018,30,PE
-S012,PE,T019,30,PE
-S013,PE,T020,30,PE
-S014,PE,T017,30,PE
-S015,PE,T018,30,PE
-S016,Sports Med,T019,20,PE
-S017,Sports Med,T020,20,PE
-S018,Sports Med,T017,20,PE
-S019,Sports Med,T018,20,PE
-S020,Sports Med,T019,20,PE
-S021,Sports Med,T020,20,PE
-S022,Sports Med,T017,20,PE
-S023,Sports Med,T018,20,PE
-S024,Heroes Teach,T022,20,Special
-S025,Heroes Teach,T023,20,Special
-S026,Heroes Teach,T024,20,Special
-S027,Heroes Teach,T021,20,Special
-S028,Heroes Teach,T022,20,Special
-S029,Heroes Teach,T023,20,Special
-S030,Heroes Teach,T024,20,Special
-S031,Heroes Teach,T021,20,Special
-S032,US History,T013,20,Social Studies
-S033,US History,T014,20,Social Studies
-S034,US History,T015,20,Social Studies
-S035,US History,T016,20,Social Studies
-S036,Math 2,T005,20,Math
-S037,Math 2,T006,20,Math
-S038,Math 2,T007,20,Math
-S039,Math 2,T008,20,Math
-S040,English 9,T001,20,English
-S041,English 9,T002,20,English
-S042,English 9,T003,20,English
-S043,English 9,T004,20,English
-S044,English 10,T001,20,English
-S045,English 10,T002,20,English
-S046,English 10,T003,20,English
-S047,English 10,T004,20,English
-S048,AP Biology,T009,24,Science
-S049,AP Biology,T010,24,Science
-S050,AP Biology,T011,24,Science
-S051,AP Biology,T012,24,Science
-S052,Math 3,T005,20,Math
-S053,Math 3,T006,20,Math
-S054,Math 3,T007,20,Math
-S055,Math 3,T008,20,Math
-S056,English 11,T001,20,English
-S057,English 11,T002,20,English
-S058,English 11,T003,20,English
-S059,English 11,T004,20,English
-S060,English 12,T001,20,English
-S061,English 12,T002,20,English
-S062,English 12,T003,20,English
-S063,English 12,T004,20,English
-S064,World History,T013,20,Social Studies
-S065,World History,T014,20,Social Studies
-S066,World History,T015,20,Social Studies
-S067,World History,T016,20,Social Studies
-S068,Economics,T013,20,Social Studies
-S069,Economics,T014,20,Social Studies
-S070,Economics,T015,20,Social Studies
-S071,Economics,T016,20,Social Studies
-S072,Math 1,T005,20,Math
-S073,Math 1,T006,20,Math
-S074,Math 1,T007,20,Math
-S075,Math 1,T008,20,Math
-S076,Biology,T009,24,Science
-S077,Biology,T010,24,Science
-S078,Biology,T011,24,Science
-S079,Biology,T012,24,Science
-S080,Math 4,T005,20,Math
-S081,Math 4,T006,20,Math
-S082,Math 4,T007,20,Math
-S083,Math 4,T008,20,Math
-S084,Chemistry,T009,24,Science
-S085,Chemistry,T010,24,Science
-S086,Chemistry,T011,24,Science
-S087,Chemistry,T012,24,Science
-S088,Physics,T009,24,Science
-S089,Physics,T010,24,Science
-S090,Physics,T011,24,Science
-S091,Physics,T012,24,Science
-S092,Government,T013,20,Social Studies
-S093,Government,T014,20,Social Studies
-S094,Government,T015,20,Social Studies
-S095,Government,T016,20,Social Studies
+S001,Heroes Teach,T011,20,Special
+S002,Heroes Teach,T012,20,Special
+S003,Sports Med,T009,20,PE
+S004,Sports Med,T010,20,PE
+S005,PE,T009,30,PE
+S006,PE,T010,30,PE
+S007,Medical Career,T011,20,Special
+S008,Medical Career,T012,20,Special
+S009,English 10,T001,20,English
+S010,English 10,T002,20,English
+S011,Math 1,T003,20,Math
+S012,Math 1,T004,20,Math
+S013,Economics,T007,20,Social Studies
+S014,Economics,T008,20,Social Studies
+S015,Math 2,T003,20,Math
+S016,Math 2,T004,20,Math
+S017,Math 3,T003,20,Math
+S018,Math 3,T004,20,Math
+S019,Biology,T005,24,Science
+S020,Biology,T006,24,Science
+S021,English 11,T001,20,English
+S022,English 11,T002,20,English
+S023,English 9,T001,20,English
+S024,English 9,T002,20,English
+S025,Physics,T005,24,Science
+S026,Physics,T006,24,Science
+S027,English 12,T001,20,English
+S028,English 12,T002,20,English
+S029,World History,T007,20,Social Studies
+S030,World History,T008,20,Social Studies
+S031,AP Biology,T005,24,Science
+S032,AP Biology,T006,24,Science
+S033,Government,T007,20,Social Studies
+S034,Government,T008,20,Social Studies
+S035,Math 4,T003,20,Math
+S036,Math 4,T004,20,Math
+S037,Chemistry,T005,24,Science
+S038,Chemistry,T006,24,Science
+S039,US History,T007,20,Social Studies
+S040,US History,T008,20,Social Studies

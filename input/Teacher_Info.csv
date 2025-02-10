@@ -1,25 +1,13 @@
 Teacher ID,Department
 T001,English
 T002,English
-T003,English
-T004,English
-T005,Math
-T006,Math
-T007,Math
-T008,Math
-T009,Science
-T010,Science
-T011,Science
-T012,Science
-T013,Social Studies
-T014,Social Studies
-T015,Social Studies
-T016,Social Studies
-T017,PE
-T018,PE
-T019,PE
-T020,PE
-T021,Special
-T022,Special
-T023,Special
-T024,Special
+T003,Math
+T004,Math
+T005,Science
+T006,Science
+T007,Social Studies
+T008,Social Studies
+T009,PE
+T010,PE
+T011,Special
+T012,Special

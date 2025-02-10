@@ -5,7 +5,7 @@ import math
 
 def generate_synthetic_data(output_path):
     # Constants
-    STUDENTS_PER_GRADE = 80  # 320 total students for ~16 teachers (20:1 ratio)
+    STUDENTS_PER_GRADE = 10  # 320 total students for ~16 teachers (20:1 ratio)
     SECTION_SIZES = {
         'default': 20,
         'lab': 24,

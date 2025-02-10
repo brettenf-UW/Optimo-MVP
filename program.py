@@ -4,6 +4,12 @@ import pandas as pd
 from pulp import LpMaximize, LpProblem, LpVariable, lpSum, LpStatus, PULP_CBC_CMD
 import os
 from collections import Counter
+import time
+import logging
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Load CSV files
 student_info = pd.read_csv('input/Student_Info.csv')
@@ -267,11 +273,45 @@ for course_id, sections in course_to_sections.items():
 # Set the objective
 prob += objective
 
-# Set up the solver with a time limit and message logging
-solver = PULP_CBC_CMD(msg=True, timeLimit=60)
+# Add progress reporting before solving
+# Insert after setting up the problem but before prob.solve():
+logger.info("Starting problem solution...")
+logger.info("Setting up solver with 60 second time limit...")
+def print_problem_stats(prob):
+    """Print statistics about the problem size"""
+    num_vars = len(prob.variables())
+    num_constraints = len(prob.constraints)
+    logger.info(f"\nProblem Statistics:")
+    logger.info(f"Number of variables: {num_vars}")
+    logger.info(f"Number of constraints: {num_constraints}")
+print_problem_stats(prob)
 
-# Solve the problem using the solver options
-prob.solve(solver)
+# Modify the solver setup
+start_time = time.time()
+solver = PULP_CBC_CMD(msg=True, timeLimit=900)
+
+# Replace the solve line with:
+logger.info("\nSolving problem...")
+status = prob.solve(solver)
+
+# Add progress monitoring after solve
+def monitor_solution(prob, start_time):
+    """Monitor solution progress"""
+    if prob.status == 1:  # Optimal
+        elapsed = time.time() - start_time
+        logger.info(f"\nOptimal solution found in {elapsed:.2f} seconds")
+    elif prob.status == 0:  # Not solved
+        elapsed = time.time() - start_time
+        logger.info(f"\nStill solving... {elapsed:.2f} seconds elapsed")
+        logger.info("Current objective value: " + str(prob.objective.value()))
+    else:
+        logger.info(f"\nStatus: {LpStatus[prob.status]}")
+monitor_solution(prob, start_time)
+
+# Add status check before continuing
+if prob.status != 1:  # Not optimal
+    logger.warning("\nWarning: Optimal solution not found within time limit!")
+    logger.info("Best solution found will be used")
 
 def analyze_conflicts():
     """Analyze and report all constraint violations"""
@@ -331,24 +371,28 @@ def analyze_conflicts():
     # Check special course constraints
     special_issues_found = False
     
-    # Medical Career
-    for section_id, (r1_var, g1_var) in diagnostic_vars['medical_career_violation'].items():
+    # Medical Career - Fixed tuple handling
+    if 'medical_career_violation' in diagnostic_vars:
+        r1_var, g1_var = diagnostic_vars['medical_career_violation']
         if r1_var.varValue > 0 or g1_var.varValue > 0:
             special_issues_found = True
             conflicts['special_course_issues'].append({
                 'type': 'Medical Career',
-                'section': section_id,
-                'issue': 'Not scheduled in required periods (R1/G1)'
+                'issue': 'Not scheduled in required periods (R1/G1)',
+                'r1_violation': r1_var.varValue,
+                'g1_violation': g1_var.varValue
             })
     
-    # Heroes Teach
-    for section_id, (r2_var, g2_var) in diagnostic_vars['heroes_teach_violation'].items():
+    # Heroes Teach - Fixed tuple handling
+    if 'heroes_teach_violation' in diagnostic_vars:
+        r2_var, g2_var = diagnostic_vars['heroes_teach_violation']
         if r2_var.varValue > 0 or g2_var.varValue > 0:
             special_issues_found = True
             conflicts['special_course_issues'].append({
                 'type': 'Heroes Teach',
-                'section': section_id,
-                'issue': 'Not scheduled in required periods (R2/G2)'
+                'issue': 'Not scheduled in required periods (R2/G2)',
+                'r2_violation': r2_var.varValue,
+                'g2_violation': g2_var.varValue
             })
     
     # Sports Med
@@ -358,13 +402,8 @@ def analyze_conflicts():
             conflicts['special_course_issues'].append({
                 'type': 'Sports Med',
                 'period': period,
-                'issue': 'Sections overlap in same period'
+                'issue': f'Sections overlap in period {period}'
             })
-    
-    if special_issues_found:
-        print("\nSpecial Course Scheduling Issues:")
-        for conflict in conflicts['special_course_issues']:
-            print(f"- {conflict['type']}: {conflict['issue']}")
     
     # Generate recommendations
     print("\n=== Recommendations ===")
