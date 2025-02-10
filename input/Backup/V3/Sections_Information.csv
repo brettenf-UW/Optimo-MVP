@@ -1,0 +1,28 @@
+Section ID,Course ID,Teacher Assigned,# of Seats Available,Department
+S001,English 10-P,T001,15,English
+S004,Integ Math 2-P,T002,15,Math
+S007,Chem-Earth Syst,T003,15,Science
+S008,Chem-Earth Syst,T010,15,Science
+S009,World History-P,T004,15,Social Studies
+S010,World History-P,T011,15,Social Studies
+S011,PE,T005,15,Physical Education
+S012,PE,T012,15,Physical Education
+S013,Spanish 2-P,T006,15,World Languages
+S014,Spanish 2-P,T013,15,World Languages
+S015,Intro Art-P,T007,15,Art
+S016,American Lit-P,T001,15,English
+S017,American Lit-P,T008,15,English
+S018,Integ Math 3-P,T002,15,Math
+S019,Integ Math 3-P,T009,15,Math
+S020,Phys of the Uni,T003,15,Science
+S021,Phys of the Uni,T010,15,Science
+S022,US History-P,T004,15,Social Studies
+S023,US History-P,T011,15,Social Studies
+S024,Fitness/Life,T005,15,Physical Education
+S025,Fitness/Life,T012,15,Physical Education
+S026,Economics-P,T004,15,Social Studies
+S027,Economics-P,T011,15,Social Studies
+S028,Government-P,T004,15,Social Studies
+S029,Government-P,T011,15,Social Studies
+S030,Eng 12/ERWC-P,T001,15,English
+S032,Intro Art-P,T007,15,Art

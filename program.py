@@ -226,7 +226,8 @@ for i in range(len(science_sections_ids)):
                     prob += z[(section_id1, period1)] + z[(section_id2, period2)] <= 1 + violation
                     objective += -400 * violation
 
-# Teacher scheduling conflict constraints:
+# Replace existing teacher scheduling conflict constraints with:
+# Ensure teachers have exactly one section per period
 for teacher in teacher_info['Teacher ID']:
     teacher_sections = list(sections_info[sections_info['Teacher Assigned'] == teacher]['Section ID'])
     for period in periods:
@@ -392,7 +393,7 @@ def analyze_conflicts():
                 print(f"- Ensure Heroes Teach section {conflict['section']} is scheduled in both R2 and G2")
             elif conflict['type'] == 'Sports Med':
                 print(f"- Resolve Sports Med sections overlap in period {conflict['period']}")
-
+    
     # Teacher scheduling conflict analysis
     teacher_conflicts = []
     for teacher in teacher_info['Teacher ID']:
@@ -400,7 +401,7 @@ def analyze_conflicts():
         for period in periods:
             scheduled = sum(
                 z[(section_id, period)].varValue if z[(section_id, period)].varValue is not None else 0
-                for sec6tion_id in teacher_sections if (section_id, period) in z
+                for section_id in teacher_sections if (section_id, period) in z
             )
             if scheduled > 1:
                 teacher_conflicts.append({

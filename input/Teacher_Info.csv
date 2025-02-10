@@ -1,16 +1,25 @@
 Teacher ID,Department
 T001,English
-T002,Math
-T003,Science
-T004,Social Studies
-T005,Physical Education
-T006,World Languages
-T007,Art
-T008,English
-T009,Math
+T002,English
+T003,English
+T004,English
+T005,Math
+T006,Math
+T007,Math
+T008,Math
+T009,Science
 T010,Science
-T011,Social Studies
-T012,Physical Education
-T013,World Languages
-T014,English
-T015,Math
+T011,Science
+T012,Science
+T013,Social Studies
+T014,Social Studies
+T015,Social Studies
+T016,Social Studies
+T017,PE
+T018,PE
+T019,PE
+T020,PE
+T021,Special
+T022,Special
+T023,Special
+T024,Special
