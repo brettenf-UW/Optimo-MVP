@@ -290,9 +290,39 @@ print_problem_stats(prob)
 start_time = time.time()
 solver = PULP_CBC_CMD(msg=True, timeLimit=900)
 
-# Replace the solve line with:
-logger.info("\nSolving problem...")
-status = prob.solve(solver)
+# Increase solver time limit and add solution strategy parameters
+solver = PULP_CBC_CMD(
+    msg=True, 
+    timeLimit=3600,  # Increase to 1 hour
+    options=[
+        'cuts on',
+        'strong=10',  # Stronger branching strategy
+        'pertvalue=100',  # Add perturbation to help with degeneracy
+        'presolve on',
+        'heuristicfraction=0.5'  # Spend more time on heuristics
+    ]
+)
+
+# Add intermediate solution callback
+def print_progress(solver):
+    elapsed = time.time() - start_time
+    logger.info(f"Time elapsed: {elapsed:.2f}s, Best objective: {prob.objective.value()}")
+
+# Modify solve call to use callback
+status = prob.solve(solver, callback=print_progress)
+
+# Add solution acceptance criteria
+if prob.status != 1:  # Not optimal
+    logger.warning("\nWarning: Optimal solution not found within time limit!")
+    # Check if we have an acceptable solution
+    if prob.objective.value() is not None:
+        gap = abs(prob.objective.value() - prob.bestBound) / abs(prob.bestBound)
+        if gap < 0.05:  # Accept solutions within 5% of optimal
+            logger.info("Solution is within 5% of optimal - accepting result")
+        else:
+            logger.warning(f"Solution gap is {gap*100:.1f}% - consider running longer")
+    else:
+        logger.error("No feasible solution found!")
 
 # Add progress monitoring after solve
 def monitor_solution(prob, start_time):
