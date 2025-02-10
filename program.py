@@ -6,16 +6,25 @@ import os
 from collections import Counter
 import time
 import logging
+from datetime import datetime
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Load CSV files
+# Load CSV files with robust empty file handling
 student_info = pd.read_csv('input/Student_Info.csv')
 student_preference_info = pd.read_csv('input/Student_Preference_Info.csv')
 teacher_info = pd.read_csv('input/Teacher_Info.csv')
-teacher_unavailability = pd.read_csv('input/Teacher_unavailability.csv')
+
+# More robust teacher unavailability loading
+try:
+    teacher_unavailability = pd.read_csv('input/Teacher_unavailability.csv')
+    if teacher_unavailability.empty:
+        teacher_unavailability = pd.DataFrame(columns=['Teacher ID', 'Unavailable Periods'])
+except (pd.errors.EmptyDataError, FileNotFoundError):
+    teacher_unavailability = pd.DataFrame(columns=['Teacher ID', 'Unavailable Periods'])
+
 sections_info = pd.read_csv('input/Sections_Information.csv')
 
 # Define periods
@@ -24,11 +33,17 @@ periods = ['R1', 'R2', 'R3', 'R4', 'G1', 'G2', 'G3', 'G4']
 # Filter sections based on teacher availability and student requests
 valid_sections = []
 for section_id, teacher_id in zip(sections_info['Section ID'], sections_info['Teacher Assigned']):
-    unavailable_periods = teacher_unavailability[teacher_unavailability['Teacher ID'] == teacher_id]['Unavailable Periods'].values
-    if len(unavailable_periods) > 0 and pd.notna(unavailable_periods[0]):
-        unavailable_periods = unavailable_periods[0].split(',')
-    else:
+    # Handle empty or missing teacher unavailability data
+    if teacher_unavailability.empty or teacher_id not in teacher_unavailability['Teacher ID'].values:
+        # If no unavailability data, assume teacher is available for all periods
         unavailable_periods = []
+    else:
+        unavailable_periods = teacher_unavailability[teacher_unavailability['Teacher ID'] == teacher_id]['Unavailable Periods'].values
+        if len(unavailable_periods) > 0 and pd.notna(unavailable_periods[0]):
+            unavailable_periods = unavailable_periods[0].split(',')
+        else:
+            unavailable_periods = []
+            
     for period in periods:
         if period not in unavailable_periods:
             valid_sections.append((section_id, period))
@@ -149,7 +164,7 @@ for section_id in sections_info['Section ID']:
     prob += lpSum(x[(student_id, section_id)] 
                  for student_id in student_info['Student ID'] 
                  if (student_id, section_id) in x) <= capacity + overload
-    objective += -100 * overload
+    objective += -50 * overload
 
 # 5. One section per requested course constraint
 for student_id in student_info['Student ID']:
@@ -288,28 +303,39 @@ print_problem_stats(prob)
 
 # Modify the solver setup
 start_time = time.time()
-solver = PULP_CBC_CMD(msg=True, timeLimit=900)
 
-# Increase solver time limit and add solution strategy parameters
+# Replace the solver setup section with:
 solver = PULP_CBC_CMD(
     msg=True, 
-    timeLimit=3600,  # Increase to 1 hour
+    timeLimit=2400,  # 5 minute time limit
     options=[
-        'cuts on',
-        'strong=10',  # Stronger branching strategy
-        'pertvalue=100',  # Add perturbation to help with degeneracy
-        'presolve on',
-        'heuristicfraction=0.5'  # Spend more time on heuristics
+        'cuts off',  # Disable cutting planes initially
+        'prenormal off',  # Disable certain presolve steps
+        'strong 5',  # Reduce strong branching effort
+        'heuristicfraction 0.2',  # Spend less time on heuristics
+        'passpresolve 5',  # Limit presolve passes
+        'maxnodes 50000',  # Limit number of nodes
+        'feas pump off',  # Disable feasibility pump
+        'round off',  # Disable simple rounding
+        'pertvalue 50'  # Reduce perturbation
     ]
 )
 
-# Add intermediate solution callback
-def print_progress(solver):
-    elapsed = time.time() - start_time
-    logger.info(f"Time elapsed: {elapsed:.2f}s, Best objective: {prob.objective.value()}")
+# Solve without callback
+logger.info("Starting optimization...")
+status = prob.solve(solver)
 
-# Modify solve call to use callback
-status = prob.solve(solver, callback=print_progress)
+# Add solution report after solve
+elapsed = time.time() - start_time
+logger.info(f"\nSolution completed in {elapsed:.2f} seconds")
+logger.info(f"Status: {LpStatus[prob.status]}")
+if prob.status == 1:  # Optimal
+    logger.info("Optimal solution found")
+    logger.info(f"Objective value: {prob.objective.value()}")
+else:
+    logger.warning("Optimal solution not found")
+    if prob.objective.value() is not None:
+        logger.info(f"Current best objective value: {prob.objective.value()}")
 
 # Add solution acceptance criteria
 if prob.status != 1:  # Not optimal
@@ -344,7 +370,7 @@ if prob.status != 1:  # Not optimal
     logger.info("Best solution found will be used")
 
 def analyze_conflicts():
-    """Analyze and report all constraint violations"""
+    """Analyze and report all constraint violations and return formatted DataFrames"""
     conflicts = {
         'missing_courses': [],
         'overloaded_sections': [],
@@ -357,8 +383,10 @@ def analyze_conflicts():
     print("\n=== Scheduling Conflict Analysis ===")
     print(f"\nSolver Status: {LpStatus[prob.status]}")
     
-    # Check missing courses - now checking per course
+    # Initialize missing courses flag
     missing_courses_found = False
+    
+    # Check missing courses - now checking per course
     for (student_id, course_id), var in diagnostic_vars['missing_courses'].items():
         if var.varValue > 0:
             missing_courses_found = True
@@ -368,6 +396,7 @@ def analyze_conflicts():
                 'missing_count': 1
             })
     
+    # Now safe to check the flag
     if missing_courses_found:
         print("\nStudents Missing Required Courses:")
         student_courses = {}
@@ -409,8 +438,7 @@ def analyze_conflicts():
             conflicts['special_course_issues'].append({
                 'type': 'Medical Career',
                 'issue': 'Not scheduled in required periods (R1/G1)',
-                'r1_violation': r1_var.varValue,
-                'g1_violation': g1_var.varValue
+                'violations': {'R1': r1_var.varValue, 'G1': g1_var.varValue}
             })
     
     # Heroes Teach - Fixed tuple handling
@@ -421,8 +449,7 @@ def analyze_conflicts():
             conflicts['special_course_issues'].append({
                 'type': 'Heroes Teach',
                 'issue': 'Not scheduled in required periods (R2/G2)',
-                'r2_violation': r2_var.varValue,
-                'g2_violation': g2_var.varValue
+                'violations': {'R2': r2_var.varValue, 'G2': g2_var.varValue}
             })
     
     # Sports Med
@@ -457,9 +484,11 @@ def analyze_conflicts():
         print("\nTo resolve special course issues:")
         for conflict in conflicts['special_course_issues']:
             if conflict['type'] == 'Medical Career':
-                print(f"- Ensure Medical Career section {conflict['section']} is scheduled in both R1 and G1")
+                print(f"- Ensure Medical Career sections are scheduled in both R1 and G1")
+                print(f"  Current violations - R1: {conflict['violations']['R1']}, G1: {conflict['violations']['G1']}")
             elif conflict['type'] == 'Heroes Teach':
-                print(f"- Ensure Heroes Teach section {conflict['section']} is scheduled in both R2 and G2")
+                print(f"- Ensure Heroes Teach sections are scheduled in both R2 and G2")
+                print(f"  Current violations - R2: {conflict['violations']['R2']}, G2: {conflict['violations']['G2']}")
             elif conflict['type'] == 'Sports Med':
                 print(f"- Resolve Sports Med sections overlap in period {conflict['period']}")
     

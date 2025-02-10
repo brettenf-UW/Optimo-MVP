@@ -5,7 +5,7 @@ import math
 
 def generate_synthetic_data(output_path):
     # Constants
-    STUDENTS_PER_GRADE = 10  # 320 total students for ~16 teachers (20:1 ratio)
+    STUDENTS_PER_GRADE = 400  # total students for ~16 teachers (20:1 ratio)
     SECTION_SIZES = {
         'default': 20,
         'lab': 24,
@@ -187,7 +187,7 @@ def generate_synthetic_data(output_path):
     unavailability = []
     
     for teacher in teachers:
-        if random.random() < 0.2:  # 20% chance of unavailability
+        if random.random() < 0.1:  # chance of unavailability
             unavail_periods = random.sample(periods, random.randint(1, 2))
             unavailability.append({
                 'Teacher ID': teacher['Teacher ID'],

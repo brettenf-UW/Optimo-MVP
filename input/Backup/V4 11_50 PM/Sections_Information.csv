@@ -1,0 +1,41 @@
+Section ID,Course ID,Teacher Assigned,# of Seats Available,Department
+S001,Heroes Teach,T011,20,Special
+S002,Heroes Teach,T012,20,Special
+S003,Sports Med,T009,20,PE
+S004,Sports Med,T010,20,PE
+S005,PE,T009,30,PE
+S006,PE,T010,30,PE
+S007,Medical Career,T011,20,Special
+S008,Medical Career,T012,20,Special
+S009,English 10,T001,20,English
+S010,English 10,T002,20,English
+S011,Math 1,T003,20,Math
+S012,Math 1,T004,20,Math
+S013,Economics,T007,20,Social Studies
+S014,Economics,T008,20,Social Studies
+S015,Math 2,T003,20,Math
+S016,Math 2,T004,20,Math
+S017,Math 3,T003,20,Math
+S018,Math 3,T004,20,Math
+S019,Biology,T005,24,Science
+S020,Biology,T006,24,Science
+S021,English 11,T001,20,English
+S022,English 11,T002,20,English
+S023,English 9,T001,20,English
+S024,English 9,T002,20,English
+S025,Physics,T005,24,Science
+S026,Physics,T006,24,Science
+S027,English 12,T001,20,English
+S028,English 12,T002,20,English
+S029,World History,T007,20,Social Studies
+S030,World History,T008,20,Social Studies
+S031,AP Biology,T005,24,Science
+S032,AP Biology,T006,24,Science
+S033,Government,T007,20,Social Studies
+S034,Government,T008,20,Social Studies
+S035,Math 4,T003,20,Math
+S036,Math 4,T004,20,Math
+S037,Chemistry,T005,24,Science
+S038,Chemistry,T006,24,Science
+S039,US History,T007,20,Social Studies
+S040,US History,T008,20,Social Studies

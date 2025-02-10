@@ -63,6 +63,54 @@ class ScheduleDashboardAutomation:
                 raise Exception(f"Error reading {filepath}: {str(e)}")
             return pd.DataFrame()
 
+    def process_conflicts_and_recommendations(self):
+        """Process conflicts and recommendations from linear programming output"""
+        try:
+            # Read conflicts file
+            conflicts = self.safe_read_csv('output/conflicts.csv', required=False)
+            if not conflicts.empty:
+                # Ensure we have the expected columns
+                expected_columns = ['Student ID', 'Course ID 1', 'Course ID 2', 'Conflict Type', 'Description']
+                if not all(col in conflicts.columns for col in expected_columns):
+                    print("Warning: Conflicts file missing expected columns")
+                    print(f"Expected: {expected_columns}")
+                    print(f"Found: {conflicts.columns.tolist()}")
+                    return pd.DataFrame(), pd.DataFrame()
+                    
+                conflicts = conflicts.rename(columns={
+                    'Student ID': 'StudentID',
+                    'Course ID 1': 'CourseID1',
+                    'Course ID 2': 'CourseID2',
+                    'Conflict Type': 'ConflictType',
+                    'Description': 'ConflictDescription'
+                })
+                conflicts['DetectedDateTime'] = datetime.now()
+                
+                # Add severity level based on conflict type
+                conflicts['Severity'] = conflicts['ConflictType'].map({
+                    'HARD': 'High',
+                    'SOFT': 'Medium',
+                    'WARNING': 'Low'
+                }).fillna('Medium')
+
+            # Read recommendations file
+            recommendations = self.safe_read_csv('output/recommendations.csv', required=False)
+            if not recommendations.empty:
+                recommendations = recommendations.rename(columns={
+                    'Section ID': 'SectionID',
+                    'Student ID': 'StudentID',
+                    'Recommendation Type': 'RecommendationType',
+                    'Description': 'RecommendationDescription',
+                    'Priority': 'RecommendationPriority'
+                })
+                # Add timestamp for when the recommendation was generated
+                recommendations['GeneratedDateTime'] = datetime.now()
+
+            return conflicts, recommendations
+        except Exception as e:
+            print(f"Error processing conflicts and recommendations: {str(e)}")
+            return pd.DataFrame(), pd.DataFrame()
+
     def create_excel_dataset(self):
         """Create a consolidated Excel file containing all dimension and fact tables."""
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -70,51 +118,36 @@ class ScheduleDashboardAutomation:
         
         try:
             with pd.ExcelWriter(excel_path, engine='openpyxl') as writer:
-                # Debug: Inspect headers before processing
-                for file in ['input/Sections_Information.csv', 'input/Student_Info.csv', 
-                           'input/Teacher_Info.csv', 'output/Master_Schedule.csv',
-                           'output/Student_Assignments.csv']:
-                    self.inspect_csv_headers(file)
-
                 # Load input files with careful header handling
                 sections_info = self.safe_read_csv('input/Sections_Information.csv')
                 student_info = self.safe_read_csv('input/Student_Info.csv')
                 teacher_info = self.safe_read_csv('input/Teacher_Info.csv')
                 master_schedule = self.safe_read_csv('output/Master_Schedule.csv')
                 student_assignments = self.safe_read_csv('output/Student_Assignments.csv')
+                teacher_assignments = self.safe_read_csv('output/Teacher_Assignments.csv')
 
-                # Rename columns after verifying current names
-                print("\nActual column names:")
-                print("Sections:", sections_info.columns.tolist())
-                print("Students:", student_info.columns.tolist())
-                print("Teachers:", teacher_info.columns.tolist())
-                print("Schedule:", master_schedule.columns.tolist())
-                print("Assignments:", student_assignments.columns.tolist())
-
-                # Standardize column names
+                # Standardize column names based on actual input columns
                 sections_info = sections_info.rename(columns={
                     'Section ID': 'SectionID',
                     'Course ID': 'CourseID',
-                    'Teacher Assigned': 'TeacherID',
-                    '# of Seats Available': 'SeatsAvailable'
+                    'Teacher Assigned': 'TeacherID',  # This matches the actual column name
+                    '# of Seats Available': 'SeatsAvailable',
+                    'Department': 'SectionDepartment'  # Add this if present
                 })
 
                 student_info = student_info.rename(columns={
                     'Student ID': 'StudentID',
-                    'First Name': 'StudentFirstName',
-                    'Last Name': 'StudentLastName',
-                    'Grade Level': 'GradeLevel'
+                    'SPED': 'SPED'  # Keep as is
                 })
 
                 teacher_info = teacher_info.rename(columns={
                     'Teacher ID': 'TeacherID',
-                    'First Name': 'TeacherFirstName',
-                    'Last Name': 'TeacherLastName',
                     'Department': 'TeacherDepartment'
                 })
 
                 master_schedule = master_schedule.rename(columns={
-                    'Section ID': 'SectionID'
+                    'Section ID': 'SectionID',
+                    'Period': 'Period'
                 })
 
                 student_assignments = student_assignments.rename(columns={
@@ -122,7 +155,14 @@ class ScheduleDashboardAutomation:
                     'Section ID': 'SectionID'
                 })
 
-                # Create DimPeriod
+                # Ensure teacher assignments has correct column names
+                teacher_assignments = teacher_assignments.rename(columns={
+                    'Teacher ID': 'TeacherID',
+                    'Section ID': 'SectionID',
+                    'Period': 'Period'
+                })
+
+                # Create DimPeriod from master schedule
                 periods = pd.DataFrame({
                     'Period': sorted(master_schedule['Period'].unique()),
                     'Day_Type': [p[0] for p in sorted(master_schedule['Period'].unique())],
@@ -134,49 +174,64 @@ class ScheduleDashboardAutomation:
                     axis=1
                 )
 
-                # Save all sheets and ensure they're visible
-                periods.to_excel(writer, sheet_name='DimPeriod', index=False, header=True)
-                teacher_info.to_excel(writer, sheet_name='DimTeacher', index=False, header=True)
-                student_info.to_excel(writer, sheet_name='DimStudent', index=False, header=True)
-                sections_info.to_excel(writer, sheet_name='DimSection', index=False, header=True)
+                # Save dimension tables
+                periods.to_excel(writer, sheet_name='DimPeriod', index=False)
+                teacher_info.to_excel(writer, sheet_name='DimTeacher', index=False)
+                student_info.to_excel(writer, sheet_name='DimStudent', index=False)
+                sections_info.to_excel(writer, sheet_name='DimSection', index=False)
 
-                # Create and save fact tables
-                schedule = master_schedule.merge(
-                    sections_info[['SectionID', 'CourseID', 'TeacherID', 'Department']],
+                # Create fact tables with proper relationships
+                # First merge sections with teacher department info
+                sections_with_dept = pd.merge(
+                    sections_info,
+                    teacher_info[['TeacherID', 'TeacherDepartment']],
+                    on='TeacherID',
+                    how='left'
+                )
+
+                # Create schedule fact table
+                schedule_fact = pd.merge(
+                    master_schedule,
+                    sections_with_dept,
                     on='SectionID',
                     how='left'
                 )
-                schedule.to_excel(writer, sheet_name='FactSchedule', index=False)
+                schedule_fact.to_excel(writer, sheet_name='FactSchedule', index=False)
 
-                # Update student enrollments
-                enrollments = student_assignments.merge(
+                # Create student enrollment fact table
+                enrollment_fact = pd.merge(
+                    student_assignments,
+                    sections_with_dept,
+                    on='SectionID',
+                    how='left'
+                )
+                enrollment_fact = pd.merge(
+                    enrollment_fact,
                     master_schedule[['SectionID', 'Period']],
                     on='SectionID',
                     how='left'
                 )
-                enrollments.to_excel(writer, sheet_name='FactStudentEnrollment', index=False)
+                enrollment_fact.to_excel(writer, sheet_name='FactStudentEnrollment', index=False)
 
-                # Section utilization (using updated column names)
-                section_counts = student_assignments.groupby('SectionID').size().reset_index(name='Enrollment_Count')
-                utilization = sections_info.merge(
+                # Create section utilization fact table
+                section_counts = student_assignments.groupby('SectionID').size().reset_index(name='EnrollmentCount')
+                utilization_fact = pd.merge(
+                    sections_with_dept,
                     section_counts,
                     on='SectionID',
                     how='left'
                 )
-                utilization['Enrollment_Count'] = utilization['Enrollment_Count'].fillna(0)
-                utilization['Utilization_Rate'] = utilization['Enrollment_Count'] / utilization['SeatsAvailable']
-                utilization.to_excel(writer, sheet_name='FactSectionUtilization', index=False)
+                utilization_fact['EnrollmentCount'] = utilization_fact['EnrollmentCount'].fillna(0)
+                utilization_fact['UtilizationRate'] = utilization_fact['EnrollmentCount'] / utilization_fact['SeatsAvailable']
+                utilization_fact['UtilizationPercentage'] = (utilization_fact['UtilizationRate'] * 100).round(2)
+                utilization_fact.to_excel(writer, sheet_name='FactSectionUtilization', index=False)
 
-                # Make sure the workbook has the first sheet visible and active
-                writer.book.active = 0
-
-            # Archive old files if they exist
-            for file in os.listdir(self.data_dir):
-                if file.startswith('MasterSchedule_') and file.endswith('.xlsx') and file != os.path.basename(excel_path):
-                    shutil.move(
-                        os.path.join(self.data_dir, file),
-                        os.path.join(self.archive_dir, file)
-                    )
+                # Process conflicts and recommendations if available
+                conflicts, recommendations = self.process_conflicts_and_recommendations()
+                if not conflicts.empty:
+                    conflicts.to_excel(writer, sheet_name='FactConflicts', index=False)
+                if not recommendations.empty:
+                    recommendations.to_excel(writer, sheet_name='FactRecommendations', index=False)
 
             print(f"\nCreated new dataset: {excel_path}")
             return excel_path

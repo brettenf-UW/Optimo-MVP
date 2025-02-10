@@ -1,41 +1,1601 @@
 Student ID,Preferred Sections
 ST001,English 9;Math 1;Biology;World History;PE;Medical Career
-ST002,English 9;Math 1;Biology;World History;PE;Medical Career
-ST003,English 9;Math 1;Biology;World History;PE;Heroes Teach
-ST004,English 9;Math 1;Biology;World History;PE;Medical Career
+ST002,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST003,English 9;Math 1;Biology;World History;PE;Medical Career
+ST004,English 9;Math 1;Biology;World History;PE;Heroes Teach
 ST005,English 9;Math 1;Biology;World History;PE;Heroes Teach
-ST006,English 9;Math 1;Biology;World History;PE;Medical Career
-ST007,English 9;Math 1;Biology;World History;PE;Medical Career
-ST008,English 9;Math 1;Biology;World History;PE;Heroes Teach
-ST009,English 9;Math 1;Biology;World History;PE;Heroes Teach
-ST010,English 9;Math 1;Biology;World History;PE;Heroes Teach
-ST011,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST012,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST013,English 10;Math 2;Chemistry;US History;PE;Medical Career
-ST014,English 10;Math 2;Chemistry;US History;PE;Medical Career
-ST015,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST016,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST017,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST018,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST019,English 10;Math 2;Chemistry;US History;PE;Medical Career
-ST020,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST021,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST022,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST023,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST024,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST025,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST026,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST027,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST028,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST029,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST030,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST031,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST032,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
-ST033,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST034,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
-ST035,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST036,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST037,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST038,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
-ST039,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST040,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST006,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST007,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST008,English 9;Math 1;Biology;World History;PE;Medical Career
+ST009,English 9;Math 1;Biology;World History;PE;Medical Career
+ST010,English 9;Math 1;Biology;World History;PE;Medical Career
+ST011,English 9;Math 1;Biology;World History;PE;Medical Career
+ST012,English 9;Math 1;Biology;World History;PE;Medical Career
+ST013,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST014,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST015,English 9;Math 1;Biology;World History;PE;Medical Career
+ST016,English 9;Math 1;Biology;World History;PE;Medical Career
+ST017,English 9;Math 1;Biology;World History;PE;Medical Career
+ST018,English 9;Math 1;Biology;World History;PE;Medical Career
+ST019,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST020,English 9;Math 1;Biology;World History;PE;Medical Career
+ST021,English 9;Math 1;Biology;World History;PE;Medical Career
+ST022,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST023,English 9;Math 1;Biology;World History;PE;Medical Career
+ST024,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST025,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST026,English 9;Math 1;Biology;World History;PE;Medical Career
+ST027,English 9;Math 1;Biology;World History;PE;Medical Career
+ST028,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST029,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST030,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST031,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST032,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST033,English 9;Math 1;Biology;World History;PE;Medical Career
+ST034,English 9;Math 1;Biology;World History;PE;Medical Career
+ST035,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST036,English 9;Math 1;Biology;World History;PE;Medical Career
+ST037,English 9;Math 1;Biology;World History;PE;Medical Career
+ST038,English 9;Math 1;Biology;World History;PE;Medical Career
+ST039,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST040,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST041,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST042,English 9;Math 1;Biology;World History;PE;Medical Career
+ST043,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST044,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST045,English 9;Math 1;Biology;World History;PE;Medical Career
+ST046,English 9;Math 1;Biology;World History;PE;Medical Career
+ST047,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST048,English 9;Math 1;Biology;World History;PE;Medical Career
+ST049,English 9;Math 1;Biology;World History;PE;Medical Career
+ST050,English 9;Math 1;Biology;World History;PE;Medical Career
+ST051,English 9;Math 1;Biology;World History;PE;Medical Career
+ST052,English 9;Math 1;Biology;World History;PE;Medical Career
+ST053,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST054,English 9;Math 1;Biology;World History;PE;Medical Career
+ST055,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST056,English 9;Math 1;Biology;World History;PE;Medical Career
+ST057,English 9;Math 1;Biology;World History;PE;Medical Career
+ST058,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST059,English 9;Math 1;Biology;World History;PE;Medical Career
+ST060,English 9;Math 1;Biology;World History;PE;Medical Career
+ST061,English 9;Math 1;Biology;World History;PE;Medical Career
+ST062,English 9;Math 1;Biology;World History;PE;Medical Career
+ST063,English 9;Math 1;Biology;World History;PE;Medical Career
+ST064,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST065,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST066,English 9;Math 1;Biology;World History;PE;Medical Career
+ST067,English 9;Math 1;Biology;World History;PE;Medical Career
+ST068,English 9;Math 1;Biology;World History;PE;Medical Career
+ST069,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST070,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST071,English 9;Math 1;Biology;World History;PE;Medical Career
+ST072,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST073,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST074,English 9;Math 1;Biology;World History;PE;Medical Career
+ST075,English 9;Math 1;Biology;World History;PE;Medical Career
+ST076,English 9;Math 1;Biology;World History;PE;Medical Career
+ST077,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST078,English 9;Math 1;Biology;World History;PE;Medical Career
+ST079,English 9;Math 1;Biology;World History;PE;Medical Career
+ST080,English 9;Math 1;Biology;World History;PE;Medical Career
+ST081,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST082,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST083,English 9;Math 1;Biology;World History;PE;Medical Career
+ST084,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST085,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST086,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST087,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST088,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST089,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST090,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST091,English 9;Math 1;Biology;World History;PE;Medical Career
+ST092,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST093,English 9;Math 1;Biology;World History;PE;Medical Career
+ST094,English 9;Math 1;Biology;World History;PE;Medical Career
+ST095,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST096,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST097,English 9;Math 1;Biology;World History;PE;Medical Career
+ST098,English 9;Math 1;Biology;World History;PE;Medical Career
+ST099,English 9;Math 1;Biology;World History;PE;Medical Career
+ST100,English 9;Math 1;Biology;World History;PE;Medical Career
+ST101,English 9;Math 1;Biology;World History;PE;Medical Career
+ST102,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST103,English 9;Math 1;Biology;World History;PE;Medical Career
+ST104,English 9;Math 1;Biology;World History;PE;Medical Career
+ST105,English 9;Math 1;Biology;World History;PE;Medical Career
+ST106,English 9;Math 1;Biology;World History;PE;Medical Career
+ST107,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST108,English 9;Math 1;Biology;World History;PE;Medical Career
+ST109,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST110,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST111,English 9;Math 1;Biology;World History;PE;Medical Career
+ST112,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST113,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST114,English 9;Math 1;Biology;World History;PE;Medical Career
+ST115,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST116,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST117,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST118,English 9;Math 1;Biology;World History;PE;Medical Career
+ST119,English 9;Math 1;Biology;World History;PE;Medical Career
+ST120,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST121,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST122,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST123,English 9;Math 1;Biology;World History;PE;Medical Career
+ST124,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST125,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST126,English 9;Math 1;Biology;World History;PE;Medical Career
+ST127,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST128,English 9;Math 1;Biology;World History;PE;Medical Career
+ST129,English 9;Math 1;Biology;World History;PE;Medical Career
+ST130,English 9;Math 1;Biology;World History;PE;Medical Career
+ST131,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST132,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST133,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST134,English 9;Math 1;Biology;World History;PE;Medical Career
+ST135,English 9;Math 1;Biology;World History;PE;Medical Career
+ST136,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST137,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST138,English 9;Math 1;Biology;World History;PE;Medical Career
+ST139,English 9;Math 1;Biology;World History;PE;Medical Career
+ST140,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST141,English 9;Math 1;Biology;World History;PE;Medical Career
+ST142,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST143,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST144,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST145,English 9;Math 1;Biology;World History;PE;Medical Career
+ST146,English 9;Math 1;Biology;World History;PE;Medical Career
+ST147,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST148,English 9;Math 1;Biology;World History;PE;Medical Career
+ST149,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST150,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST151,English 9;Math 1;Biology;World History;PE;Medical Career
+ST152,English 9;Math 1;Biology;World History;PE;Medical Career
+ST153,English 9;Math 1;Biology;World History;PE;Medical Career
+ST154,English 9;Math 1;Biology;World History;PE;Medical Career
+ST155,English 9;Math 1;Biology;World History;PE;Medical Career
+ST156,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST157,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST158,English 9;Math 1;Biology;World History;PE;Medical Career
+ST159,English 9;Math 1;Biology;World History;PE;Medical Career
+ST160,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST161,English 9;Math 1;Biology;World History;PE;Medical Career
+ST162,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST163,English 9;Math 1;Biology;World History;PE;Medical Career
+ST164,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST165,English 9;Math 1;Biology;World History;PE;Medical Career
+ST166,English 9;Math 1;Biology;World History;PE;Medical Career
+ST167,English 9;Math 1;Biology;World History;PE;Medical Career
+ST168,English 9;Math 1;Biology;World History;PE;Medical Career
+ST169,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST170,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST171,English 9;Math 1;Biology;World History;PE;Medical Career
+ST172,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST173,English 9;Math 1;Biology;World History;PE;Medical Career
+ST174,English 9;Math 1;Biology;World History;PE;Medical Career
+ST175,English 9;Math 1;Biology;World History;PE;Medical Career
+ST176,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST177,English 9;Math 1;Biology;World History;PE;Medical Career
+ST178,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST179,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST180,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST181,English 9;Math 1;Biology;World History;PE;Medical Career
+ST182,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST183,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST184,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST185,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST186,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST187,English 9;Math 1;Biology;World History;PE;Medical Career
+ST188,English 9;Math 1;Biology;World History;PE;Medical Career
+ST189,English 9;Math 1;Biology;World History;PE;Medical Career
+ST190,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST191,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST192,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST193,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST194,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST195,English 9;Math 1;Biology;World History;PE;Medical Career
+ST196,English 9;Math 1;Biology;World History;PE;Medical Career
+ST197,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST198,English 9;Math 1;Biology;World History;PE;Medical Career
+ST199,English 9;Math 1;Biology;World History;PE;Medical Career
+ST200,English 9;Math 1;Biology;World History;PE;Medical Career
+ST201,English 9;Math 1;Biology;World History;PE;Medical Career
+ST202,English 9;Math 1;Biology;World History;PE;Medical Career
+ST203,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST204,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST205,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST206,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST207,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST208,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST209,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST210,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST211,English 9;Math 1;Biology;World History;PE;Medical Career
+ST212,English 9;Math 1;Biology;World History;PE;Medical Career
+ST213,English 9;Math 1;Biology;World History;PE;Medical Career
+ST214,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST215,English 9;Math 1;Biology;World History;PE;Medical Career
+ST216,English 9;Math 1;Biology;World History;PE;Medical Career
+ST217,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST218,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST219,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST220,English 9;Math 1;Biology;World History;PE;Medical Career
+ST221,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST222,English 9;Math 1;Biology;World History;PE;Medical Career
+ST223,English 9;Math 1;Biology;World History;PE;Medical Career
+ST224,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST225,English 9;Math 1;Biology;World History;PE;Medical Career
+ST226,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST227,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST228,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST229,English 9;Math 1;Biology;World History;PE;Medical Career
+ST230,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST231,English 9;Math 1;Biology;World History;PE;Medical Career
+ST232,English 9;Math 1;Biology;World History;PE;Medical Career
+ST233,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST234,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST235,English 9;Math 1;Biology;World History;PE;Medical Career
+ST236,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST237,English 9;Math 1;Biology;World History;PE;Medical Career
+ST238,English 9;Math 1;Biology;World History;PE;Medical Career
+ST239,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST240,English 9;Math 1;Biology;World History;PE;Medical Career
+ST241,English 9;Math 1;Biology;World History;PE;Medical Career
+ST242,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST243,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST244,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST245,English 9;Math 1;Biology;World History;PE;Medical Career
+ST246,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST247,English 9;Math 1;Biology;World History;PE;Medical Career
+ST248,English 9;Math 1;Biology;World History;PE;Medical Career
+ST249,English 9;Math 1;Biology;World History;PE;Medical Career
+ST250,English 9;Math 1;Biology;World History;PE;Medical Career
+ST251,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST252,English 9;Math 1;Biology;World History;PE;Medical Career
+ST253,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST254,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST255,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST256,English 9;Math 1;Biology;World History;PE;Medical Career
+ST257,English 9;Math 1;Biology;World History;PE;Medical Career
+ST258,English 9;Math 1;Biology;World History;PE;Medical Career
+ST259,English 9;Math 1;Biology;World History;PE;Medical Career
+ST260,English 9;Math 1;Biology;World History;PE;Medical Career
+ST261,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST262,English 9;Math 1;Biology;World History;PE;Medical Career
+ST263,English 9;Math 1;Biology;World History;PE;Medical Career
+ST264,English 9;Math 1;Biology;World History;PE;Medical Career
+ST265,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST266,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST267,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST268,English 9;Math 1;Biology;World History;PE;Medical Career
+ST269,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST270,English 9;Math 1;Biology;World History;PE;Medical Career
+ST271,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST272,English 9;Math 1;Biology;World History;PE;Medical Career
+ST273,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST274,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST275,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST276,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST277,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST278,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST279,English 9;Math 1;Biology;World History;PE;Medical Career
+ST280,English 9;Math 1;Biology;World History;PE;Medical Career
+ST281,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST282,English 9;Math 1;Biology;World History;PE;Medical Career
+ST283,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST284,English 9;Math 1;Biology;World History;PE;Medical Career
+ST285,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST286,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST287,English 9;Math 1;Biology;World History;PE;Medical Career
+ST288,English 9;Math 1;Biology;World History;PE;Medical Career
+ST289,English 9;Math 1;Biology;World History;PE;Medical Career
+ST290,English 9;Math 1;Biology;World History;PE;Medical Career
+ST291,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST292,English 9;Math 1;Biology;World History;PE;Medical Career
+ST293,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST294,English 9;Math 1;Biology;World History;PE;Medical Career
+ST295,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST296,English 9;Math 1;Biology;World History;PE;Medical Career
+ST297,English 9;Math 1;Biology;World History;PE;Medical Career
+ST298,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST299,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST300,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST301,English 9;Math 1;Biology;World History;PE;Medical Career
+ST302,English 9;Math 1;Biology;World History;PE;Medical Career
+ST303,English 9;Math 1;Biology;World History;PE;Medical Career
+ST304,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST305,English 9;Math 1;Biology;World History;PE;Medical Career
+ST306,English 9;Math 1;Biology;World History;PE;Medical Career
+ST307,English 9;Math 1;Biology;World History;PE;Medical Career
+ST308,English 9;Math 1;Biology;World History;PE;Medical Career
+ST309,English 9;Math 1;Biology;World History;PE;Medical Career
+ST310,English 9;Math 1;Biology;World History;PE;Medical Career
+ST311,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST312,English 9;Math 1;Biology;World History;PE;Medical Career
+ST313,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST314,English 9;Math 1;Biology;World History;PE;Medical Career
+ST315,English 9;Math 1;Biology;World History;PE;Medical Career
+ST316,English 9;Math 1;Biology;World History;PE;Medical Career
+ST317,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST318,English 9;Math 1;Biology;World History;PE;Medical Career
+ST319,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST320,English 9;Math 1;Biology;World History;PE;Medical Career
+ST321,English 9;Math 1;Biology;World History;PE;Medical Career
+ST322,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST323,English 9;Math 1;Biology;World History;PE;Medical Career
+ST324,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST325,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST326,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST327,English 9;Math 1;Biology;World History;PE;Medical Career
+ST328,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST329,English 9;Math 1;Biology;World History;PE;Medical Career
+ST330,English 9;Math 1;Biology;World History;PE;Medical Career
+ST331,English 9;Math 1;Biology;World History;PE;Medical Career
+ST332,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST333,English 9;Math 1;Biology;World History;PE;Medical Career
+ST334,English 9;Math 1;Biology;World History;PE;Medical Career
+ST335,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST336,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST337,English 9;Math 1;Biology;World History;PE;Medical Career
+ST338,English 9;Math 1;Biology;World History;PE;Medical Career
+ST339,English 9;Math 1;Biology;World History;PE;Medical Career
+ST340,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST341,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST342,English 9;Math 1;Biology;World History;PE;Medical Career
+ST343,English 9;Math 1;Biology;World History;PE;Medical Career
+ST344,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST345,English 9;Math 1;Biology;World History;PE;Medical Career
+ST346,English 9;Math 1;Biology;World History;PE;Medical Career
+ST347,English 9;Math 1;Biology;World History;PE;Medical Career
+ST348,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST349,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST350,English 9;Math 1;Biology;World History;PE;Medical Career
+ST351,English 9;Math 1;Biology;World History;PE;Medical Career
+ST352,English 9;Math 1;Biology;World History;PE;Medical Career
+ST353,English 9;Math 1;Biology;World History;PE;Medical Career
+ST354,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST355,English 9;Math 1;Biology;World History;PE;Medical Career
+ST356,English 9;Math 1;Biology;World History;PE;Medical Career
+ST357,English 9;Math 1;Biology;World History;PE;Medical Career
+ST358,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST359,English 9;Math 1;Biology;World History;PE;Medical Career
+ST360,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST361,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST362,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST363,English 9;Math 1;Biology;World History;PE;Medical Career
+ST364,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST365,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST366,English 9;Math 1;Biology;World History;PE;Medical Career
+ST367,English 9;Math 1;Biology;World History;PE;Medical Career
+ST368,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST369,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST370,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST371,English 9;Math 1;Biology;World History;PE;Medical Career
+ST372,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST373,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST374,English 9;Math 1;Biology;World History;PE;Medical Career
+ST375,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST376,English 9;Math 1;Biology;World History;PE;Medical Career
+ST377,English 9;Math 1;Biology;World History;PE;Medical Career
+ST378,English 9;Math 1;Biology;World History;PE;Medical Career
+ST379,English 9;Math 1;Biology;World History;PE;Medical Career
+ST380,English 9;Math 1;Biology;World History;PE;Medical Career
+ST381,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST382,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST383,English 9;Math 1;Biology;World History;PE;Medical Career
+ST384,English 9;Math 1;Biology;World History;PE;Medical Career
+ST385,English 9;Math 1;Biology;World History;PE;Medical Career
+ST386,English 9;Math 1;Biology;World History;PE;Medical Career
+ST387,English 9;Math 1;Biology;World History;PE;Medical Career
+ST388,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST389,English 9;Math 1;Biology;World History;PE;Medical Career
+ST390,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST391,English 9;Math 1;Biology;World History;PE;Medical Career
+ST392,English 9;Math 1;Biology;World History;PE;Medical Career
+ST393,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST394,English 9;Math 1;Biology;World History;PE;Medical Career
+ST395,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST396,English 9;Math 1;Biology;World History;PE;Medical Career
+ST397,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST398,English 9;Math 1;Biology;World History;PE;Medical Career
+ST399,English 9;Math 1;Biology;World History;PE;Medical Career
+ST400,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST401,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST402,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST403,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST404,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST405,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST406,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST407,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST408,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST409,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST410,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST411,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST412,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST413,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST414,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST415,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST416,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST417,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST418,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST419,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST420,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST421,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST422,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST423,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST424,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST425,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST426,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST427,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST428,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST429,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST430,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST431,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST432,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST433,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST434,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST435,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST436,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST437,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST438,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST439,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST440,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST441,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST442,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST443,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST444,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST445,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST446,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST447,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST448,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST449,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST450,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST451,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST452,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST453,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST454,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST455,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST456,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST457,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST458,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST459,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST460,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST461,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST462,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST463,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST464,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST465,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST466,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST467,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST468,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST469,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST470,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST471,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST472,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST473,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST474,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST475,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST476,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST477,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST478,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST479,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST480,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST481,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST482,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST483,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST484,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST485,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST486,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST487,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST488,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST489,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST490,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST491,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST492,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST493,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST494,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST495,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST496,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST497,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST498,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST499,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST500,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST501,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST502,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST503,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST504,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST505,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST506,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST507,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST508,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST509,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST510,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST511,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST512,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST513,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST514,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST515,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST516,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST517,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST518,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST519,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST520,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST521,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST522,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST523,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST524,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST525,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST526,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST527,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST528,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST529,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST530,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST531,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST532,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST533,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST534,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST535,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST536,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST537,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST538,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST539,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST540,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST541,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST542,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST543,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST544,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST545,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST546,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST547,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST548,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST549,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST550,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST551,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST552,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST553,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST554,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST555,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST556,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST557,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST558,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST559,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST560,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST561,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST562,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST563,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST564,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST565,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST566,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST567,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST568,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST569,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST570,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST571,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST572,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST573,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST574,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST575,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST576,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST577,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST578,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST579,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST580,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST581,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST582,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST583,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST584,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST585,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST586,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST587,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST588,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST589,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST590,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST591,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST592,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST593,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST594,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST595,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST596,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST597,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST598,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST599,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST600,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST601,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST602,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST603,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST604,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST605,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST606,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST607,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST608,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST609,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST610,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST611,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST612,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST613,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST614,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST615,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST616,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST617,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST618,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST619,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST620,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST621,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST622,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST623,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST624,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST625,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST626,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST627,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST628,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST629,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST630,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST631,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST632,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST633,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST634,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST635,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST636,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST637,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST638,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST639,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST640,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST641,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST642,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST643,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST644,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST645,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST646,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST647,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST648,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST649,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST650,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST651,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST652,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST653,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST654,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST655,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST656,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST657,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST658,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST659,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST660,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST661,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST662,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST663,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST664,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST665,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST666,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST667,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST668,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST669,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST670,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST671,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST672,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST673,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST674,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST675,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST676,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST677,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST678,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST679,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST680,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST681,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST682,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST683,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST684,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST685,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST686,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST687,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST688,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST689,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST690,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST691,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST692,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST693,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST694,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST695,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST696,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST697,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST698,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST699,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST700,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST701,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST702,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST703,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST704,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST705,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST706,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST707,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST708,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST709,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST710,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST711,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST712,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST713,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST714,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST715,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST716,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST717,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST718,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST719,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST720,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST721,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST722,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST723,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST724,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST725,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST726,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST727,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST728,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST729,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST730,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST731,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST732,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST733,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST734,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST735,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST736,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST737,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST738,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST739,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST740,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST741,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST742,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST743,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST744,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST745,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST746,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST747,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST748,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST749,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST750,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST751,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST752,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST753,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST754,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST755,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST756,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST757,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST758,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST759,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST760,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST761,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST762,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST763,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST764,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST765,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST766,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST767,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST768,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST769,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST770,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST771,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST772,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST773,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST774,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST775,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST776,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST777,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST778,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST779,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST780,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST781,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST782,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST783,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST784,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST785,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST786,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST787,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST788,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST789,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST790,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST791,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST792,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST793,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST794,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST795,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST796,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST797,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST798,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST799,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST800,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST801,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST802,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST803,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST804,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST805,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST806,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST807,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST808,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST809,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST810,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST811,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST812,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST813,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST814,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST815,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST816,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST817,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST818,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST819,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST820,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST821,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST822,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST823,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST824,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST825,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST826,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST827,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST828,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST829,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST830,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST831,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST832,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST833,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST834,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST835,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST836,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST837,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST838,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST839,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST840,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST841,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST842,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST843,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST844,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST845,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST846,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST847,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST848,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST849,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST850,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST851,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST852,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST853,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST854,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST855,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST856,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST857,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST858,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST859,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST860,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST861,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST862,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST863,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST864,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST865,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST866,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST867,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST868,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST869,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST870,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST871,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST872,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST873,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST874,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST875,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST876,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST877,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST878,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST879,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST880,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST881,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST882,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST883,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST884,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST885,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST886,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST887,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST888,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST889,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST890,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST891,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST892,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST893,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST894,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST895,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST896,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST897,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST898,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST899,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST900,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST901,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST902,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST903,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST904,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST905,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST906,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST907,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST908,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST909,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST910,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST911,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST912,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST913,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST914,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST915,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST916,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST917,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST918,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST919,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST920,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST921,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST922,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST923,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST924,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST925,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST926,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST927,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST928,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST929,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST930,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST931,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST932,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST933,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST934,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST935,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST936,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST937,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST938,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST939,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST940,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST941,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST942,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST943,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST944,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST945,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST946,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST947,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST948,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST949,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST950,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST951,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST952,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST953,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST954,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST955,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST956,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST957,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST958,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST959,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST960,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST961,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST962,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST963,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST964,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST965,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST966,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST967,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST968,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST969,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST970,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST971,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST972,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST973,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST974,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST975,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST976,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST977,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST978,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST979,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST980,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST981,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST982,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST983,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST984,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST985,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST986,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST987,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST988,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST989,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST990,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST991,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST992,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST993,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST994,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST995,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST996,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST997,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST998,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST999,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1000,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1001,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1002,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1003,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1004,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1005,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1006,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1007,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1008,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1009,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1010,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1011,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1012,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1013,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1014,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1015,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1016,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1017,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1018,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1019,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1020,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1021,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1022,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1023,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1024,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1025,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1026,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1027,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1028,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1029,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1030,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1031,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1032,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1033,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1034,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1035,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1036,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1037,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1038,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1039,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1040,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1041,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1042,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1043,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1044,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1045,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1046,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1047,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1048,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1049,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1050,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1051,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1052,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1053,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1054,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1055,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1056,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1057,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1058,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1059,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1060,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1061,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1062,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1063,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1064,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1065,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1066,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1067,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1068,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1069,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1070,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1071,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1072,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1073,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1074,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1075,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1076,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1077,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1078,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1079,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1080,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1081,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1082,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1083,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1084,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1085,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1086,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1087,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1088,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1089,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1090,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1091,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1092,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1093,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1094,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1095,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1096,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1097,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1098,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1099,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1100,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1101,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1102,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1103,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1104,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1105,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1106,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1107,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1108,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1109,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1110,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1111,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1112,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1113,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1114,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1115,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1116,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1117,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1118,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1119,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1120,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1121,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1122,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1123,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1124,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1125,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1126,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1127,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1128,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1129,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1130,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1131,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1132,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1133,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1134,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1135,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1136,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1137,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1138,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1139,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1140,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1141,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1142,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1143,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1144,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1145,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1146,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1147,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1148,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1149,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1150,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1151,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1152,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1153,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1154,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1155,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1156,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1157,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1158,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1159,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1160,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1161,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1162,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1163,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1164,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1165,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1166,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1167,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1168,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1169,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1170,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1171,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1172,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1173,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1174,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1175,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1176,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1177,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1178,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1179,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1180,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1181,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1182,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1183,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1184,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1185,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1186,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1187,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1188,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1189,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1190,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1191,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1192,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1193,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1194,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1195,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1196,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1197,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1198,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST1199,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1200,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST1201,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1202,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1203,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1204,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1205,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1206,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1207,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1208,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1209,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1210,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1211,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1212,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1213,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1214,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1215,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1216,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1217,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1218,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1219,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1220,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1221,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1222,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1223,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1224,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1225,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1226,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1227,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1228,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1229,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1230,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1231,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1232,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1233,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1234,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1235,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1236,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1237,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1238,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1239,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1240,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1241,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1242,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1243,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1244,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1245,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1246,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1247,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1248,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1249,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1250,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1251,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1252,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1253,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1254,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1255,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1256,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1257,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1258,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1259,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1260,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1261,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1262,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1263,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1264,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1265,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1266,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1267,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1268,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1269,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1270,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1271,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1272,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1273,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1274,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1275,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1276,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1277,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1278,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1279,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1280,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1281,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1282,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1283,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1284,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1285,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1286,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1287,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1288,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1289,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1290,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1291,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1292,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1293,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1294,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1295,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1296,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1297,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1298,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1299,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1300,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1301,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1302,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1303,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1304,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1305,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1306,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1307,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1308,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1309,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1310,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1311,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1312,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1313,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1314,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1315,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1316,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1317,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1318,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1319,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1320,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1321,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1322,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1323,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1324,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1325,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1326,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1327,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1328,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1329,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1330,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1331,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1332,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1333,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1334,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1335,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1336,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1337,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1338,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1339,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1340,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1341,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1342,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1343,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1344,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1345,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1346,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1347,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1348,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1349,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1350,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1351,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1352,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1353,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1354,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1355,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1356,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1357,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1358,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1359,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1360,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1361,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1362,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1363,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1364,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1365,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1366,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1367,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1368,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1369,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1370,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1371,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1372,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1373,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1374,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1375,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1376,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1377,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1378,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1379,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1380,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1381,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1382,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1383,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1384,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1385,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1386,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1387,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1388,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1389,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1390,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1391,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1392,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1393,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1394,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1395,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1396,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1397,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1398,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1399,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1400,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1401,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1402,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1403,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1404,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1405,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1406,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1407,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1408,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1409,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1410,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1411,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1412,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1413,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1414,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1415,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1416,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1417,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1418,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1419,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1420,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1421,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1422,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1423,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1424,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1425,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1426,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1427,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1428,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1429,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1430,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1431,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1432,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1433,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1434,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1435,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1436,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1437,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1438,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1439,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1440,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1441,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1442,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1443,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1444,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1445,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1446,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1447,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1448,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1449,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1450,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1451,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1452,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1453,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1454,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1455,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1456,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1457,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1458,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1459,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1460,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1461,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1462,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1463,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1464,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1465,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1466,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1467,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1468,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1469,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1470,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1471,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1472,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1473,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1474,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1475,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1476,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1477,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1478,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1479,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1480,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1481,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1482,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1483,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1484,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1485,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1486,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1487,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1488,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1489,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1490,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1491,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1492,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1493,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1494,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1495,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1496,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1497,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1498,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1499,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1500,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1501,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1502,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1503,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1504,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1505,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1506,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1507,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1508,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1509,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1510,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1511,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1512,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1513,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1514,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1515,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1516,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1517,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1518,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1519,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1520,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1521,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1522,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1523,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1524,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1525,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1526,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1527,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1528,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1529,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1530,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1531,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1532,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1533,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1534,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1535,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1536,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1537,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1538,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1539,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1540,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1541,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1542,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1543,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1544,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1545,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1546,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1547,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1548,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1549,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1550,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1551,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1552,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1553,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1554,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1555,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1556,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1557,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1558,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1559,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1560,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1561,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1562,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1563,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1564,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1565,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1566,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1567,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1568,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1569,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1570,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1571,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1572,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1573,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1574,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1575,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1576,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1577,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1578,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1579,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1580,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1581,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1582,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1583,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1584,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1585,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1586,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1587,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1588,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1589,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1590,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1591,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1592,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1593,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1594,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1595,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST1596,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1597,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1598,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1599,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
+ST1600,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
