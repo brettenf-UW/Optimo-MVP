@@ -1,0 +1,451 @@
+2025-02-11 21:09:19,413 - INFO - === Scheduling System Started ===
+2025-02-11 21:09:19,413 - INFO - Date/Time: 2025-02-11 21:09:19
+2025-02-11 21:09:19,413 - INFO - Python Version: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2025-02-11 21:09:19,422 - INFO - Available Memory: 5.64 GB
+2025-02-11 21:09:19,445 - INFO - 
+=== Initial Data Validation ===
+2025-02-11 21:09:19,446 - INFO - 
+=== Data Validation ===
+2025-02-11 21:09:19,447 - INFO - 
+Analyzing student requests:
+2025-02-11 21:09:19,448 - INFO - Student ST001: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,462 - INFO - Student ST002: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,463 - INFO - Student ST003: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,463 - INFO - Student ST004: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,463 - INFO - Student ST005: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,469 - INFO - Student ST006: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,471 - INFO - Student ST007: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,471 - INFO - Student ST008: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,471 - INFO - Student ST009: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,471 - INFO - Student ST010: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,471 - INFO - Student ST011: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,471 - INFO - Student ST012: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,479 - INFO - Student ST013: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,480 - INFO - Student ST014: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,480 - INFO - Student ST015: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,480 - INFO - Student ST016: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,480 - INFO - Student ST017: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,487 - INFO - Student ST018: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,487 - INFO - Student ST019: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,487 - INFO - Student ST020: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,487 - INFO - Student ST021: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,487 - INFO - Student ST022: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,487 - INFO - Student ST023: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,487 - INFO - Student ST024: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,496 - INFO - Student ST025: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,497 - INFO - Student ST026: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,498 - INFO - Student ST027: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,498 - INFO - Student ST028: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,498 - INFO - Student ST029: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,503 - INFO - Student ST030: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,506 - INFO - Student ST031: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,508 - INFO - Student ST032: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,508 - INFO - Student ST033: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,508 - INFO - Student ST034: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,512 - INFO - Student ST035: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,513 - INFO - Student ST036: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,514 - INFO - Student ST037: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,515 - INFO - Student ST038: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,515 - INFO - Student ST039: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,515 - INFO - Student ST040: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,520 - INFO - Student ST041: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,520 - INFO - Student ST042: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,520 - INFO - Student ST043: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,520 - INFO - Student ST044: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,520 - INFO - Student ST045: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,520 - INFO - Student ST046: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,529 - INFO - Student ST047: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,529 - INFO - Student ST048: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,529 - INFO - Student ST049: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,529 - INFO - Student ST050: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,535 - INFO - Student ST051: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,537 - INFO - Student ST052: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,539 - INFO - Student ST053: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,541 - INFO - Student ST054: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,541 - INFO - Student ST055: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,541 - INFO - Student ST056: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,541 - INFO - Student ST057: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,546 - INFO - Student ST058: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,546 - INFO - Student ST059: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,549 - INFO - Student ST060: 6 courses requested - ['English 9', 'Math 1', 'Biology', 'World History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,549 - INFO - Student ST061: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,549 - INFO - Student ST062: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,553 - INFO - Student ST063: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,553 - INFO - Student ST064: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,553 - INFO - Student ST065: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,553 - INFO - Student ST066: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,553 - INFO - Student ST067: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,553 - INFO - Student ST068: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,561 - INFO - Student ST069: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,561 - INFO - Student ST070: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,561 - INFO - Student ST071: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,565 - INFO - Student ST072: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,567 - INFO - Student ST073: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,567 - INFO - Student ST074: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,569 - INFO - Student ST075: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,569 - INFO - Student ST076: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,569 - INFO - Student ST077: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,569 - INFO - Student ST078: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,569 - INFO - Student ST079: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,577 - INFO - Student ST080: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,577 - INFO - Student ST081: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,577 - INFO - Student ST082: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,581 - INFO - Student ST083: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,583 - INFO - Student ST084: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,585 - INFO - Student ST085: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,585 - INFO - Student ST086: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,585 - INFO - Student ST087: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,585 - INFO - Student ST088: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,585 - INFO - Student ST089: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,585 - INFO - Student ST090: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,594 - INFO - Student ST091: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,594 - INFO - Student ST092: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,594 - INFO - Student ST093: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,599 - INFO - Student ST094: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,599 - INFO - Student ST095: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,602 - INFO - Student ST096: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,604 - INFO - Student ST097: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,606 - INFO - Student ST098: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,607 - INFO - Student ST099: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,609 - INFO - Student ST100: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,610 - INFO - Student ST101: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,611 - INFO - Student ST102: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,612 - INFO - Student ST103: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,615 - INFO - Student ST104: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,615 - INFO - Student ST105: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,615 - INFO - Student ST106: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,619 - INFO - Student ST107: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,619 - INFO - Student ST108: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,619 - INFO - Student ST109: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,619 - INFO - Student ST110: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,619 - INFO - Student ST111: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,627 - INFO - Student ST112: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,627 - INFO - Student ST113: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,630 - INFO - Student ST114: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,631 - INFO - Student ST115: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Medical Career']
+2025-02-11 21:09:19,632 - INFO - Student ST116: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,632 - INFO - Student ST117: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,635 - INFO - Student ST118: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Heroes Teach']
+2025-02-11 21:09:19,635 - INFO - Student ST119: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,635 - INFO - Student ST120: 6 courses requested - ['English 10', 'Math 2', 'Chemistry', 'US History', 'PE', 'Study Hall']
+2025-02-11 21:09:19,635 - INFO - Student ST121: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,635 - INFO - Student ST122: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,643 - INFO - Student ST123: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,643 - INFO - Student ST124: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,645 - INFO - Student ST125: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,646 - INFO - Student ST126: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,648 - INFO - Student ST127: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,648 - INFO - Student ST128: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,650 - INFO - Student ST129: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,651 - INFO - Student ST130: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,651 - INFO - Student ST131: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,651 - INFO - Student ST132: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,651 - INFO - Student ST133: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,651 - INFO - Student ST134: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,651 - INFO - Student ST135: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,651 - INFO - Student ST136: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,651 - INFO - Student ST137: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,651 - INFO - Student ST138: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,659 - INFO - Student ST139: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,661 - INFO - Student ST140: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,661 - INFO - Student ST141: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,663 - INFO - Student ST142: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,663 - INFO - Student ST143: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,663 - INFO - Student ST144: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,667 - INFO - Student ST145: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,667 - INFO - Student ST146: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,667 - INFO - Student ST147: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,667 - INFO - Student ST148: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,667 - INFO - Student ST149: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,675 - INFO - Student ST150: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,675 - INFO - Student ST151: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,675 - INFO - Student ST152: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,675 - INFO - Student ST153: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,681 - INFO - Student ST154: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,681 - INFO - Student ST155: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,681 - INFO - Student ST156: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,683 - INFO - Student ST157: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,683 - INFO - Student ST158: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,683 - INFO - Student ST159: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,683 - INFO - Student ST160: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,683 - INFO - Student ST161: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,691 - INFO - Student ST162: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,691 - INFO - Student ST163: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,691 - INFO - Student ST164: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,691 - INFO - Student ST165: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,695 - INFO - Student ST166: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,697 - INFO - Student ST167: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,698 - INFO - Student ST168: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,700 - INFO - Student ST169: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,700 - INFO - Student ST170: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,700 - INFO - Student ST171: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,700 - INFO - Student ST172: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,706 - INFO - Student ST173: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,706 - INFO - Student ST174: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,708 - INFO - Student ST175: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,708 - INFO - Student ST176: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,708 - INFO - Student ST177: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,708 - INFO - Student ST178: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,714 - INFO - Student ST179: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,715 - INFO - Student ST180: 6 courses requested - ['English 11', 'Math 3', 'Physics', 'Government', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,718 - INFO - Student ST181: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,718 - INFO - Student ST182: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,718 - INFO - Student ST183: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,718 - INFO - Student ST184: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,724 - INFO - Student ST185: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,724 - INFO - Student ST186: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,724 - INFO - Student ST187: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,724 - INFO - Student ST188: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,724 - INFO - Student ST189: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,724 - INFO - Student ST190: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,732 - INFO - Student ST191: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,733 - INFO - Student ST192: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,733 - INFO - Student ST193: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,733 - INFO - Student ST194: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,733 - INFO - Student ST195: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,733 - INFO - Student ST196: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,733 - INFO - Student ST197: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,741 - INFO - Student ST198: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,741 - INFO - Student ST199: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,741 - INFO - Student ST200: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,741 - INFO - Student ST201: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,741 - INFO - Student ST202: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,741 - INFO - Student ST203: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,741 - INFO - Student ST204: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,749 - INFO - Student ST205: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,749 - INFO - Student ST206: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,752 - INFO - Student ST207: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,752 - INFO - Student ST208: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,752 - INFO - Student ST209: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,752 - INFO - Student ST210: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,757 - INFO - Student ST211: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,757 - INFO - Student ST212: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,760 - INFO - Student ST213: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,760 - INFO - Student ST214: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,760 - INFO - Student ST215: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,760 - INFO - Student ST216: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,760 - INFO - Student ST217: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,766 - INFO - Student ST218: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,766 - INFO - Student ST219: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,766 - INFO - Student ST220: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,766 - INFO - Student ST221: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,766 - INFO - Student ST222: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,774 - INFO - Student ST223: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,774 - INFO - Student ST224: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,774 - INFO - Student ST225: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,774 - INFO - Student ST226: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,774 - INFO - Student ST227: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,780 - INFO - Student ST228: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,781 - INFO - Student ST229: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,782 - INFO - Student ST230: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,782 - INFO - Student ST231: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,782 - INFO - Student ST232: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Medical Career']
+2025-02-11 21:09:19,782 - INFO - Student ST233: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,782 - INFO - Student ST234: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,782 - INFO - Student ST235: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,791 - INFO - Student ST236: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,791 - INFO - Student ST237: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,791 - INFO - Student ST238: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Heroes Teach']
+2025-02-11 21:09:19,791 - INFO - Student ST239: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,796 - INFO - Student ST240: 6 courses requested - ['English 12', 'Math 4', 'AP Biology', 'Economics', 'Sports Med', 'Study Hall']
+2025-02-11 21:09:19,796 - INFO - 
+Analyzing teacher assignments:
+2025-02-11 21:09:19,799 - INFO - Teacher T001: 1 courses - ['Medical Career']
+2025-02-11 21:09:19,800 - INFO - Teacher T002: 1 courses - ['Heroes Teach']
+2025-02-11 21:09:19,801 - INFO - Teacher T003: 4 courses - ['English 11', 'English 9', 'English 12', 'English 10']
+2025-02-11 21:09:19,801 - INFO - Teacher T004: 4 courses - ['English 11', 'English 9', 'English 12', 'English 10']
+2025-02-11 21:09:19,801 - INFO - Teacher T005: 4 courses - ['English 11', 'English 9', 'English 12', 'English 10']
+2025-02-11 21:09:19,801 - INFO - Teacher T006: 4 courses - ['Math 3', 'Math 4', 'Math 1', 'Math 2']
+2025-02-11 21:09:19,801 - INFO - Teacher T007: 4 courses - ['Math 3', 'Math 4', 'Math 1', 'Math 2']
+2025-02-11 21:09:19,806 - INFO - Teacher T008: 4 courses - ['Math 3', 'Math 4', 'Math 1', 'Math 2']
+2025-02-11 21:09:19,807 - INFO - Teacher T009: 3 courses - ['AP Biology', 'Chemistry', 'Physics']
+2025-02-11 21:09:19,807 - INFO - Teacher T010: 3 courses - ['AP Biology', 'Chemistry', 'Physics']
+2025-02-11 21:09:19,807 - INFO - Teacher T011: 4 courses - ['US History', 'Government', 'Economics', 'World History']
+2025-02-11 21:09:19,811 - INFO - Teacher T012: 4 courses - ['US History', 'Government', 'Economics', 'World History']
+2025-02-11 21:09:19,811 - INFO - Teacher T013: 4 courses - ['US History', 'Government', 'Economics', 'World History']
+2025-02-11 21:09:19,811 - INFO - Teacher T014: 2 courses - ['PE', 'Sports Med']
+2025-02-11 21:09:19,811 - INFO - Teacher T015: 2 courses - ['PE', 'Sports Med']
+2025-02-11 21:09:19,815 - INFO - Teacher T016: 2 courses - ['PE', 'Sports Med']
+2025-02-11 21:09:19,815 - INFO - Teacher T017: 1 courses - ['Study Hall']
+2025-02-11 21:09:19,815 - INFO - Teacher T018: 1 courses - ['Study Hall']
+2025-02-11 21:09:19,815 - INFO - Teacher T019: 1 courses - ['Sports Med']
+2025-02-11 21:09:19,815 - INFO - Teacher T020: 2 courses - ['Physics', 'Biology']
+2025-02-11 21:09:19,815 - INFO - 
+=== Analyzing Problem Feasibility ===
+2025-02-11 21:09:19,815 - INFO - 
+=== Period Requirements Analysis ===
+2025-02-11 21:09:19,823 - INFO - Period R1 required by: Medical Career (S001), Medical Career (S002), Medical Career (S003)
+2025-02-11 21:09:19,823 - INFO - Period R2 required by: Heroes Teach (S004), Heroes Teach (S005), Heroes Teach (S006)
+2025-02-11 21:09:19,823 - INFO - Period G1 required by: Medical Career (S001), Medical Career (S002), Medical Career (S003)
+2025-02-11 21:09:19,823 - INFO - Period G2 required by: Heroes Teach (S004), Heroes Teach (S005), Heroes Teach (S006)
+2025-02-11 21:09:19,823 - INFO - 
+Teacher Analysis:
+2025-02-11 21:09:19,823 - INFO - Medical Career teachers: ['T001']
+2025-02-11 21:09:19,823 - INFO - Heroes Teach teachers: ['T002']
+2025-02-11 21:09:19,823 - INFO - 
+=== Analyzing Potential Constraint Conflicts ===
+2025-02-11 21:09:21,186 - WARNING - Teacher T009 assigned multiple science courses: ['AP Biology' 'Chemistry' 'Physics']
+2025-02-11 21:09:21,186 - WARNING - Check if prep period constraints can be satisfied
+2025-02-11 21:09:21,186 - WARNING - Teacher T010 assigned multiple science courses: ['AP Biology' 'Chemistry' 'Physics']
+2025-02-11 21:09:21,186 - WARNING - Check if prep period constraints can be satisfied
+2025-02-11 21:09:21,191 - WARNING - Teacher T020 assigned multiple science courses: ['Physics' 'Biology']
+2025-02-11 21:09:21,193 - WARNING - Check if prep period constraints can be satisfied
+2025-02-11 21:09:21,332 - INFO - 
+Course: Medical Career
+2025-02-11 21:09:21,334 - INFO - Total student requests: 37
+2025-02-11 21:09:21,336 - INFO - Total capacity: 45
+2025-02-11 21:09:21,485 - INFO - 
+Course: Heroes Teach
+2025-02-11 21:09:21,485 - INFO - Total student requests: 41
+2025-02-11 21:09:21,485 - INFO - Total capacity: 45
+2025-02-11 21:09:21,579 - INFO - 
+Course: Study Hall
+2025-02-11 21:09:21,579 - INFO - Total student requests: 162
+2025-02-11 21:09:21,583 - INFO - Total capacity: 200
+2025-02-11 21:09:21,680 - INFO - 
+Course: PE
+2025-02-11 21:09:21,680 - INFO - Total student requests: 120
+2025-02-11 21:09:21,680 - INFO - Total capacity: 175
+2025-02-11 21:09:21,767 - INFO - 
+Course: Sports Med
+2025-02-11 21:09:21,767 - INFO - Total student requests: 120
+2025-02-11 21:09:21,767 - INFO - Total capacity: 135
+2025-02-11 21:09:21,850 - INFO - 
+Course: US History
+2025-02-11 21:09:21,850 - INFO - Total student requests: 60
+2025-02-11 21:09:21,850 - INFO - Total capacity: 75
+2025-02-11 21:09:21,925 - INFO - 
+Course: English 11
+2025-02-11 21:09:21,925 - INFO - Total student requests: 60
+2025-02-11 21:09:21,925 - INFO - Total capacity: 75
+2025-02-11 21:09:22,004 - INFO - 
+Course: Government
+2025-02-11 21:09:22,005 - INFO - Total student requests: 60
+2025-02-11 21:09:22,005 - INFO - Total capacity: 75
+2025-02-11 21:09:22,073 - INFO - 
+Course: AP Biology
+2025-02-11 21:09:22,073 - INFO - Total student requests: 60
+2025-02-11 21:09:22,073 - INFO - Total capacity: 90
+2025-02-11 21:09:22,133 - INFO - 
+Course: Math 3
+2025-02-11 21:09:22,133 - INFO - Total student requests: 60
+2025-02-11 21:09:22,133 - INFO - Total capacity: 75
+2025-02-11 21:09:22,198 - INFO - 
+Course: Math 4
+2025-02-11 21:09:22,198 - INFO - Total student requests: 60
+2025-02-11 21:09:22,198 - INFO - Total capacity: 75
+2025-02-11 21:09:22,258 - INFO - 
+Course: English 9
+2025-02-11 21:09:22,258 - INFO - Total student requests: 60
+2025-02-11 21:09:22,258 - INFO - Total capacity: 75
+2025-02-11 21:09:22,310 - INFO - 
+Course: Chemistry
+2025-02-11 21:09:22,313 - INFO - Total student requests: 60
+2025-02-11 21:09:22,314 - INFO - Total capacity: 90
+2025-02-11 21:09:22,418 - INFO - 
+Course: Economics
+2025-02-11 21:09:22,418 - INFO - Total student requests: 60
+2025-02-11 21:09:22,418 - INFO - Total capacity: 75
+2025-02-11 21:09:22,511 - INFO - 
+Course: Physics
+2025-02-11 21:09:22,511 - INFO - Total student requests: 60
+2025-02-11 21:09:22,519 - INFO - Total capacity: 90
+2025-02-11 21:09:22,584 - INFO - 
+Course: English 12
+2025-02-11 21:09:22,592 - INFO - Total student requests: 60
+2025-02-11 21:09:22,592 - INFO - Total capacity: 75
+2025-02-11 21:09:22,659 - INFO - 
+Course: Biology
+2025-02-11 21:09:22,659 - INFO - Total student requests: 60
+2025-02-11 21:09:22,659 - INFO - Total capacity: 90
+2025-02-11 21:09:22,724 - INFO - 
+Course: English 10
+2025-02-11 21:09:22,724 - INFO - Total student requests: 60
+2025-02-11 21:09:22,724 - INFO - Total capacity: 75
+2025-02-11 21:09:22,793 - INFO - 
+Course: Math 1
+2025-02-11 21:09:22,793 - INFO - Total student requests: 60
+2025-02-11 21:09:22,793 - INFO - Total capacity: 75
+2025-02-11 21:09:22,866 - INFO - 
+Course: World History
+2025-02-11 21:09:22,868 - INFO - Total student requests: 60
+2025-02-11 21:09:22,868 - INFO - Total capacity: 75
+2025-02-11 21:09:22,927 - INFO - 
+Course: Math 2
+2025-02-11 21:09:22,927 - INFO - Total student requests: 60
+2025-02-11 21:09:22,927 - INFO - Total capacity: 75
+2025-02-11 21:09:22,933 - INFO - 
+=== Starting Preprocessing ===
+Valid Sections:
+[('S001', 'R1'), ('S001', 'G1'), ('S002', 'R1'), ('S002', 'G1'), ('S003', 'R1'), ('S003', 'G1'), ('S004', 'R2'), ('S004', 'G2'), ('S005', 'R2'), ('S005', 'G2'), ('S006', 'R2'), ('S006', 'G2'), ('S007', 'R1'), ('S007', 'R2'), ('S007', 'R3'), ('S007', 'R4'), ('S007', 'G1'), ('S007', 'G2'), ('S007', 'G3'), ('S007', 'G4'), ('S008', 'R1'), ('S008', 'R2'), ('S008', 'R3'), ('S008', 'R4'), ('S008', 'G1'), ('S008', 'G2'), ('S008', 'G3'), ('S008', 'G4'), ('S009', 'R1'), ('S009', 'R2'), ('S009', 'R3'), ('S009', 'R4'), ('S009', 'G1'), ('S009', 'G2'), ('S009', 'G3'), ('S009', 'G4'), ('S010', 'R1'), ('S010', 'R2'), ('S010', 'R3'), ('S010', 'R4'), ('S010', 'G1'), ('S010', 'G2'), ('S010', 'G3'), ('S010', 'G4'), ('S011', 'R1'), ('S011', 'R2'), ('S011', 'R3'), ('S011', 'R4'), ('S011', 'G1'), ('S011', 'G2'), ('S011', 'G3'), ('S011', 'G4'), ('S012', 'R1'), ('S012', 'R2'), ('S012', 'R3'), ('S012', 'R4'), ('S012', 'G1'), ('S012', 'G2'), ('S012', 'G3'), ('S012', 'G4'), ('S013', 'R1'), ('S013', 'R2'), ('S013', 'R3'), ('S013', 'R4'), ('S013', 'G1'), ('S013', 'G2'), ('S013', 'G3'), ('S013', 'G4'), ('S014', 'R1'), ('S014', 'R2'), ('S014', 'R3'), ('S014', 'R4'), ('S014', 'G1'), ('S014', 'G2'), ('S014', 'G3'), ('S014', 'G4'), ('S015', 'R1'), ('S015', 'R2'), ('S015', 'R3'), ('S015', 'R4'), ('S015', 'G1'), ('S015', 'G2'), ('S015', 'G3'), ('S015', 'G4'), ('S016', 'R1'), ('S016', 'R2'), ('S016', 'R3'), ('S016', 'R4'), ('S016', 'G1'), ('S016', 'G2'), ('S016', 'G3'), ('S016', 'G4'), ('S017', 'R1'), ('S017', 'R2'), ('S017', 'R3'), ('S017', 'R4'), ('S017', 'G1'), ('S017', 'G2'), ('S017', 'G3'), ('S017', 'G4'), ('S018', 'R1'), ('S018', 'R2'), ('S018', 'R3'), ('S018', 'R4'), ('S018', 'G1'), ('S018', 'G2'), ('S018', 'G3'), ('S018', 'G4'), ('S019', 'R1'), ('S019', 'R2'), ('S019', 'R3'), ('S019', 'R4'), ('S019', 'G1'), ('S019', 'G2'), ('S019', 'G3'), ('S019', 'G4'), ('S020', 'R1'), ('S020', 'R2'), ('S020', 'R3'), ('S020', 'R4'), ('S020', 'G1'), ('S020', 'G2'), ('S020', 'G3'), ('S020', 'G4'), ('S021', 'R1'), ('S021', 'R2'), ('S021', 'R3'), ('S021', 'R4'), ('S021', 'G1'), ('S021', 'G2'), ('S021', 'G3'), ('S021', 'G4'), ('S022', 'R1'), ('S022', 'R2'), ('S022', 'R3'), ('S022', 'R4'), ('S022', 'G1'), ('S022', 'G2'), ('S022', 'G3'), ('S022', 'G4'), ('S023', 'R1'), ('S023', 'R2'), ('S023', 'R3'), ('S023', 'R4'), ('S023', 'G1'), ('S023', 'G2'), ('S023', 'G3'), ('S023', 'G4'), ('S024', 'R1'), ('S024', 'R2'), ('S024', 'R3'), ('S024', 'R4'), ('S024', 'G1'), ('S024', 'G2'), ('S024', 'G3'), ('S024', 'G4'), ('S025', 'R1'), ('S025', 'R2'), ('S025', 'R3'), ('S025', 'R4'), ('S025', 'G1'), ('S025', 'G2'), ('S025', 'G3'), ('S025', 'G4'), ('S026', 'R1'), ('S026', 'R2'), ('S026', 'R3'), ('S026', 'R4'), ('S026', 'G1'), ('S026', 'G2'), ('S026', 'G3'), ('S026', 'G4'), ('S027', 'R1'), ('S027', 'R2'), ('S027', 'R3'), ('S027', 'R4'), ('S027', 'G1'), ('S027', 'G2'), ('S027', 'G3'), ('S027', 'G4'), ('S028', 'R1'), ('S028', 'R2'), ('S028', 'R3'), ('S028', 'R4'), ('S028', 'G1'), ('S028', 'G2'), ('S028', 'G3'), ('S028', 'G4'), ('S029', 'R1'), ('S029', 'R2'), ('S029', 'R3'), ('S029', 'R4'), ('S029', 'G1'), ('S029', 'G2'), ('S029', 'G3'), ('S029', 'G4'), ('S030', 'R1'), ('S030', 'R2'), ('S030', 'R3'), ('S030', 'R4'), ('S030', 'G1'), ('S030', 'G2'), ('S030', 'G3'), ('S030', 'G4'), ('S031', 'R1'), ('S031', 'R2'), ('S031', 'R3'), ('S031', 'R4'), ('S031', 'G1'), ('S031', 'G2'), ('S031', 'G3'), ('S031', 'G4'), ('S032', 'R1'), ('S032', 'R2'), ('S032', 'R3'), ('S032', 'R4'), ('S032', 'G1'), ('S032', 'G2'), ('S032', 'G3'), ('S032', 'G4'), ('S033', 'R1'), ('S033', 'R2'), ('S033', 'R3'), ('S033', 'R4'), ('S033', 'G1'), ('S033', 'G2'), ('S033', 'G3'), ('S033', 'G4'), ('S034', 'R1'), ('S034', 'R2'), ('S034', 'R3'), ('S034', 'R4'), ('S034', 'G1'), ('S034', 'G2'), ('S034', 'G3'), ('S034', 'G4'), ('S035', 'R1'), ('S035', 'R2'), ('S035', 'R3'), ('S035', 'R4'), ('S035', 'G1'), ('S035', 'G2'), ('S035', 'G3'), ('S035', 'G4'), ('S036', 'R1'), ('S036', 'R2'), ('S036', 'R3'), ('S036', 'R4'), ('S036', 'G1'), ('S036', 'G2'), ('S036', 'G3'), ('S036', 'G4'), ('S037', 'R1'), ('S037', 'R2'), ('S037', 'R3'), ('S037', 'R4'), ('S037', 'G1'), ('S037', 'G2'), ('S037', 'G3'), ('S037', 'G4'), ('S038', 'R1'), ('S038', 'R2'), ('S038', 'R3'), ('S038', 'R4'), ('S038', 'G1'), ('S038', 'G2'), ('S038', 'G3'), ('S038', 'G4'), ('S039', 'R2'), ('S039', 'R4'), ('S039', 'G1'), ('S039', 'G2'), ('S039', 'G3'), ('S039', 'G4'), ('S040', 'R1'), ('S040', 'R2'), ('S040', 'R3'), ('S040', 'R4'), ('S040', 'G1'), ('S040', 'G2'), ('S040', 'G3'), ('S040', 'G4'), ('S041', 'R1'), ('S041', 'R2'), ('S041', 'R3'), ('S041', 'R4'), ('S041', 'G1'), ('S041', 'G2'), ('S041', 'G3'), ('S041', 'G4'), ('S042', 'R1'), ('S042', 'R2'), ('S042', 'R3'), ('S042', 'R4'), ('S042', 'G1'), ('S042', 'G2'), ('S042', 'G3'), ('S042', 'G4'), ('S043', 'R1'), ('S043', 'R2'), ('S043', 'R3'), ('S043', 'R4'), ('S043', 'G1'), ('S043', 'G2'), ('S043', 'G3'), ('S043', 'G4'), ('S044', 'R1'), ('S044', 'R2'), ('S044', 'R3'), ('S044', 'R4'), ('S044', 'G1'), ('S044', 'G2'), ('S044', 'G3'), ('S044', 'G4'), ('S045', 'R1'), ('S045', 'R2'), ('S045', 'R3'), ('S045', 'R4'), ('S045', 'G1'), ('S045', 'G2'), ('S045', 'G3'), ('S045', 'G4'), ('S046', 'R1'), ('S046', 'R2'), ('S046', 'R3'), ('S046', 'R4'), ('S046', 'G1'), ('S046', 'G2'), ('S046', 'G3'), ('S046', 'G4'), ('S047', 'R1'), ('S047', 'R2'), ('S047', 'R3'), ('S047', 'R4'), ('S047', 'G1'), ('S047', 'G2'), ('S047', 'G3'), ('S047', 'G4'), ('S048', 'R1'), ('S048', 'R2'), ('S048', 'R3'), ('S048', 'R4'), ('S048', 'G1'), ('S048', 'G2'), ('S048', 'G3'), ('S048', 'G4'), ('S049', 'R1'), ('S049', 'R2'), ('S049', 'R3'), ('S049', 'R4'), ('S049', 'G1'), ('S049', 'G2'), ('S049', 'G3'), ('S049', 'G4'), ('S050', 'R2'), ('S050', 'R4'), ('S050', 'G1'), ('S050', 'G2'), ('S050', 'G3'), ('S050', 'G4'), ('S051', 'R1'), ('S051', 'R2'), ('S051', 'R3'), ('S051', 'R4'), ('S051', 'G1'), ('S051', 'G2'), ('S051', 'G3'), ('S051', 'G4'), ('S052', 'R2'), ('S052', 'R4'), ('S052', 'G1'), ('S052', 'G2'), ('S052', 'G3'), ('S052', 'G4'), ('S053', 'R1'), ('S053', 'R2'), ('S053', 'R3'), ('S053', 'R4'), ('S053', 'G1'), ('S053', 'G2'), ('S053', 'G3'), ('S053', 'G4'), ('S054', 'R1'), ('S054', 'R2'), ('S054', 'R3'), ('S054', 'R4'), ('S054', 'G1'), ('S054', 'G2'), ('S054', 'G3'), ('S054', 'G4'), ('S055', 'R1'), ('S055', 'R2'), ('S055', 'R3'), ('S055', 'R4'), ('S055', 'G1'), ('S055', 'G2'), ('S055', 'G3'), ('S055', 'G4'), ('S056', 'R1'), ('S056', 'R2'), ('S056', 'R3'), ('S056', 'R4'), ('S056', 'G1'), ('S056', 'G2'), ('S056', 'G3'), ('S056', 'G4'), ('S057', 'R2'), ('S057', 'R4'), ('S057', 'G1'), ('S057', 'G2'), ('S057', 'G3'), ('S057', 'G4'), ('S058', 'R1'), ('S058', 'R2'), ('S058', 'R3'), ('S058', 'R4'), ('S058', 'G1'), ('S058', 'G2'), ('S058', 'G3'), ('S058', 'G4'), ('S059', 'R1'), ('S059', 'R2'), ('S059', 'R3'), ('S059', 'R4'), ('S059', 'G1'), ('S059', 'G2'), ('S059', 'G3'), ('S059', 'G4'), ('S060', 'R1'), ('S060', 'R2'), ('S060', 'R3'), ('S060', 'R4'), ('S060', 'G1'), ('S060', 'G2'), ('S060', 'G3'), ('S060', 'G4'), ('S061', 'R1'), ('S061', 'R2'), ('S061', 'R3'), ('S061', 'R4'), ('S061', 'G1'), ('S061', 'G2'), ('S061', 'G3'), ('S061', 'G4'), ('S062', 'R1'), ('S062', 'R2'), ('S062', 'R3'), ('S062', 'R4'), ('S062', 'G1'), ('S062', 'G2'), ('S062', 'G3'), ('S062', 'G4'), ('S063', 'R1'), ('S063', 'R2'), ('S063', 'R3'), ('S063', 'R4'), ('S063', 'G1'), ('S063', 'G2'), ('S063', 'G3'), ('S063', 'G4'), ('S064', 'R1'), ('S064', 'R2'), ('S064', 'R3'), ('S064', 'R4'), ('S064', 'G1'), ('S064', 'G2'), ('S064', 'G3'), ('S064', 'G4'), ('S065', 'R1'), ('S065', 'R2'), ('S065', 'R3'), ('S065', 'R4'), ('S065', 'G1'), ('S065', 'G2'), ('S065', 'G3'), ('S065', 'G4'), ('S066', 'R1'), ('S066', 'R2'), ('S066', 'R3'), ('S066', 'R4'), ('S066', 'G1'), ('S066', 'G2'), ('S066', 'G3'), ('S066', 'G4'), ('S067', 'R1'), ('S067', 'R2'), ('S067', 'R3'), ('S067', 'R4'), ('S067', 'G1'), ('S067', 'G2'), ('S067', 'G3'), ('S067', 'G4'), ('S068', 'R1'), ('S068', 'R2'), ('S068', 'R3'), ('S068', 'R4'), ('S068', 'G1'), ('S068', 'G2'), ('S068', 'G3'), ('S068', 'G4'), ('S069', 'R1'), ('S069', 'R2'), ('S069', 'R3'), ('S069', 'R4'), ('S069', 'G1'), ('S069', 'G2'), ('S069', 'G3'), ('S069', 'G4'), ('S070', 'R1'), ('S070', 'R2'), ('S070', 'R3'), ('S070', 'R4'), ('S070', 'G1'), ('S070', 'G2'), ('S070', 'G3'), ('S070', 'G4'), ('S071', 'R1'), ('S071', 'R2'), ('S071', 'R3'), ('S071', 'R4'), ('S071', 'G1'), ('S071', 'G2'), ('S071', 'G3'), ('S071', 'G4'), ('S072', 'R1'), ('S072', 'R2'), ('S072', 'R3'), ('S072', 'R4'), ('S072', 'G1'), ('S072', 'G2'), ('S072', 'G3'), ('S072', 'G4'), ('S073', 'R1'), ('S073', 'R2'), ('S073', 'R3'), ('S073', 'R4'), ('S073', 'G1'), ('S073', 'G2'), ('S073', 'G3'), ('S073', 'G4'), ('S074', 'R1'), ('S074', 'R2'), ('S074', 'R3'), ('S074', 'R4'), ('S074', 'G1'), ('S074', 'G2'), ('S074', 'G3'), ('S074', 'G4'), ('S075', 'R1'), ('S075', 'R2'), ('S075', 'R3'), ('S075', 'R4'), ('S075', 'G1'), ('S075', 'G2'), ('S075', 'G3'), ('S075', 'G4'), ('S076', 'R1'), ('S076', 'R2'), ('S076', 'R3'), ('S076', 'R4'), ('S076', 'G1'), ('S076', 'G2'), ('S076', 'G3'), ('S076', 'G4')]
+
+Course to Section Mapping:
+Medical Career: ['S001', 'S002', 'S003']
+Heroes Teach: ['S004', 'S005', 'S006']
+Study Hall: ['S007', 'S008', 'S009', 'S010', 'S011', 'S012', 'S013', 'S014']
+PE: ['S015', 'S016', 'S017', 'S018', 'S019']
+Sports Med: ['S020', 'S021', 'S022', 'S023', 'S024', 'S025', 'S026', 'S027', 'S028']
+US History: ['S029', 'S030', 'S031']
+English 11: ['S032', 'S033', 'S034']
+Government: ['S035', 'S036', 'S037']
+AP Biology: ['S038', 'S039', 'S040']
+Math 3: ['S041', 'S042', 'S043']
+Math 4: ['S044', 'S045', 'S046']
+English 9: ['S047', 'S048', 'S049']
+Chemistry: ['S050', 'S051', 'S052']
+Economics: ['S053', 'S054', 'S055']
+Physics: ['S056', 'S057', 'S058']
+English 12: ['S059', 'S060', 'S061']
+Biology: ['S062', 'S063', 'S064']
+English 10: ['S065', 'S066', 'S067']
+Math 1: ['S068', 'S069', 'S070']
+World History: ['S071', 'S072', 'S073']
+Math 2: ['S074', 'S075', 'S076']
+
+Requested Sections after mapping:
+{'S027', 'S056', 'S020', 'S063', 'S074', 'S005', 'S050', 'S022', 'S042', 'S064', 'S023', 'S015', 'S034', 'S014', 'S010', 'S048', 'S018', 'S044', 'S071', 'S004', 'S031', 'S024', 'S025', 'S040', 'S017', 'S019', 'S055', 'S072', 'S073', 'S016', 'S008', 'S011', 'S051', 'S035', 'S059', 'S060', 'S065', 'S029', 'S001', 'S003', 'S068', 'S047', 'S036', 'S052', 'S028', 'S032', 'S043', 'S046', 'S069', 'S049', 'S058', 'S076', 'S061', 'S070', 'S041', 'S021', 'S030', 'S066', 'S053', 'S026', 'S009', 'S012', 'S075', 'S054', 'S033', 'S002', 'S007', 'S013', 'S045', 'S037', 'S062', 'S006', 'S039', 'S067', 'S038', 'S057'}
+2025-02-11 21:09:27,418 - INFO - 
+Debug Information:
+2025-02-11 21:09:27,418 - INFO - Total students: 240
+2025-02-11 21:09:27,418 - INFO - Total courses: 21
+2025-02-11 21:09:27,418 - INFO - Course Medical Career: 3 sections
+2025-02-11 21:09:27,418 - INFO - Course Heroes Teach: 3 sections
+2025-02-11 21:09:27,418 - INFO - Course Study Hall: 8 sections
+2025-02-11 21:09:27,418 - INFO - Course PE: 5 sections
+2025-02-11 21:09:27,418 - INFO - Course Sports Med: 9 sections
+2025-02-11 21:09:27,424 - INFO - Course US History: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course English 11: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course Government: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course AP Biology: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course Math 3: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course Math 4: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course English 9: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course Chemistry: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course Economics: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course Physics: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course English 12: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course Biology: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course English 10: 3 sections
+2025-02-11 21:09:27,424 - INFO - Course Math 1: 3 sections
+2025-02-11 21:09:27,432 - INFO - Course World History: 3 sections
+2025-02-11 21:09:27,432 - INFO - Course Math 2: 3 sections
+2025-02-11 21:09:27,434 - INFO - Valid assignments: 6090
+2025-02-11 21:09:27,435 - INFO - Valid sections: 564
+2025-02-11 21:09:27,551 - INFO - Starting problem solution...
+2025-02-11 21:09:27,551 - INFO - Setting up solver with 60 second time limit...
+2025-02-11 21:09:27,551 - INFO - 
+Problem Statistics:
+2025-02-11 21:09:27,551 - INFO - Number of variables: 53574
+2025-02-11 21:09:27,551 - INFO - Estimated number of constraints: 13404
+2025-02-11 21:09:27,556 - INFO - Memory usage: 119.35 MB
+2025-02-11 21:09:27,556 - INFO - Checking basic feasibility conditions...
+Solving...
+2025-02-11 21:09:30,893 - INFO - 
+Solution completed in 3.34 seconds
+2025-02-11 21:09:30,901 - INFO - Status: INFEASIBLE
+2025-02-11 21:09:30,902 - ERROR - Problem is infeasible - no solution exists with current constraints
+2025-02-11 21:09:30,902 - INFO - Try:
+2025-02-11 21:09:30,902 - INFO - 1. Checking section capacities
+2025-02-11 21:09:30,902 - INFO - 2. Verifying teacher availability
+2025-02-11 21:09:30,902 - INFO - 3. Reviewing special course period restrictions
+2025-02-11 21:09:30,902 - INFO - 4. Ensuring course prerequisites are correct

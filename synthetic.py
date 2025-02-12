@@ -5,7 +5,7 @@ import math
 
 def generate_synthetic_data(output_path):
     # Modify constants for better feasibility
-    STUDENTS_PER_GRADE = 20  # Keep same number of students
+    STUDENTS_PER_GRADE = 60  # Keep same number of students
     SECTION_SIZES = {
         'default': 25,  # Increase from 20 to allow flexibility
         'lab': 30,      # Increase from 24
@@ -82,14 +82,15 @@ def generate_synthetic_data(output_path):
     num_students = len(students)
     num_teachers = math.ceil(num_students / 20)  # 20:1 ratio
     
-    # Update departments list to match course needs with exact course names
+    # Update departments list to include Study Hall
     departments = {
         'English': ['English 9', 'English 10', 'English 11', 'English 12'],
         'Math': ['Math 1', 'Math 2', 'Math 3', 'Math 4'],
         'Science': ['Biology', 'Chemistry', 'Physics', 'AP Biology'],
         'Social Studies': ['World History', 'US History', 'Government', 'Economics'],
         'PE': ['PE', 'Sports Med'],
-        'Special': ['Medical Career', 'Heroes Teach']
+        'Special': ['Medical Career', 'Heroes Teach'],
+        'General': ['Study Hall']  
     }
 
     # Helper functions
@@ -103,13 +104,15 @@ def generate_synthetic_data(output_path):
         return SECTION_SIZES['default']
 
     def get_department(course):
+        if course == 'Study Hall':
+            return 'General'
         for dept, courses in departments.items():
             if any(course.startswith(c) for c in courses):
                 return dept
         return 'General'
 
     # Calculate total sections needed per department first
-    dept_sections = {dept: 0 for dept in departments}
+    dept_sections = {dept: 0 for dept in departments}  # Now includes 'General'
     for course in unique_courses:
         total_requests = sum(1 for prefs in student_preferences 
                            if course in prefs['Preferred Sections'].split(';'))
@@ -121,10 +124,35 @@ def generate_synthetic_data(output_path):
                 dept_sections[dept] += num_sections
                 break
 
+    # Calculate required teachers per department
+    def calculate_required_teachers():
+        dept_course_counts = {dept: 0 for dept in departments}  # Now includes 'General'
+        for grade_patterns in COURSE_PATTERNS.values():
+            for pattern in grade_patterns:
+                for course in pattern:
+                    dept = get_department(course)
+                    dept_course_counts[dept] += STUDENTS_PER_GRADE / len(grade_patterns)
+
+        required_teachers = {}
+        for dept, count in dept_course_counts.items():
+            if dept == 'Science':
+                # Science teachers need more prep time due to labs
+                required_teachers[dept] = math.ceil(count / (SECTION_SIZES['lab'] * 4))
+            elif dept == 'General':
+                required_teachers[dept] = 2  # Minimum teachers for Study Hall
+            else:
+                section_size = SECTION_SIZES['special'] if dept == 'Special' else SECTION_SIZES['default']
+                required_teachers[dept] = math.ceil(count / (section_size * 4))
+            # Ensure minimum of 2 teachers per department
+            required_teachers[dept] = max(2, required_teachers[dept])
+        
+        return required_teachers
+
     # Modify teacher generation for special courses
     def generate_teachers():
         teachers = []
         teacher_id = 1
+        required_teachers = calculate_required_teachers()
 
         # First, create dedicated teachers for special courses
         medical_teacher_id = f"T{teacher_id:03d}"
@@ -134,25 +162,27 @@ def generate_synthetic_data(output_path):
             {
                 'Teacher ID': medical_teacher_id,
                 'Department': 'Special',
-                'Dedicated Course': 'Medical Career'
+                'Dedicated Course': 'Medical Career',
+                'Current Load': 0
             },
             {
                 'Teacher ID': heroes_teacher_id,
                 'Department': 'Special',
-                'Dedicated Course': 'Heroes Teach'
+                'Dedicated Course': 'Heroes Teach',
+                'Current Load': 0
             }
         ])
         teacher_id += 2
 
-        # Generate remaining teachers
-        for dept, num_sections in dept_sections.items():
-            if dept != 'Special':  # Skip special department
-                num_teachers = max(2, math.ceil(num_sections / 5))
-                for i in range(num_teachers):
+        # Generate remaining teachers based on calculated requirements
+        for dept, num_required in required_teachers.items():
+            if dept != 'Special':  # Special teachers already created
+                for _ in range(num_required):
                     teachers.append({
                         'Teacher ID': f"T{teacher_id:03d}",
                         'Department': dept,
-                        'Dedicated Course': None
+                        'Dedicated Course': None,
+                        'Current Load': 0
                     })
                     teacher_id += 1
 
@@ -170,16 +200,21 @@ def generate_synthetic_data(output_path):
     # Add this function definition before section creation
     def assign_teacher_to_section(course, dept):
         """Assign a teacher to a section based on department and availability"""
-        if course in special_course_teachers:
-            return special_course_teachers[course]
+        MAX_COURSES_PER_TEACHER = 4  # Maximum number of courses per teacher
         
-        # For non-special courses, find available teacher in department
-        available_teachers = sorted([
-            t for t in teachers 
-            if t['Department'] == dept 
-            and t.get('Dedicated Course') is None
-            and teacher_loads[t['Teacher ID']] < 5
-        ], key=lambda t: teacher_loads[t['Teacher ID']])
+        if course in special_course_teachers:
+            teacher_id = special_course_teachers[course]
+            teachers[next(i for i, t in enumerate(teachers) if t['Teacher ID'] == teacher_id)]['Current Load'] += 1
+            return teacher_id
+        
+        # Get all teachers in the department
+        dept_teachers = [t for t in teachers if t['Department'] == dept]
+        
+        # Sort by current load
+        available_teachers = sorted(
+            [t for t in dept_teachers if t['Current Load'] < MAX_COURSES_PER_TEACHER],
+            key=lambda t: t['Current Load']
+        )
         
         if not available_teachers:
             # Add a new teacher if needed
@@ -187,13 +222,16 @@ def generate_synthetic_data(output_path):
             new_teacher = {
                 'Teacher ID': new_teacher_id,
                 'Department': dept,
-                'Dedicated Course': None
+                'Dedicated Course': None,
+                'Current Load': 1  # Start with load of 1
             }
             teachers.append(new_teacher)
-            teacher_loads[new_teacher_id] = 0
             return new_teacher_id
         
-        return available_teachers[0]['Teacher ID']
+        # Update chosen teacher's load
+        chosen_teacher = available_teachers[0]
+        chosen_teacher['Current Load'] += 1
+        return chosen_teacher['Teacher ID']
 
     # Create sections with special course handling
     sections = []
@@ -232,14 +270,17 @@ def generate_synthetic_data(output_path):
     def create_course_sections(course, requests):
         """Create sections for a course with appropriate capacity"""
         section_size = get_section_size(course)
-        # Always create at least 2 sections, more if needed for requests
-        num_sections = max(MIN_SECTIONS_PER_COURSE, math.ceil(requests / (section_size * 0.8)))
         
-        # Special handling for Medical Career and Heroes Teach
-        if course in ['Medical Career', 'Heroes Teach']:
-            # Create exactly 2 sections for special courses
-            return 2, section_size
+        # Calculate minimum sections needed for capacity
+        min_sections_needed = math.ceil(requests / section_size)
         
+        # Always create at least 2 sections, and ensure enough capacity
+        num_sections = max(MIN_SECTIONS_PER_COURSE, min_sections_needed)
+        
+        # Add extra section if close to capacity
+        if (requests / (num_sections * section_size)) > 0.85:
+            num_sections += 1
+            
         return num_sections, section_size
 
     # Then handle regular courses
@@ -250,8 +291,6 @@ def generate_synthetic_data(output_path):
         
         for _ in range(num_sections):
             teacher_id = assign_teacher_to_section(course, dept)
-            teacher_loads[teacher_id] += 1
-            
             sections.append({
                 'Section ID': f"S{section_id:03d}",
                 'Course ID': course,

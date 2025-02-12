@@ -1,46 +1,46 @@
 Section ID,Period,Teacher ID,Course ID
 S001,G1,T001,Medical Career
 S002,R1,T001,Medical Career
-S003,R2,T002,Heroes Teach
-S004,G2,T002,Heroes Teach
-S005,R1,T013,Study Hall
-S006,G2,T013,Study Hall
-S007,R4,T013,Study Hall
-S008,R3,T011,PE
-S009,R3,T012,PE
-S010,G1,T011,Sports Med
-S011,R1,T012,Sports Med
-S012,R4,T011,Sports Med
-S013,G3,T012,Sports Med
-S014,R2,T003,English 11
-S015,G3,T004,English 11
-S016,G4,T007,AP Biology
-S017,G4,T008,AP Biology
-S018,R3,T005,Math 4
-S019,G1,T006,Math 4
-S020,G1,T005,Math 1
-S021,R2,T006,Math 1
-S022,R2,T007,Chemistry
-S023,G3,T008,Chemistry
-S024,G4,T003,English 10
-S025,G2,T004,English 10
-S026,R1,T009,US History
-S027,G4,T010,US History
-S028,R4,T007,Biology
-S029,G2,T008,Biology
+S003,G2,T002,Heroes Teach
+S004,R2,T002,Heroes Teach
+S005,G4,T013,Study Hall
+S006,R2,T013,Study Hall
+S007,R3,T013,Study Hall
+S008,G2,T011,PE
+S009,R2,T012,PE
+S010,G4,T011,Sports Med
+S011,R3,T012,Sports Med
+S012,R2,T011,Sports Med
+S013,G1,T012,Sports Med
+S014,R4,T003,English 11
+S015,R4,T004,English 11
+S016,G1,T007,AP Biology
+S017,R4,T008,AP Biology
+S018,G3,T005,Math 4
+S019,G2,T006,Math 4
+S020,R4,T005,Math 1
+S021,G1,T006,Math 1
+S022,R4,T007,Chemistry
+S023,G4,T008,Chemistry
+S024,R3,T003,English 10
+S025,R3,T004,English 10
+S026,G1,T009,US History
+S027,R4,T010,US History
+S028,R3,T007,Biology
+S029,G3,T008,Biology
 S030,R3,T009,Government
-S031,R4,T010,Government
-S032,G1,T007,Physics
+S031,G3,T010,Government
+S032,R1,T007,Physics
 S033,R1,T008,Physics
-S034,R4,T005,Math 2
+S034,G1,T005,Math 2
 S035,G3,T006,Math 2
-S036,R1,T003,English 9
-S037,G4,T004,English 9
-S038,R2,T009,Economics
-S039,G2,T010,Economics
+S036,G4,T003,English 9
+S037,R2,T004,English 9
+S038,G2,T009,Economics
+S039,R2,T010,Economics
 S040,G3,T009,World History
-S041,G3,T010,World History
-S042,G4,T005,Math 3
+S041,R1,T010,World History
+S042,G2,T005,Math 3
 S043,G4,T006,Math 3
-S044,R3,T003,English 12
-S045,R4,T004,English 12
+S044,R1,T003,English 12
+S045,R1,T004,English 12

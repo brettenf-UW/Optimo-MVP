@@ -1,14 +1,21 @@
-Teacher ID,Department,Dedicated Course
-T001,Special,Medical Career
-T002,Special,Heroes Teach
-T003,English,
-T004,English,
-T005,Math,
-T006,Math,
-T007,Science,
-T008,Science,
-T009,Social Studies,
-T010,Social Studies,
-T011,PE,
-T012,PE,
-T013,General,
+Teacher ID,Department,Dedicated Course,Current Load
+T001,Special,Medical Career,0
+T002,Special,Heroes Teach,0
+T003,English,,4
+T004,English,,4
+T005,English,,4
+T006,Math,,4
+T007,Math,,4
+T008,Math,,4
+T009,Science,,4
+T010,Science,,4
+T011,Social Studies,,4
+T012,Social Studies,,4
+T013,Social Studies,,4
+T014,PE,,4
+T015,PE,,4
+T016,PE,,4
+T017,General,,4
+T018,General,,4
+T019,PE,,2
+T020,Science,,4

@@ -1249,5 +1249,3 @@ if prob.status == 1:  # Only analyze if solution found
     output_results(prob, valid_sections, valid_assignments, course_to_sections)
 else:
     logger.error("No solution to analyze - problem infeasible")
-
-# ...rest of existing code...
