@@ -315,13 +315,39 @@ TEACHER CONSTRAINTS:
                 
         prompt += """
 
-CONSTRAINTS:
-- Maximum teacher sections: 6
-- Target utilization: 70%
-- Minimum utilization: 30%
-- Maximum SPED students per section: 3
-- Teachers must teach within their assigned department
-- Every section must have a teacher assigned (not 'Unassigned')
+CRITICAL RULES FOR SPECIAL COURSES:
+
+1. Medical Career:
+   - MUST be scheduled ONLY in R1 or G1 periods
+   - MUST have exactly one dedicated teacher who teaches NO other courses
+   - Each section MUST have 15 seats maximum
+   - Teacher CANNOT teach Heroes Teach
+   - Generate at least 2 sections if any students request it
+
+2. Heroes Teach:
+   - MUST be scheduled ONLY in R2 or G2 periods
+   - MUST have exactly one dedicated teacher who teaches NO other courses 
+   - Each section MUST have 15 seats maximum
+   - Teacher CANNOT teach Medical Career
+   - Generate at least 2 sections if any students request it
+
+3. Study Hall:
+   - Regular sections for students not in Medical Career or Heroes Teach
+   - Standard class size rules apply
+   - Any teacher can teach Study Hall
+
+4. Sports Med:
+   - Maximum 1 section per period
+   - Standard class size rules apply
+   - Can be scheduled in any period
+
+ABSOLUTE REQUIREMENTS:
+1. Medical Career and Heroes Teach MUST have different dedicated teachers
+2. Medical Career sections ONLY in R1 or G1
+3. Heroes Teach sections ONLY in R2 or G2
+4. The same teacher CANNOT teach both Medical Career and Heroes Teach
+5. Keep special course sections small (15 students max)
+6. Generate multiple sections for special courses to ensure feasibility
 
 REQUIRED OUTPUT FORMAT:
 You must include the exact header row followed by the data:
@@ -329,8 +355,10 @@ Section ID,Course ID,Teacher Assigned,# of Seats Available,Department
 
 Example format:
 Section ID,Course ID,Teacher Assigned,# of Seats Available,Department
-S001,English 9,T001,20,English
-S002,Math 1,T003,20,Math
+S001,Medical Career,T001,15,Special
+S002,Medical Career,T001,15,Special
+S003,Heroes Teach,T002,15,Special
+S004,Heroes Teach,T002,15,Special
 ...etc
 
 Based on the data and constraints above, provide an optimized Sections_Information.csv content.

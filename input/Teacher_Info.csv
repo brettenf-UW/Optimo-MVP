@@ -1,98 +1,14 @@
-Teacher ID,Department
-T001,English
-T002,English
-T003,English
-T004,English
-T005,English
-T006,English
-T007,English
-T008,English
-T009,English
-T010,English
-T011,English
-T012,English
-T013,English
-T014,English
-T015,English
-T016,English
-T017,Math
-T018,Math
-T019,Math
-T020,Math
-T021,Math
-T022,Math
-T023,Math
-T024,Math
-T025,Math
-T026,Math
-T027,Math
-T028,Math
-T029,Math
-T030,Math
-T031,Math
-T032,Math
-T033,Science
-T034,Science
-T035,Science
-T036,Science
-T037,Science
-T038,Science
-T039,Science
-T040,Science
-T041,Science
-T042,Science
-T043,Science
-T044,Science
-T045,Science
-T046,Science
-T047,Science
-T048,Science
-T049,Social Studies
-T050,Social Studies
-T051,Social Studies
-T052,Social Studies
-T053,Social Studies
-T054,Social Studies
-T055,Social Studies
-T056,Social Studies
-T057,Social Studies
-T058,Social Studies
-T059,Social Studies
-T060,Social Studies
-T061,Social Studies
-T062,Social Studies
-T063,Social Studies
-T064,Social Studies
-T065,PE
-T066,PE
-T067,PE
-T068,PE
-T069,PE
-T070,PE
-T071,PE
-T072,PE
-T073,PE
-T074,PE
-T075,PE
-T076,PE
-T077,PE
-T078,PE
-T079,PE
-T080,PE
-T081,Special
-T082,Special
-T083,Special
-T084,Special
-T085,Special
-T086,Special
-T087,Special
-T088,Special
-T089,Special
-T090,Special
-T091,Special
-T092,Special
-T093,Special
-T094,Special
-T095,Special
-T096,Special
-T097,Special
+Teacher ID,Department,Dedicated Course
+T001,Special,Medical Career
+T002,Special,Heroes Teach
+T003,English,
+T004,English,
+T005,Math,
+T006,Math,
+T007,Science,
+T008,Science,
+T009,Social Studies,
+T010,Social Studies,
+T011,PE,
+T012,PE,
+T013,General,
