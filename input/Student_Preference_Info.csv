@@ -1,20 +1,20 @@
 Student ID,Preferred Sections
-ST001,English 9;Math 1;Biology;World History;PE;Medical Career
+ST001,English 9;Math 1;Biology;World History;PE;Study Hall
 ST002,English 9;Math 1;Biology;World History;PE;Study Hall
-ST003,English 9;Math 1;Biology;World History;PE;Medical Career
+ST003,English 9;Math 1;Biology;World History;PE;Study Hall
 ST004,English 9;Math 1;Biology;World History;PE;Study Hall
-ST005,English 9;Math 1;Biology;World History;PE;Medical Career
+ST005,English 9;Math 1;Biology;World History;PE;Study Hall
 ST006,English 9;Math 1;Biology;World History;PE;Study Hall
-ST007,English 9;Math 1;Biology;World History;PE;Medical Career
+ST007,English 9;Math 1;Biology;World History;PE;Heroes Teach
 ST008,English 9;Math 1;Biology;World History;PE;Study Hall
 ST009,English 9;Math 1;Biology;World History;PE;Study Hall
 ST010,English 9;Math 1;Biology;World History;PE;Study Hall
-ST011,English 9;Math 1;Biology;World History;PE;Medical Career
+ST011,English 9;Math 1;Biology;World History;PE;Study Hall
 ST012,English 9;Math 1;Biology;World History;PE;Study Hall
-ST013,English 9;Math 1;Biology;World History;PE;Medical Career
+ST013,English 9;Math 1;Biology;World History;PE;Study Hall
 ST014,English 9;Math 1;Biology;World History;PE;Study Hall
-ST015,English 9;Math 1;Biology;World History;PE;Heroes Teach
-ST016,English 9;Math 1;Biology;World History;PE;Study Hall
+ST015,English 9;Math 1;Biology;World History;PE;Study Hall
+ST016,English 9;Math 1;Biology;World History;PE;Medical Career
 ST017,English 9;Math 1;Biology;World History;PE;Heroes Teach
 ST018,English 9;Math 1;Biology;World History;PE;Study Hall
 ST019,English 9;Math 1;Biology;World History;PE;Study Hall
@@ -22,17 +22,17 @@ ST020,English 9;Math 1;Biology;World History;PE;Study Hall
 ST021,English 9;Math 1;Biology;World History;PE;Study Hall
 ST022,English 9;Math 1;Biology;World History;PE;Study Hall
 ST023,English 9;Math 1;Biology;World History;PE;Study Hall
-ST024,English 9;Math 1;Biology;World History;PE;Medical Career
+ST024,English 9;Math 1;Biology;World History;PE;Study Hall
 ST025,English 9;Math 1;Biology;World History;PE;Study Hall
 ST026,English 9;Math 1;Biology;World History;PE;Study Hall
 ST027,English 9;Math 1;Biology;World History;PE;Study Hall
 ST028,English 9;Math 1;Biology;World History;PE;Study Hall
 ST029,English 9;Math 1;Biology;World History;PE;Study Hall
 ST030,English 9;Math 1;Biology;World History;PE;Study Hall
-ST031,English 9;Math 1;Biology;World History;PE;Study Hall
+ST031,English 9;Math 1;Biology;World History;PE;Heroes Teach
 ST032,English 9;Math 1;Biology;World History;PE;Study Hall
 ST033,English 9;Math 1;Biology;World History;PE;Study Hall
-ST034,English 9;Math 1;Biology;World History;PE;Study Hall
+ST034,English 9;Math 1;Biology;World History;PE;Medical Career
 ST035,English 9;Math 1;Biology;World History;PE;Study Hall
 ST036,English 9;Math 1;Biology;World History;PE;Study Hall
 ST037,English 9;Math 1;Biology;World History;PE;Study Hall
@@ -41,201 +41,361 @@ ST039,English 9;Math 1;Biology;World History;PE;Study Hall
 ST040,English 9;Math 1;Biology;World History;PE;Study Hall
 ST041,English 9;Math 1;Biology;World History;PE;Study Hall
 ST042,English 9;Math 1;Biology;World History;PE;Study Hall
-ST043,English 9;Math 1;Biology;World History;PE;Heroes Teach
-ST044,English 9;Math 1;Biology;World History;PE;Medical Career
-ST045,English 9;Math 1;Biology;World History;PE;Medical Career
+ST043,English 9;Math 1;Biology;World History;PE;Study Hall
+ST044,English 9;Math 1;Biology;World History;PE;Study Hall
+ST045,English 9;Math 1;Biology;World History;PE;Study Hall
 ST046,English 9;Math 1;Biology;World History;PE;Study Hall
 ST047,English 9;Math 1;Biology;World History;PE;Study Hall
 ST048,English 9;Math 1;Biology;World History;PE;Study Hall
-ST049,English 9;Math 1;Biology;World History;PE;Study Hall
+ST049,English 9;Math 1;Biology;World History;PE;Heroes Teach
 ST050,English 9;Math 1;Biology;World History;PE;Study Hall
-ST051,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST051,English 9;Math 1;Biology;World History;PE;Study Hall
 ST052,English 9;Math 1;Biology;World History;PE;Study Hall
 ST053,English 9;Math 1;Biology;World History;PE;Study Hall
-ST054,English 9;Math 1;Biology;World History;PE;Heroes Teach
-ST055,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST054,English 9;Math 1;Biology;World History;PE;Study Hall
+ST055,English 9;Math 1;Biology;World History;PE;Study Hall
 ST056,English 9;Math 1;Biology;World History;PE;Study Hall
 ST057,English 9;Math 1;Biology;World History;PE;Study Hall
-ST058,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST058,English 9;Math 1;Biology;World History;PE;Study Hall
 ST059,English 9;Math 1;Biology;World History;PE;Study Hall
-ST060,English 9;Math 1;Biology;World History;PE;Medical Career
-ST061,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST062,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST063,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST064,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST065,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST066,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST067,English 10;Math 2;Chemistry;US History;PE;Medical Career
-ST068,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST069,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST070,English 10;Math 2;Chemistry;US History;PE;Medical Career
-ST071,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST072,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST073,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST074,English 10;Math 2;Chemistry;US History;PE;Medical Career
-ST075,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST076,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST077,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST078,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST079,English 10;Math 2;Chemistry;US History;PE;Medical Career
-ST080,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST081,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST082,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST083,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST084,English 10;Math 2;Chemistry;US History;PE;Medical Career
-ST085,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST086,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST087,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST088,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST089,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST090,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST091,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST092,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST093,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST094,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST095,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST096,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST097,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST098,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST099,English 10;Math 2;Chemistry;US History;PE;Medical Career
-ST100,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST101,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST060,English 9;Math 1;Biology;World History;PE;Study Hall
+ST061,English 9;Math 1;Biology;World History;PE;Study Hall
+ST062,English 9;Math 1;Biology;World History;PE;Study Hall
+ST063,English 9;Math 1;Biology;World History;PE;Medical Career
+ST064,English 9;Math 1;Biology;World History;PE;Study Hall
+ST065,English 9;Math 1;Biology;World History;PE;Study Hall
+ST066,English 9;Math 1;Biology;World History;PE;Study Hall
+ST067,English 9;Math 1;Biology;World History;PE;Study Hall
+ST068,English 9;Math 1;Biology;World History;PE;Study Hall
+ST069,English 9;Math 1;Biology;World History;PE;Medical Career
+ST070,English 9;Math 1;Biology;World History;PE;Study Hall
+ST071,English 9;Math 1;Biology;World History;PE;Medical Career
+ST072,English 9;Math 1;Biology;World History;PE;Study Hall
+ST073,English 9;Math 1;Biology;World History;PE;Study Hall
+ST074,English 9;Math 1;Biology;World History;PE;Study Hall
+ST075,English 9;Math 1;Biology;World History;PE;Study Hall
+ST076,English 9;Math 1;Biology;World History;PE;Study Hall
+ST077,English 9;Math 1;Biology;World History;PE;Study Hall
+ST078,English 9;Math 1;Biology;World History;PE;Study Hall
+ST079,English 9;Math 1;Biology;World History;PE;Study Hall
+ST080,English 9;Math 1;Biology;World History;PE;Study Hall
+ST081,English 9;Math 1;Biology;World History;PE;Study Hall
+ST082,English 9;Math 1;Biology;World History;PE;Study Hall
+ST083,English 9;Math 1;Biology;World History;PE;Study Hall
+ST084,English 9;Math 1;Biology;World History;PE;Study Hall
+ST085,English 9;Math 1;Biology;World History;PE;Study Hall
+ST086,English 9;Math 1;Biology;World History;PE;Heroes Teach
+ST087,English 9;Math 1;Biology;World History;PE;Study Hall
+ST088,English 9;Math 1;Biology;World History;PE;Study Hall
+ST089,English 9;Math 1;Biology;World History;PE;Study Hall
+ST090,English 9;Math 1;Biology;World History;PE;Study Hall
+ST091,English 9;Math 1;Biology;World History;PE;Study Hall
+ST092,English 9;Math 1;Biology;World History;PE;Study Hall
+ST093,English 9;Math 1;Biology;World History;PE;Study Hall
+ST094,English 9;Math 1;Biology;World History;PE;Study Hall
+ST095,English 9;Math 1;Biology;World History;PE;Study Hall
+ST096,English 9;Math 1;Biology;World History;PE;Study Hall
+ST097,English 9;Math 1;Biology;World History;PE;Study Hall
+ST098,English 9;Math 1;Biology;World History;PE;Study Hall
+ST099,English 9;Math 1;Biology;World History;PE;Study Hall
+ST100,English 9;Math 1;Biology;World History;PE;Study Hall
+ST101,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST102,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST103,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST104,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST105,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST105,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST106,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST107,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST108,English 10;Math 2;Chemistry;US History;PE;Medical Career
-ST109,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
-ST110,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST108,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST109,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST110,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST111,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST112,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST113,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST113,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST114,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST115,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST115,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST116,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST117,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST118,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST118,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST119,English 10;Math 2;Chemistry;US History;PE;Study Hall
 ST120,English 10;Math 2;Chemistry;US History;PE;Study Hall
-ST121,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST122,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST123,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST124,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST125,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST126,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST127,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST128,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST129,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST130,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST131,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST132,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST133,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST134,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST135,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST136,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST137,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST138,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST139,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST140,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST141,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST142,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST143,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST144,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST145,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST146,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST147,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST148,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST149,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST150,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST151,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST152,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST153,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST154,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST155,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST156,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST157,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST158,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST159,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST160,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST161,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST162,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST163,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST164,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST165,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST166,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST167,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST168,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST169,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST170,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST171,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST172,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
-ST173,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST174,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST175,English 11;Math 3;Physics;Government;Sports Med;Medical Career
-ST176,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST177,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST178,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST179,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST180,English 11;Math 3;Physics;Government;Sports Med;Study Hall
-ST181,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST182,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST183,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST184,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST185,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST186,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST187,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
-ST188,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST189,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST190,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST191,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
-ST192,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST193,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST194,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST195,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST196,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST197,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST198,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST199,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST200,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST201,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST202,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST203,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST204,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST205,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST206,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST207,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST208,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST209,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST210,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
-ST211,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST212,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST213,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST214,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST215,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST216,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST217,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST218,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST219,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST220,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
-ST221,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST222,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST223,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST224,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST225,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST226,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST227,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST228,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
-ST229,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST230,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
-ST231,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST232,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
-ST233,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST234,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST235,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST236,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST237,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST238,English 12;Math 4;AP Biology;Economics;Sports Med;Heroes Teach
-ST239,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
-ST240,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST121,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST122,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST123,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST124,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST125,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST126,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST127,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST128,English 10;Math 2;Chemistry;US History;PE;Heroes Teach
+ST129,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST130,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST131,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST132,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST133,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST134,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST135,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST136,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST137,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST138,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST139,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST140,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST141,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST142,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST143,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST144,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST145,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST146,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST147,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST148,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST149,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST150,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST151,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST152,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST153,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST154,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST155,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST156,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST157,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST158,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST159,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST160,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST161,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST162,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST163,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST164,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST165,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST166,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST167,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST168,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST169,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST170,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST171,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST172,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST173,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST174,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST175,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST176,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST177,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST178,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST179,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST180,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST181,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST182,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST183,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST184,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST185,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST186,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST187,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST188,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST189,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST190,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST191,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST192,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST193,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST194,English 10;Math 2;Chemistry;US History;PE;Medical Career
+ST195,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST196,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST197,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST198,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST199,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST200,English 10;Math 2;Chemistry;US History;PE;Study Hall
+ST201,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST202,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST203,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST204,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST205,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST206,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST207,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST208,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST209,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST210,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST211,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST212,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST213,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST214,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST215,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST216,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST217,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST218,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST219,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST220,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST221,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST222,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST223,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST224,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST225,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST226,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST227,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST228,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST229,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST230,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST231,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST232,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST233,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST234,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST235,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST236,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST237,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST238,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST239,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST240,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST241,English 11;Math 3;Physics;Government;Sports Med;Medical Career
+ST242,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST243,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST244,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST245,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST246,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST247,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST248,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST249,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST250,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST251,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST252,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST253,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST254,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST255,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST256,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST257,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST258,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST259,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST260,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST261,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST262,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST263,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST264,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST265,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST266,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST267,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST268,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST269,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST270,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST271,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST272,English 11;Math 3;Physics;Government;Sports Med;Heroes Teach
+ST273,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST274,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST275,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST276,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST277,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST278,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST279,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST280,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST281,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST282,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST283,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST284,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST285,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST286,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST287,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST288,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST289,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST290,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST291,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST292,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST293,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST294,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST295,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST296,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST297,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST298,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST299,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST300,English 11;Math 3;Physics;Government;Sports Med;Study Hall
+ST301,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST302,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST303,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST304,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST305,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST306,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST307,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST308,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST309,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST310,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST311,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST312,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST313,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST314,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST315,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST316,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST317,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST318,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST319,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST320,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST321,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST322,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST323,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST324,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST325,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST326,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST327,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST328,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST329,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST330,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST331,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST332,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST333,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST334,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST335,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST336,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST337,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST338,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST339,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST340,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST341,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST342,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST343,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST344,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST345,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST346,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST347,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST348,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST349,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST350,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST351,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST352,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST353,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST354,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST355,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST356,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST357,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST358,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST359,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST360,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST361,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST362,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST363,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST364,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST365,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST366,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST367,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST368,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST369,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST370,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST371,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST372,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST373,English 12;Math 4;AP Biology;Economics;Sports Med;Medical Career
+ST374,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST375,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST376,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST377,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST378,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST379,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST380,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST381,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST382,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST383,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST384,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST385,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST386,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST387,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST388,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST389,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST390,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST391,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST392,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST393,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST394,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST395,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST396,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST397,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST398,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST399,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall
+ST400,English 12;Math 4;AP Biology;Economics;Sports Med;Study Hall

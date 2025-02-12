@@ -1,21 +1,44 @@
-Teacher ID,Department,Dedicated Course,Current Load
-T001,Special,Medical Career,0
-T002,Special,Heroes Teach,0
-T003,English,,4
-T004,English,,4
-T005,English,,4
-T006,Math,,4
-T007,Math,,4
-T008,Math,,4
-T009,Science,,4
-T010,Science,,4
-T011,Social Studies,,4
-T012,Social Studies,,4
-T013,Social Studies,,4
-T014,PE,,4
-T015,PE,,4
-T016,PE,,4
-T017,General,,4
-T018,General,,4
-T019,PE,,2
-T020,Science,,4
+Teacher ID,Department,Dedicated Course,Current Load,Science Sections
+T001,Special,Medical Career,0,0
+T002,Special,Heroes Teach,0,0
+T003,English,,4,0
+T004,English,,4,0
+T005,English,,4,0
+T006,English,,4,0
+T007,Math,,4,0
+T008,Math,,4,0
+T009,Math,,4,0
+T010,Math,,4,0
+T011,Science,,1,1
+T012,Science,,1,1
+T013,Science,,1,1
+T014,Science,,1,1
+T015,Science,,1,1
+T016,Science,,1,1
+T017,Science,,1,1
+T018,Science,,1,1
+T019,Science,,1,1
+T020,Science,,1,1
+T021,Science,,1,1
+T022,Science,,1,1
+T023,Science,,1,1
+T024,Science,,1,1
+T025,Science,,1,1
+T026,Science,,1,1
+T027,Social Studies,,4,0
+T028,Social Studies,,4,0
+T029,Social Studies,,4,0
+T030,Social Studies,,4,0
+T031,PE,,4,0
+T032,PE,,4,0
+T033,PE,,4,0
+T034,PE,,4,0
+T035,General,,4,0
+T036,General,,4,0
+T037,General,,4,0
+T038,General,,4,0
+T039,PE,,4,0
+T040,PE,,2,0
+T041,Social Studies,,4,0
+T042,Math,,4,0
+T043,English,,4,0

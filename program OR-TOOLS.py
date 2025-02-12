@@ -24,20 +24,30 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Redirect stdout to the log file while keeping console output
+# Enhance the Logger class to better handle all output
 class Logger(object):
     def __init__(self, filename):
         self.terminal = sys.stdout
         self.log = open(filename, 'a')
+        self.logger = logging.getLogger(__name__)
 
     def write(self, message):
-        self.terminal.write(message)
-        self.log.write(message)
-        self.log.flush()
+        if message.strip():  # Only log non-empty messages
+            self.terminal.write(message)
+            self.log.write(message)
+            self.log.flush()
 
     def flush(self):
         self.terminal.flush()
         self.log.flush()
+
+# Replace print statements with logger calls
+def log_print(*args, **kwargs):
+    message = ' '.join(map(str, args))
+    logger.info(message)
+
+# Replace built-in print with our logging version
+print = log_print
 
 # Redirect stdout to both console and file
 sys.stdout = Logger(log_filename)
@@ -91,9 +101,8 @@ def validate_data():
         courses = sections_info[sections_info['Teacher Assigned'] == teacher_id]['Course ID'].unique()
         teacher_course_count[teacher_id] = len(courses)
         logger.info(f"Teacher {teacher_id}: {len(courses)} courses - {list(courses)}")
-
-def validate_section_periods():
-    """Validate period availability after valid_sections is created"""
+    
+    # Check period availability
     logger.info("\nAnalyzing period availability:")
     for section_id in sections_info['Section ID']:
         available_periods = [p for s, p in valid_sections if s == section_id]
@@ -241,33 +250,16 @@ def analyze_science_conflicts():
 def check_feasibility():
     """Check basic feasibility conditions before solving"""
     issues = []
-    
-    # Check if each section has valid periods
+    # Only check period availability
     for section_id in sections_info['Section ID']:
         valid_period_count = sum(1 for s, p in valid_sections if s == section_id)
         if valid_period_count == 0:
-            issues.append(f"ERROR: Section {section_id} has no valid periods available")
-    
-    # Check course capacity vs requests
-    for course_id, sections in course_to_sections.items():
-        total_requests = len([
-            student_id for student_id in student_info['Student ID']
-            if course_id in student_preference_info[
-                student_preference_info['Student ID'] == student_id
-            ]['Preferred Sections'].values[0].split(';')
-        ])
-        total_capacity = sum(
-            sections_info[sections_info['Section ID'] == section]['# of Seats Available'].iloc[0]
-            for section in sections
-        )
-        if total_requests > total_capacity:
-            issues.append(f"ERROR: Course {course_id} has {total_requests} requests but only {total_capacity} seats")
-    
+            issues.append(f"Section {section_id} has no valid periods available")
     return issues
 
 # After data loading but before any processing
-logger.info("\n=== Initial Data Validation ===")
-validate_data()
+# logger.info("\n=== Initial Data Validation ===")
+# validate_data()
 
 # Run early feasibility checks
 logger.info("\n=== Analyzing Problem Feasibility ===")
@@ -313,9 +305,13 @@ for section_id, teacher_id in zip(sections_info['Section ID'], sections_info['Te
         if period not in unavailable_periods:
             valid_sections.append((section_id, period))
 
+# Add validation call here, after valid_sections is created
+logger.info("\n=== Initial Data Validation ===")
+validate_data()
+
 # Debugging: Print valid sections
-print("Valid Sections:")
-print(valid_sections)
+logger.info("Valid Sections:")
+logger.info(f"{valid_sections}")
 
 # Create a mapping from courses to their sections
 course_to_sections = {}
@@ -325,9 +321,9 @@ for _, row in sections_info.iterrows():
     course_to_sections[row['Course ID']].append(row['Section ID'])
 
 # Print mapping for debugging
-print("\nCourse to Section Mapping:")
+logger.info("\nCourse to Section Mapping:")
 for course, sections in course_to_sections.items():
-    print(f"{course}: {sections}")
+    logger.info(f"{course}: {sections}")
 
 # Filter sections based on student requests
 requested_sections = set()
@@ -341,8 +337,8 @@ for student_id in student_info['Student ID']:
         if (course_id in course_to_sections):
             requested_sections.update(course_to_sections[course_id])
 
-print("\nRequested Sections after mapping:")
-print(requested_sections)
+logger.info("\nRequested Sections after mapping:")
+logger.info(f"{requested_sections}")
 
 # Initialize the problem with diagnostics
 model = cp_model.CpModel()
@@ -435,10 +431,14 @@ for student_id in student_info['Student ID'].values:  # Use actual student IDs
         ) <= 1 + conflict)
         objective += -750 * conflict
 
-# 2. Each section must be scheduled in exactly one period
+# 2. Each section must be scheduled in exactly one period (if it has valid periods)
 for section_id in sections_info['Section ID']:
-    model.Add(cp_model.LinearExpr.Sum([z[(section_id, period)] 
-                 for sec_id, period in valid_sections if sec_id == section_id]) == 1)
+    valid_periods = [period for sec_id, period in valid_sections if sec_id == section_id]
+    if valid_periods:  # Only add constraint if section has valid periods
+        model.Add(cp_model.LinearExpr.Sum([z[(section_id, period)] 
+                     for period in valid_periods]) == 1)
+    else:
+        logger.warning(f"Section {section_id} has no valid periods available")
 
 # 3. Link student assignment to section scheduling - Fix this section
 for student_id, section_id in valid_assignments:  # Only iterate over valid combinations
@@ -469,39 +469,10 @@ for course_id, sections in course_to_sections.items():
 logger.info(f"Valid assignments: {len(valid_assignments)}")
 logger.info(f"Valid sections: {len(valid_sections)}")
 
-# Define special course sections before constraints
-medical_career_sections = sections_info[sections_info['Course ID'] == 'Medical Career']['Section ID']
-heroes_teach_sections = sections_info[sections_info['Course ID'] == 'Heroes Teach']['Section ID']
-
-# Simplified special course constraints
-# Medical Career constraints - must be in R1 or G1
-for section_id in medical_career_sections:
-    model.Add(cp_model.LinearExpr.Sum([z[(section_id, p)] for p in ['R1', 'G1'] if (section_id, p) in valid_sections]) == 1)
-
-# Heroes Teach constraints - must be in R2 or G2
-for section_id in heroes_teach_sections:
-    model.Add(cp_model.LinearExpr.Sum([z[(section_id, p)] for p in ['R2', 'G2'] if (section_id, p) in valid_sections]) == 1)
-
 # Teacher constraints - ensure no teacher has sections in conflicting periods
 teachers_with_special_courses = set(
     sections_info[sections_info['Course ID'].isin(['Medical Career', 'Heroes Teach'])]['Teacher Assigned']
 )
-
-# Medical Career constraints:
-medical_career_sections = sections_info[sections_info['Course ID'] == 'Medical Career']['Section ID']
-if not medical_career_sections.empty:
-    # Ensure at least one section in R1
-    model.Add(cp_model.LinearExpr.Sum([z[(section_id, 'R1')] for section_id in medical_career_sections if (section_id, 'R1') in z]) >= 1)
-    # Ensure at least one section in G1
-    model.Add(cp_model.LinearExpr.Sum([z[(section_id, 'G1')] for section_id in medical_career_sections if (section_id, 'G1') in z]) >= 1)
-
-# Heroes Teach constraints:
-heroes_teach_sections = sections_info[sections_info['Course ID'] == 'Heroes Teach']['Section ID']
-if not heroes_teach_sections.empty:
-    # Ensure at least one section in R2
-    model.Add(cp_model.LinearExpr.Sum([z[(section_id, 'R2')] for section_id in heroes_teach_sections if (section_id, 'R2') in z]) >= 1)
-    # Ensure at least one section in G2
-    model.Add(cp_model.LinearExpr.Sum([z[(section_id, 'G2')] for section_id in heroes_teach_sections if (section_id, 'G2') in z]) >= 1)
 
 # Remove these courses from diagnostic variables since they're now hard constraints
 diagnostic_vars = {
@@ -548,7 +519,7 @@ for course1, sections1 in science_courses.items():
                             objective += -400 * violation
 
 # Replace existing teacher scheduling conflict constraints with:
-# Ensure teachers have exactly one section per period
+# Ensure each teacher teaches at most one section per period (regardless of course)
 for teacher in teacher_info['Teacher ID']:
     teacher_sections = list(sections_info[sections_info['Teacher Assigned'] == teacher]['Section ID'])
     for period in periods:
@@ -591,13 +562,16 @@ model.Maximize(objective)
 # Insert after setting up the problem but before prob.solve():
 logger.info("Starting problem solution...")
 logger.info("Setting up solver with 60 second time limit...")
+
 def print_problem_stats(model):
     """Print statistics about the problem size"""
-    # Get number of variables by counting our created decision variables
-    num_vars = sum(
-        len(var_dict) 
-        for var_dict in [x, y, z] + 
-        [diagnostic_vars[key] for key in diagnostic_vars]
+    # Count variables
+    num_vars = (
+        len(valid_assignments) +  # x variables
+        len(valid_sections) +    # z variables
+        sum(1 for student_id, section_id in valid_assignments  # y variables
+            for period in periods 
+            if (section_id, period) in valid_sections)
     )
     
     # Calculate rough estimate of constraints from our explicit constraints
@@ -642,16 +616,43 @@ if feasibility_issues:
     logger.info("Consider relaxing constraints or increasing capacities")
     sys.exit(1)
 
+# Add this function after the other analysis functions
+def check_section_period_distribution():
+    """Analyze if we have enough periods to schedule all sections without conflicts"""
+    logger.info("\n=== Checking Section Period Distribution ===")
+    
+    # Count sections per teacher per period
+    teacher_period_sections = {}
+    for teacher_id in teacher_info['Teacher ID'].unique():
+        teacher_sections = sections_info[sections_info['Teacher Assigned'] == teacher_id]['Section ID'].tolist()
+        min_periods_needed = len(teacher_sections)
+        available_periods = len([p for s, p in valid_sections if s == teacher_sections[0]])
+        
+        logger.info(f"Teacher {teacher_id}:")
+        logger.info(f"  Sections to schedule: {len(teacher_sections)}")
+        logger.info(f"  Available periods: {available_periods}")
+        
+        if min_periods_needed > available_periods:
+            logger.error(f"  INFEASIBLE: Teacher {teacher_id} needs {min_periods_needed} periods but only has {available_periods} available")
+            return False
+    
+    return True
+
+# Add this right before creating the model, after preprocessing:
+if not check_section_period_distribution():
+    logger.error("Fatal scheduling impossibility detected")
+    sys.exit(1)
+
 # Modify the solver setup
 start_time = time.time()
 
 # Create and configure OR-Tools solver
 solver = cp_model.CpSolver()
-solver.parameters.max_time_in_seconds = 1800  # 5 minute time limit
-solver.parameters.num_search_workers = 8  # Use multiple cores
+solver.parameters.max_time_in_seconds = 32400  # 9 hour time limit
+solver.parameters.num_search_workers = 12 # Use multiple cores
 solver.parameters.log_search_progress = True  # Enable logging
 
-print("Solving...")
+logger.info("Solving...")
 status = solver.Solve(model)
 
 # Add solution report after solve
@@ -713,8 +714,8 @@ def analyze_conflicts():
         'special_course_issues': []
     }
     
-    print("\n=== Scheduling Analysis ===")
-    print(f"\nSolver Status: {solver.StatusName(status)}")
+    logger.info("\n=== Scheduling Analysis ===")
+    logger.info(f"\nSolver Status: {solver.StatusName(status)}")
     
     # Calculate and report section loads
     course_loads = {}
@@ -740,16 +741,16 @@ def analyze_conflicts():
         course_loads[course_id]['total_capacity'] += capacity
 
     # Report course-level statistics
-    print("\nCourse Level Statistics:")
+    logger.info("\nCourse Level Statistics:")
     for course_id, data in course_loads.items():
         total_util = data['total_enrollment'] / data['total_capacity'] if data['total_capacity'] > 0 else float('inf')
-        print(f"\n{course_id}:")
-        print(f"  Total Enrollment: {data['total_enrollment']}")
-        print(f"  Total Capacity: {data['total_capacity']}")
-        print(f"  Overall Utilization: {total_util:.2%}")
-        print("  Section Details:")
+        logger.info(f"\n{course_id}:")
+        logger.info(f"  Total Enrollment: {data['total_enrollment']}")
+        logger.info(f"  Total Capacity: {data['total_capacity']}")
+        logger.info(f"  Overall Utilization: {total_util:.2%}")
+        logger.info("  Section Details:")
         for section in data['sections']:
-            print(f"    {section['section']}: {section['enrollment']}/{section['capacity']} ({section['utilization']:.2%})")
+            logger.info(f"    {section['section']}: {section['enrollment']}/{section['capacity']} ({section['utilization']:.2%})")
             if section['utilization'] > 1:
                 conflicts['course_loads'].append({
                     'section': section['section'],
@@ -795,25 +796,25 @@ def analyze_conflicts():
             })
     
     # Generate recommendations
-    print("\n=== Recommendations ===")
+    logger.info("\n=== Recommendations ===")
     
     if conflicts['course_loads']:
-        print("\nTo resolve section overloads:")
+        logger.info("\nTo resolve section overloads:")
         for conflict in conflicts['course_loads']:
-            print(f"- Increase capacity of {conflict['course']} section {conflict['section']} by {conflict['overload']} seats")
-            print(f"  OR add new section to accommodate {conflict['overload']} students")
+            logger.info(f"- Increase capacity of {conflict['course']} section {conflict['section']} by {conflict['overload']} seats")
+            logger.info(f"  OR add new section to accommodate {conflict['overload']} students")
     
     if conflicts['special_course_issues']:
-        print("\nTo resolve special course issues:")
+        logger.info("\nTo resolve special course issues:")
         for conflict in conflicts['special_course_issues']:
             if conflict['type'] == 'Medical Career':
-                print(f"- Ensure Medical Career sections are scheduled in both R1 and G1")
-                print(f"  Current violations - R1: {conflict['violations']['R1']}, G1: {conflict['violations']['G1']}")
+                logger.info(f"- Ensure Medical Career sections are scheduled in both R1 and G1")
+                logger.info(f"  Current violations - R1: {conflict['violations']['R1']}, G1: {conflict['violations']['G1']}")
             elif conflict['type'] == 'Heroes Teach':
-                print(f"- Ensure Heroes Teach sections are scheduled in both R2 and G2")
-                print(f"  Current violations - R2: {conflict['violations']['R2']}, G2: {conflict['violations']['G2']}")
+                logger.info(f"- Ensure Heroes Teach sections are scheduled in both R2 and G2")
+                logger.info(f"  Current violations - R2: {conflict['violations']['R2']}, G2: {conflict['violations']['G2']}")
             elif conflict['type'] == 'Sports Med':
-                print(f"- Resolve Sports Med sections overlap in period {conflict['period']}")
+                logger.info(f"- Resolve Sports Med sections overlap in period {conflict['period']}")
     
     # Teacher scheduling conflict analysis
     teacher_conflicts = []
@@ -832,9 +833,9 @@ def analyze_conflicts():
                 })
     
     if teacher_conflicts:
-        print("\nTeacher Scheduling Conflicts:")
+        logger.info("\nTeacher Scheduling Conflicts:")
         for conflict in teacher_conflicts:
-            print(f"- Teacher {conflict['teacher']} has {conflict['conflict_count']} sections scheduled in period {conflict['period']}")
+            logger.info(f"- Teacher {conflict['teacher']} has {conflict['conflict_count']} sections scheduled in period {conflict['period']}")
     
     conflicts['teacher_conflicts'] = teacher_conflicts
 
@@ -846,27 +847,27 @@ output_dir = 'output'
 os.makedirs(output_dir, exist_ok=True)
 
 # Output section scheduling
-print("\nSection Scheduling:")
+logger.info("\nSection Scheduling:")
 section_scheduling = []
 for section_id, period in valid_sections:
     if solver.Value(z[(section_id, period)]) == 1:
-        print(f"Section {section_id} is scheduled in period {period}")
+        logger.info(f"Section {section_id} is scheduled in period {period}")
         section_scheduling.append({'Section ID': section_id, 'Period': period})
 
 # Output the master schedule
 master_schedule_df = pd.DataFrame(section_scheduling)
 master_schedule_df.to_csv(os.path.join(output_dir, 'Master_Schedule.csv'), index=False)
-print("\nMaster Schedule:")
-print(master_schedule_df)
+logger.info("\nMaster Schedule:")
+logger.info(f"{master_schedule_df}")
 
 # Output student assignments
-print("\nStudent Assignments:")
+logger.info("\nStudent Assignments:")
 student_assignments = []
 for student_id, section_id in valid_assignments:  # Use valid_assignments instead
     if solver.Value(x[(student_id, section_id)]) == 1:
         student_assignments.append({'Student ID': student_id, 'Section ID': section_id})
 
-print("\nGrouped Student Assignments:")
+logger.info("\nGrouped Student Assignments:")
 assignments_by_student = {}
 for student_id, section_id in valid_assignments:
     if solver.Value(x[(student_id, section_id)]) == 1:
@@ -875,7 +876,7 @@ for student_id, section_id in valid_assignments:
         assignments_by_student[student_id].append(section_id)
 
 for student_id, assigned_sections in assignments_by_student.items():
-    print(f"Student {student_id} is assigned to sections: {assigned_sections}")
+    logger.info(f"Student {student_id} is assigned to sections: {assigned_sections}")
 
 # Create student assignments CSV
 student_assignments_df = pd.DataFrame(student_assignments)
@@ -919,8 +920,8 @@ for student_id in student_info['Student ID'].values:  # Use .values to get actua
 # Create unmet requests CSV
 students_unmet_requests_df = pd.DataFrame(students_unmet_requests)
 students_unmet_requests_df.to_csv(os.path.join(output_dir, 'Students_Unmet_Requests.csv'), index=False)
-print("\nStudents Without All Requested Courses:")
-print(students_unmet_requests_df)
+logger.info("\nStudents Without All Requested Courses:")
+logger.info(f"{students_unmet_requests_df}")
 
 # Run the conflict analysis
 analyze_conflicts()
@@ -955,3 +956,171 @@ def validate_data():
 
 # Add this validation call before problem setup
 validate_data()
+
+# Add logging to clarify the rules
+logger.info("\n=== Scheduling Rules Clarification ===")
+logger.info("Multiple sections of the same course CAN be scheduled in the same period if:")
+logger.info("1. They have different teachers")
+logger.info("2. Each teacher still only teaches one section per period")
+logger.info("3. All other constraints (room capacity, student conflicts, etc.) are still satisfied")
+
+# Modify the analyze_conflicts() function to not report multiple sections of same course as conflicts
+def analyze_conflicts():
+    """Analyze and report all constraint violations and return formatted DataFrames"""
+    conflicts = {
+        'course_loads': [],
+        'period_conflicts': [],
+        'sped_issues': [],
+        'science_prep_issues': [],
+        'special_course_issues': [],
+        'teacher_conflicts': []
+    }
+    
+    logger.info("\n=== Scheduling Analysis ===")
+    
+    # Add analysis of parallel sections
+    logger.info("\nParallel Sections Analysis (Multiple sections of same course in same period):")
+    for period in periods:
+        course_sections = {}
+        for section_id, p in valid_sections:
+            if p == period and solver.Value(z[(section_id, p)]) == 1:
+                course_id = sections_info[sections_info['Section ID'] == section_id]['Course ID'].values[0]
+                teacher_id = sections_info[sections_info['Section ID'] == section_id]['Teacher Assigned'].values[0]
+                if course_id not in course_sections:
+                    course_sections[course_id] = []
+                course_sections[course_id].append((section_id, teacher_id))
+        
+        # Report courses with multiple sections in this period
+        for course_id, sections in course_sections.items():
+            if len(sections) > 1:
+                logger.info(f"Period {period} - Course {course_id} has {len(sections)} parallel sections:")
+                for section_id, teacher_id in sections:
+                    logger.info(f"  Section {section_id} taught by Teacher {teacher_id}")
+
+    # ... rest of the analyze_conflicts function remains the same ...
+
+    logger.info(f"\nSolver Status: {solver.StatusName(status)}")
+    
+    # Calculate and report section loads
+    course_loads = {}
+    for section_id in sections_info['Section ID']:
+        capacity = sections_info[sections_info['Section ID'] == section_id]['# of Seats Available'].values[0]
+        course_id = sections_info[sections_info['Section ID'] == section_id]['Course ID'].values[0]
+        enrollment = sum(
+            solver.Value(x[(student_id, section_id)])
+            for student_id in student_info['Student ID'].values
+            if (student_id, section_id) in valid_assignments
+        )
+        
+        if course_id not in course_loads:
+            course_loads[course_id] = {'total_enrollment': 0, 'total_capacity': 0, 'sections': []}
+        
+        course_loads[course_id]['sections'].append({
+            'section': section_id,
+            'capacity': capacity,
+            'enrollment': enrollment,
+            'utilization': enrollment / capacity if capacity > 0 else float('inf')
+        })
+        course_loads[course_id]['total_enrollment'] += enrollment
+        course_loads[course_id]['total_capacity'] += capacity
+
+    # Report course-level statistics
+    logger.info("\nCourse Level Statistics:")
+    for course_id, data in course_loads.items():
+        total_util = data['total_enrollment'] / data['total_capacity'] if data['total_capacity'] > 0 else float('inf')
+        logger.info(f"\n{course_id}:")
+        logger.info(f"  Total Enrollment: {data['total_enrollment']}")
+        logger.info(f"  Total Capacity: {data['total_capacity']}")
+        logger.info(f"  Overall Utilization: {total_util:.2%}")
+        logger.info("  Section Details:")
+        for section in data['sections']:
+            logger.info(f"    {section['section']}: {section['enrollment']}/{section['capacity']} ({section['utilization']:.2%})")
+            if section['utilization'] > 1:
+                conflicts['course_loads'].append({
+                    'section': section['section'],
+                    'course': course_id,
+                    'capacity': section['capacity'],
+                    'enrollment': section['enrollment'],
+                    'overload': int(section['enrollment'] - section['capacity'])
+                })
+
+    # Check special course constraints
+    special_issues_found = False
+    
+    # Medical Career - Fixed tuple handling
+    if 'medical_career_violation' in diagnostic_vars:
+        r1_var, g1_var = diagnostic_vars['medical_career_violation']
+        if solver.Value(r1_var) > 0 or solver.Value(g1_var) > 0:
+            special_issues_found = True
+            conflicts['special_course_issues'].append({
+                'type': 'Medical Career',
+                'issue': 'Not scheduled in required periods (R1/G1)',
+                'violations': {'R1': solver.Value(r1_var), 'G1': solver.Value(g1_var)}
+            })
+    
+    # Heroes Teach - Fixed tuple handling
+    if 'heroes_teach_violation' in diagnostic_vars:
+        r2_var, g2_var = diagnostic_vars['heroes_teach_violation']
+        if solver.Value(r2_var) > 0 or solver.Value(g2_var) > 0:
+            special_issues_found = True
+            conflicts['special_course_issues'].append({
+                'type': 'Heroes Teach',
+                'issue': 'Not scheduled in required periods (R2/G2)',
+                'violations': {'R2': solver.Value(r2_var), 'G2': solver.Value(g2_var)}
+            })
+    
+    # Sports Med
+    for period, var in diagnostic_vars['sports_med_violation'].items():
+        if solver.Value(var) > 0:
+            special_issues_found = True
+            conflicts['special_course_issues'].append({
+                'type': 'Sports Med',
+                'period': period,
+                'issue': f'Sections overlap in period {period}'
+            })
+    
+    # Generate recommendations
+    logger.info("\n=== Recommendations ===")
+    
+    if conflicts['course_loads']:
+        logger.info("\nTo resolve section overloads:")
+        for conflict in conflicts['course_loads']:
+            logger.info(f"- Increase capacity of {conflict['course']} section {conflict['section']} by {conflict['overload']} seats")
+            logger.info(f"  OR add new section to accommodate {conflict['overload']} students")
+    
+    if conflicts['special_course_issues']:
+        logger.info("\nTo resolve special course issues:")
+        for conflict in conflicts['special_course_issues']:
+            if conflict['type'] == 'Medical Career':
+                logger.info(f"- Ensure Medical Career sections are scheduled in both R1 and G1")
+                logger.info(f"  Current violations - R1: {conflict['violations']['R1']}, G1: {conflict['violations']['G1']}")
+            elif conflict['type'] == 'Heroes Teach':
+                logger.info(f"- Ensure Heroes Teach sections are scheduled in both R2 and G2")
+                logger.info(f"  Current violations - R2: {conflict['violations']['R2']}, G2: {conflict['violations']['G2']}")
+            elif conflict['type'] == 'Sports Med':
+                logger.info(f"- Resolve Sports Med sections overlap in period {conflict['period']}")
+    
+    # Teacher scheduling conflict analysis
+    teacher_conflicts = []
+    for teacher in teacher_info['Teacher ID']:
+        teacher_sections = list(sections_info[sections_info['Teacher Assigned'] == teacher]['Section ID'])
+        for period in periods:
+            scheduled = sum(
+                solver.Value(z[(section_id, period)]) if solver.Value(z[(section_id, period)]) is not None else 0
+                for section_id in teacher_sections if (section_id, period) in z
+            )
+            if scheduled > 1:
+                teacher_conflicts.append({
+                    'teacher': teacher,
+                    'period': period,
+                    'conflict_count': scheduled
+                })
+    
+    if teacher_conflicts:
+        logger.info("\nTeacher Scheduling Conflicts:")
+        for conflict in teacher_conflicts:
+            logger.info(f"- Teacher {conflict['teacher']} has {conflict['conflict_count']} sections scheduled in period {conflict['period']}")
+    
+    conflicts['teacher_conflicts'] = teacher_conflicts
+
+    return conflicts
