@@ -1,0 +1,139 @@
+=== PROCESS LOG ===
+[2025-02-23 14:31:07] 
+[STEP 1] 📦 Loading data...
+[2025-02-23 14:31:07] [STEP 1] ✅ Loaded data: 118 sections, 43 teachers, 8 periods, 400 students
+[2025-02-23 14:31:07] 
+[STEP 2] 🗓 Building teacher availability map...
+[2025-02-23 14:31:07] [STEP 2] ✅ Teacher availability map built for 3 teachers.
+[2025-02-23 14:31:07] 
+[STEP 3] 🧩 Building section-to-period domains...
+[2025-02-23 14:31:07] [STEP 3] ✅ Section-to-period domains built. Logged first 100 entries.
+[2025-02-23 14:31:07] 
+[STEP 4] 🧠 Building CP-SAT model...
+[2025-02-23 14:31:07] [STEP 4] 🧩 Creating section-period variables...
+[2025-02-23 14:31:07] [STEP 4] ✅ Created all section-period vars. Logged first 100 entries.
+[2025-02-23 14:31:07] 
+[STEP 5] 📏 Adding constraints...
+[2025-02-23 14:31:07] [STEP 5] ✅ Constraints added. Logged first 100 entries.
+[2025-02-23 14:31:07] 
+[STEP 6] 🚀 Solving CP-SAT model...
+[2025-02-23 14:31:08] 
+✅ Feasible solution found!
+[2025-02-23 14:31:08] [RESULT] 📚 Section S001 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S002 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S003 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S004 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S005 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S006 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S007 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S008 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S009 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S010 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S011 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S012 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S013 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S014 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S015 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S016 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S017 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S018 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S019 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S020 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S021 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S022 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S023 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S024 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S025 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S026 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S027 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S028 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S029 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S030 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S031 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S032 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S033 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S034 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S035 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S036 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S037 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S038 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S039 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S040 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S041 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S042 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S043 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S044 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S045 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S046 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S047 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S048 → Period G1
+[2025-02-23 14:31:08] [RESULT] 📚 Section S049 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S050 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S051 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S052 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S053 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S054 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S055 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S056 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S057 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S058 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S059 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S060 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S061 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S062 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S063 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S064 → Period G1
+[2025-02-23 14:31:08] [RESULT] 📚 Section S065 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S066 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S067 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S068 → Period G1
+[2025-02-23 14:31:08] [RESULT] 📚 Section S069 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S070 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S071 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S072 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S073 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S074 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S075 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S076 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S077 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S078 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S079 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S080 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S081 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S082 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S083 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S084 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S085 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S086 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S087 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S088 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S089 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S090 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S091 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S092 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S093 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S094 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S095 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S096 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S097 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S098 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S099 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S100 → Period G1
+[2025-02-23 14:31:08] [RESULT] 📚 Section S101 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S102 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S103 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S104 → Period G1
+[2025-02-23 14:31:08] [RESULT] 📚 Section S105 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S106 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S107 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S108 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S109 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S110 → Period R2
+[2025-02-23 14:31:08] [RESULT] 📚 Section S111 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S112 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S113 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S114 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S115 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S116 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S117 → Period R4
+[2025-02-23 14:31:08] [RESULT] 📚 Section S118 → Period R4

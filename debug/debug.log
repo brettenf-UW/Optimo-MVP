@@ -1,0 +1,301 @@
+=== DEBUG LOG ===
+[2025-02-23 14:31:07] 🧩 Domain: Section S001 (Teacher T001) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S002 (Teacher T001) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S003 (Teacher T002) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S004 (Teacher T002) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S005 (Teacher T035) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S006 (Teacher T036) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S007 (Teacher T035) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S008 (Teacher T036) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S009 (Teacher T035) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S010 (Teacher T036) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S011 (Teacher T035) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S012 (Teacher T036) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S013 (Teacher T037) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S014 (Teacher T037) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S015 (Teacher T037) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S016 (Teacher T037) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S017 (Teacher T038) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S018 (Teacher T038) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S019 (Teacher T038) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S020 (Teacher T038) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S021 (Teacher T031) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S022 (Teacher T032) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S023 (Teacher T033) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S024 (Teacher T034) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S025 (Teacher T031) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S026 (Teacher T032) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S027 (Teacher T033) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S028 (Teacher T034) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S029 (Teacher T031) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S030 (Teacher T032) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S031 (Teacher T033) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S032 (Teacher T034) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S033 (Teacher T031) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S034 (Teacher T032) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S035 (Teacher T033) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S036 (Teacher T034) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S037 (Teacher T039) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S038 (Teacher T039) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S039 (Teacher T039) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S040 (Teacher T039) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S041 (Teacher T040) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S042 (Teacher T040) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S043 (Teacher T027) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S044 (Teacher T028) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S045 (Teacher T029) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S046 (Teacher T030) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S047 (Teacher T027) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S048 (Teacher T011) => {'G1', 'R2', 'R3', 'R4', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S049 (Teacher T012) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S050 (Teacher T013) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S051 (Teacher T014) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S052 (Teacher T003) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S053 (Teacher T004) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S054 (Teacher T005) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S055 (Teacher T006) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S056 (Teacher T003) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S057 (Teacher T004) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S058 (Teacher T005) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S059 (Teacher T006) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S060 (Teacher T003) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S061 (Teacher T004) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S062 (Teacher T007) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S063 (Teacher T008) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S064 (Teacher T009) => {'G1', 'R2', 'R1', 'R4', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S065 (Teacher T010) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S066 (Teacher T007) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S067 (Teacher T008) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S068 (Teacher T009) => {'G1', 'R2', 'R1', 'R4', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S069 (Teacher T010) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S070 (Teacher T007) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S071 (Teacher T008) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S072 (Teacher T028) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S073 (Teacher T029) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S074 (Teacher T030) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S075 (Teacher T027) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S076 (Teacher T028) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S077 (Teacher T029) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S078 (Teacher T030) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S079 (Teacher T027) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S080 (Teacher T028) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S081 (Teacher T029) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S082 (Teacher T015) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S083 (Teacher T016) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S084 (Teacher T017) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S085 (Teacher T018) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S086 (Teacher T030) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S087 (Teacher T041) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S088 (Teacher T041) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S089 (Teacher T041) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S090 (Teacher T041) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S091 (Teacher T005) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S092 (Teacher T006) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S093 (Teacher T003) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S094 (Teacher T004) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S095 (Teacher T005) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S096 (Teacher T019) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S097 (Teacher T020) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S098 (Teacher T021) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S099 (Teacher T022) => {'R4', 'G1', 'R1', 'R3', 'G4', 'R2', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧩 Domain: Section S100 (Teacher T009) => {'G1', 'R2', 'R1', 'R4', 'G2', 'G3'}
+[2025-02-23 14:31:07] 🧷 Var: sec_S001_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S001_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S001_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S001_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S001_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S001_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S001_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S001_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S002_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S002_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S002_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S002_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S002_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S002_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S002_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S002_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S003_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S003_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S003_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S003_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S003_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S003_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S003_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S003_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S004_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S004_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S004_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S004_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S004_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S004_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S004_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S004_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S005_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S005_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S005_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S005_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S005_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S005_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S005_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S005_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S006_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S006_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S006_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S006_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S006_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S006_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S006_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S006_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S007_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S007_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S007_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S007_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S007_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S007_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S007_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S007_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S008_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S008_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S008_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S008_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S008_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S008_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S008_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S008_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S009_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S009_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S009_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S009_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S009_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S009_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S009_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S009_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S010_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S010_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S010_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S010_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S010_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S010_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S010_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S010_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S011_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S011_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S011_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S011_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S011_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S011_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S011_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S011_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S012_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S012_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S012_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S012_p_R3
+[2025-02-23 14:31:07] 🧷 Var: sec_S012_p_G4
+[2025-02-23 14:31:07] 🧷 Var: sec_S012_p_R2
+[2025-02-23 14:31:07] 🧷 Var: sec_S012_p_G2
+[2025-02-23 14:31:07] 🧷 Var: sec_S012_p_G3
+[2025-02-23 14:31:07] 🧷 Var: sec_S013_p_R4
+[2025-02-23 14:31:07] 🧷 Var: sec_S013_p_G1
+[2025-02-23 14:31:07] 🧷 Var: sec_S013_p_R1
+[2025-02-23 14:31:07] 🧷 Var: sec_S013_p_R3
+[2025-02-23 14:31:07] 📏 Constraint: S001 in exactly 1 period. (ID: 0)
+[2025-02-23 14:31:07] 📏 Constraint: S002 in exactly 1 period. (ID: 1)
+[2025-02-23 14:31:07] 📏 Constraint: S003 in exactly 1 period. (ID: 2)
+[2025-02-23 14:31:07] 📏 Constraint: S004 in exactly 1 period. (ID: 3)
+[2025-02-23 14:31:07] 📏 Constraint: S005 in exactly 1 period. (ID: 4)
+[2025-02-23 14:31:07] 📏 Constraint: S006 in exactly 1 period. (ID: 5)
+[2025-02-23 14:31:07] 📏 Constraint: S007 in exactly 1 period. (ID: 6)
+[2025-02-23 14:31:07] 📏 Constraint: S008 in exactly 1 period. (ID: 7)
+[2025-02-23 14:31:07] 📏 Constraint: S009 in exactly 1 period. (ID: 8)
+[2025-02-23 14:31:07] 📏 Constraint: S010 in exactly 1 period. (ID: 9)
+[2025-02-23 14:31:07] 📏 Constraint: S011 in exactly 1 period. (ID: 10)
+[2025-02-23 14:31:07] 📏 Constraint: S012 in exactly 1 period. (ID: 11)
+[2025-02-23 14:31:07] 📏 Constraint: S013 in exactly 1 period. (ID: 12)
+[2025-02-23 14:31:07] 📏 Constraint: S014 in exactly 1 period. (ID: 13)
+[2025-02-23 14:31:07] 📏 Constraint: S015 in exactly 1 period. (ID: 14)
+[2025-02-23 14:31:07] 📏 Constraint: S016 in exactly 1 period. (ID: 15)
+[2025-02-23 14:31:07] 📏 Constraint: S017 in exactly 1 period. (ID: 16)
+[2025-02-23 14:31:07] 📏 Constraint: S018 in exactly 1 period. (ID: 17)
+[2025-02-23 14:31:07] 📏 Constraint: S019 in exactly 1 period. (ID: 18)
+[2025-02-23 14:31:07] 📏 Constraint: S020 in exactly 1 period. (ID: 19)
+[2025-02-23 14:31:07] 📏 Constraint: S021 in exactly 1 period. (ID: 20)
+[2025-02-23 14:31:07] 📏 Constraint: S022 in exactly 1 period. (ID: 21)
+[2025-02-23 14:31:07] 📏 Constraint: S023 in exactly 1 period. (ID: 22)
+[2025-02-23 14:31:07] 📏 Constraint: S024 in exactly 1 period. (ID: 23)
+[2025-02-23 14:31:07] 📏 Constraint: S025 in exactly 1 period. (ID: 24)
+[2025-02-23 14:31:07] 📏 Constraint: S026 in exactly 1 period. (ID: 25)
+[2025-02-23 14:31:07] 📏 Constraint: S027 in exactly 1 period. (ID: 26)
+[2025-02-23 14:31:07] 📏 Constraint: S028 in exactly 1 period. (ID: 27)
+[2025-02-23 14:31:07] 📏 Constraint: S029 in exactly 1 period. (ID: 28)
+[2025-02-23 14:31:07] 📏 Constraint: S030 in exactly 1 period. (ID: 29)
+[2025-02-23 14:31:07] 📏 Constraint: S031 in exactly 1 period. (ID: 30)
+[2025-02-23 14:31:07] 📏 Constraint: S032 in exactly 1 period. (ID: 31)
+[2025-02-23 14:31:07] 📏 Constraint: S033 in exactly 1 period. (ID: 32)
+[2025-02-23 14:31:07] 📏 Constraint: S034 in exactly 1 period. (ID: 33)
+[2025-02-23 14:31:07] 📏 Constraint: S035 in exactly 1 period. (ID: 34)
+[2025-02-23 14:31:07] 📏 Constraint: S036 in exactly 1 period. (ID: 35)
+[2025-02-23 14:31:07] 📏 Constraint: S037 in exactly 1 period. (ID: 36)
+[2025-02-23 14:31:07] 📏 Constraint: S038 in exactly 1 period. (ID: 37)
+[2025-02-23 14:31:07] 📏 Constraint: S039 in exactly 1 period. (ID: 38)
+[2025-02-23 14:31:07] 📏 Constraint: S040 in exactly 1 period. (ID: 39)
+[2025-02-23 14:31:07] 📏 Constraint: S041 in exactly 1 period. (ID: 40)
+[2025-02-23 14:31:07] 📏 Constraint: S042 in exactly 1 period. (ID: 41)
+[2025-02-23 14:31:07] 📏 Constraint: S043 in exactly 1 period. (ID: 42)
+[2025-02-23 14:31:07] 📏 Constraint: S044 in exactly 1 period. (ID: 43)
+[2025-02-23 14:31:07] 📏 Constraint: S045 in exactly 1 period. (ID: 44)
+[2025-02-23 14:31:07] 📏 Constraint: S046 in exactly 1 period. (ID: 45)
+[2025-02-23 14:31:07] 📏 Constraint: S047 in exactly 1 period. (ID: 46)
+[2025-02-23 14:31:07] 📏 Constraint: S048 in exactly 1 period. (ID: 47)
+[2025-02-23 14:31:07] 📏 Constraint: S049 in exactly 1 period. (ID: 48)
+[2025-02-23 14:31:07] 📏 Constraint: S050 in exactly 1 period. (ID: 49)
+[2025-02-23 14:31:07] 📏 Constraint: S051 in exactly 1 period. (ID: 50)
+[2025-02-23 14:31:07] 📏 Constraint: S052 in exactly 1 period. (ID: 51)
+[2025-02-23 14:31:07] 📏 Constraint: S053 in exactly 1 period. (ID: 52)
+[2025-02-23 14:31:07] 📏 Constraint: S054 in exactly 1 period. (ID: 53)
+[2025-02-23 14:31:07] 📏 Constraint: S055 in exactly 1 period. (ID: 54)
+[2025-02-23 14:31:07] 📏 Constraint: S056 in exactly 1 period. (ID: 55)
+[2025-02-23 14:31:07] 📏 Constraint: S057 in exactly 1 period. (ID: 56)
+[2025-02-23 14:31:07] 📏 Constraint: S058 in exactly 1 period. (ID: 57)
+[2025-02-23 14:31:07] 📏 Constraint: S059 in exactly 1 period. (ID: 58)
+[2025-02-23 14:31:07] 📏 Constraint: S060 in exactly 1 period. (ID: 59)
+[2025-02-23 14:31:07] 📏 Constraint: S061 in exactly 1 period. (ID: 60)
+[2025-02-23 14:31:07] 📏 Constraint: S062 in exactly 1 period. (ID: 61)
+[2025-02-23 14:31:07] 📏 Constraint: S063 in exactly 1 period. (ID: 62)
+[2025-02-23 14:31:07] 📏 Constraint: S064 in exactly 1 period. (ID: 63)
+[2025-02-23 14:31:07] 📏 Constraint: S065 in exactly 1 period. (ID: 64)
+[2025-02-23 14:31:07] 📏 Constraint: S066 in exactly 1 period. (ID: 65)
+[2025-02-23 14:31:07] 📏 Constraint: S067 in exactly 1 period. (ID: 66)
+[2025-02-23 14:31:07] 📏 Constraint: S068 in exactly 1 period. (ID: 67)
+[2025-02-23 14:31:07] 📏 Constraint: S069 in exactly 1 period. (ID: 68)
+[2025-02-23 14:31:07] 📏 Constraint: S070 in exactly 1 period. (ID: 69)
+[2025-02-23 14:31:07] 📏 Constraint: S071 in exactly 1 period. (ID: 70)
+[2025-02-23 14:31:07] 📏 Constraint: S072 in exactly 1 period. (ID: 71)
+[2025-02-23 14:31:07] 📏 Constraint: S073 in exactly 1 period. (ID: 72)
+[2025-02-23 14:31:07] 📏 Constraint: S074 in exactly 1 period. (ID: 73)
+[2025-02-23 14:31:07] 📏 Constraint: S075 in exactly 1 period. (ID: 74)
+[2025-02-23 14:31:07] 📏 Constraint: S076 in exactly 1 period. (ID: 75)
+[2025-02-23 14:31:07] 📏 Constraint: S077 in exactly 1 period. (ID: 76)
+[2025-02-23 14:31:07] 📏 Constraint: S078 in exactly 1 period. (ID: 77)
+[2025-02-23 14:31:07] 📏 Constraint: S079 in exactly 1 period. (ID: 78)
+[2025-02-23 14:31:07] 📏 Constraint: S080 in exactly 1 period. (ID: 79)
+[2025-02-23 14:31:07] 📏 Constraint: S081 in exactly 1 period. (ID: 80)
+[2025-02-23 14:31:07] 📏 Constraint: S082 in exactly 1 period. (ID: 81)
+[2025-02-23 14:31:07] 📏 Constraint: S083 in exactly 1 period. (ID: 82)
+[2025-02-23 14:31:07] 📏 Constraint: S084 in exactly 1 period. (ID: 83)
+[2025-02-23 14:31:07] 📏 Constraint: S085 in exactly 1 period. (ID: 84)
+[2025-02-23 14:31:07] 📏 Constraint: S086 in exactly 1 period. (ID: 85)
+[2025-02-23 14:31:07] 📏 Constraint: S087 in exactly 1 period. (ID: 86)
+[2025-02-23 14:31:07] 📏 Constraint: S088 in exactly 1 period. (ID: 87)
+[2025-02-23 14:31:07] 📏 Constraint: S089 in exactly 1 period. (ID: 88)
+[2025-02-23 14:31:07] 📏 Constraint: S090 in exactly 1 period. (ID: 89)
+[2025-02-23 14:31:07] 📏 Constraint: S091 in exactly 1 period. (ID: 90)
+[2025-02-23 14:31:07] 📏 Constraint: S092 in exactly 1 period. (ID: 91)
+[2025-02-23 14:31:07] 📏 Constraint: S093 in exactly 1 period. (ID: 92)
+[2025-02-23 14:31:07] 📏 Constraint: S094 in exactly 1 period. (ID: 93)
+[2025-02-23 14:31:07] 📏 Constraint: S095 in exactly 1 period. (ID: 94)
+[2025-02-23 14:31:07] 📏 Constraint: S096 in exactly 1 period. (ID: 95)
+[2025-02-23 14:31:07] 📏 Constraint: S097 in exactly 1 period. (ID: 96)
+[2025-02-23 14:31:07] 📏 Constraint: S098 in exactly 1 period. (ID: 97)
+[2025-02-23 14:31:07] 📏 Constraint: S099 in exactly 1 period. (ID: 98)
+[2025-02-23 14:31:07] 📏 Constraint: S100 in exactly 1 period. (ID: 99)
